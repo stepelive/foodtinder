@@ -7,6 +7,7 @@ namespace TinderServer.Models.Responses
 
         public ProductCuteView(Product product, Item vendor)
         {
+            Image = product.Images._650;
             VendorName = vendor.Name;
             VendorId = vendor.Id.Primary;
             ProductId = product.Id.Primary;
@@ -19,6 +20,7 @@ namespace TinderServer.Models.Responses
             RatingVendorScore = vendor.Reviews.ScoreCount;
 
         }
+        public string Image { get; set; }
         public string VendorName { get; set; }
         
         public string VendorId { get; set; }

@@ -9,7 +9,7 @@ import Icon24Cancel from '@vkontakte/icons/dist/24/cancel';
 class ModalTemplate extends React.Component {
 
     render() {
-        const {id, onClose, platform} = this.props;
+        const {id, onClose, platform, productList} = this.props;
 
         return (
             <ModalPage
@@ -17,9 +17,9 @@ class ModalTemplate extends React.Component {
                 header={
                     <ModalPageHeader
                         left={platform !== IOS &&
-                        <PanelHeaderButton onClick={onClose}><Icon24Cancel/></PanelHeaderButton>}
+                        <PanelHeaderButton onClick={onClose}><Icon24Cancel/>s</PanelHeaderButton>}
                         right={platform === IOS &&
-                        <PanelHeaderButton onClick={onClose}><Icon24Dismiss/></PanelHeaderButton>}
+                        <PanelHeaderButton onClick={onClose}><Icon24Dismiss/>ывфыв</PanelHeaderButton>}
                     >
                         ModalTemplate
                     </ModalPageHeader>
@@ -27,12 +27,18 @@ class ModalTemplate extends React.Component {
                 onClose={onClose}
                 settlingHeight={80}
             >
-                <Cell
-                    description="Описание"
-                    before={<Avatar size={40} src="https://vk.com/images/community_100.png?ava=1"/>}
-                >
-                    Название
-                </Cell>
+                {productList.map((x, index) => (
+                    <Cell
+                        description={x.ProductName}
+                        before={<Avatar size={40} src="https://vk.com/images/community_100.png?ava=1"/>}
+                    >{x.ProductName}
+                    </Cell>
+                    )
+
+                    
+                    
+                )}
+                
             </ModalPage>
         );
     }

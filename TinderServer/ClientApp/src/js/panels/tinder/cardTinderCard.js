@@ -1,110 +1,89 @@
 import React, {useState, useMemo, useRef} from 'react'
 import TinderCard from 'react-tinder-card'
-import * as data from '../../../productsmock.json'
 import axios from 'axios'
 import {connect} from 'react-redux';
-import { IconButton, Div, Alert } from '@vkontakte/vkui'
-import { Icon28LikeCircleFillRed, Icon28CancelCircleFillRed } from '@vkontakte/icons';
+import {IconButton, Div,PanelSpinner, Alert} from '@vkontakte/vkui'
+import {Icon28LikeCircleFillRed, Icon28CancelCircleFillRed} from '@vkontakte/icons';
+import {openPopout, closePopout, closeModal, openModal, setPage, setStory} from '../../store/router/actions'
+import {addProduct} from "../../store/cart/actions";
 
-const allData = data.products;
 
-function CardTinderCard() {
-    const [currentIndex, setCurrentIndex] = useState(allData.length - 1)
-    const [cart, setCurrentCart] = useState(allData.length - 1)
-    const [data, setData] = useState(allData)
+function CardTinderCard(props) {
+    const [currentIndex, setCurrentIndex] = useState(props.products.length - 1)
+    const [cart, setCurrentCart] = useState(props.products.length - 1)
     const [positiveFilters, addPositive] = useState([])
     const [negativeFilters, addNegative] = useState([])
     const [lastDirection, setLastDirection] = useState()
-    const currentIndexRef = useRef(currentIndex)
-
-
-    const changes = "фылвфы вофылов"
-    const childRefs = useMemo(
+    const currentIndexRef = useRef(currentIndex);
+    console.log(props);
+    let childRefs = useMemo(
         () =>
-            Array(data.length)
+            Array(props.products.length)
                 .fill(0)
                 .map((i) => React.createRef()),
         []
     )
-    const getProducts = ()=>{
-        
-        axios.get("Proxy").then(x=>{
-            
-            console.log(x.data)
-        
-        });
-    }
-    //getProducts();
+    
 
     const updateCurrentIndex = (val) => {
         setCurrentIndex(val)
         currentIndexRef.current = val
     }
-    
+
     const canSwipe = currentIndex >= 0
 
     const swiped = (direction, nameToDelete, index) => {
 
-        if(direction === "right")
-            addToCard(data[index]);
+        if (direction === "up" || direction === "down" )
+            addToCard(props.products[index]);
+
+        if (direction === "left" )
+            addToCard(props.products[index]);
+        
+        
         
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
     }
     const addToCard = (product) => {
-      // this.props.openPopout(undefined);
-       /* console.log(openModal)
-        openModal("MODAL_PAGE_BOTS_LIST");*/
+        props.addProduct(product);
+        openPopoutF();
     }
 
     const openPopoutF = () => {
-       /* openPopout(
-            <Alert
-                actions={[{
-                    title: 'Нет',
-                    autoclose: true,
-                    style: 'cancel',
-                }, {
-                    title: 'Да',
-                    autoclose: true,
-                }]}
-                onClose={() => closePopout()}
-            >
-                <h2>Вопрос значит</h2>
-                <p>Вас роняли в детстве?</p>
-            </Alert>
-        );*/
+        props.openModal('MODAL_PAGE_BOTS_LIST');
     }
-    
+
     const outOfFrame = (name, idx) => {
         currentIndexRef.current >= idx && childRefs[idx].current.restoreCard()
     }
 
     const swipe = async (dir) => {
-        if (canSwipe && currentIndex < data.length) {
+        if (canSwipe && currentIndex < props.products.length) {
             await childRefs[currentIndex].current.swipe(dir) // Swipe the card!
         }
     }
 
     const getProductUrl = (product) => {
         try {
-            return 'url(https://www.delivery-club.ru/' + product.images[650] + ')'
+            return 'url(https://www.delivery-club.ru/' + product.Image + ')'
         } catch (Ex) {
             return "url(https://tl.rulate.ru/i/book/19/10/18925.jpg)"
         }
     }
 
     const renderCardIfCan = (index, product) => {
-        if (index + 2 < currentIndex)
+        if (index + 2 < currentIndex){
             return undefined;
+        }
         return renderCard(index, product);
     }
-    
+
     const disLike = () => {
-        
-        
+
+
     }
-    
+
     const getDirection = (direction) => {
         switch (direction) {
             case "right":
@@ -120,9 +99,9 @@ function CardTinderCard() {
             <TinderCard
                 ref={childRefs[index]}
                 className='swipe'
-                key={product.id.primary}
-                onSwipe={(dir) => swiped(dir, product.name, index)}
-                onCardLeftScreen={() => outOfFrame(product.name, index)}
+                key={product.ProductId}
+                onSwipe={(dir) => swiped(dir, product.ProductName, index)}
+                onCardLeftScreen={() => outOfFrame(product.ProductName, index)}
             >
                 <div className='card'>
                     <div
@@ -133,7 +112,7 @@ function CardTinderCard() {
                         }}
                         className='image'
                     ></div>
-                    <h3 className="product_name">{product.name}</h3>
+                    <h3 className="product_name">{product.ProductName}</h3>
 
                 </div>
             </TinderCard>
@@ -152,12 +131,10 @@ function CardTinderCard() {
             />
 
             <h1>FoodTinder</h1>
-
-            <div className='cardContainer'>
-                {data.map((product, index) => renderCardIfCan(index, product)
-                )}
-            </div>
-
+                <div className='cardContainer'>
+                    {props.products.map((product, index) => renderCardIfCan(index, product))}
+                </div>
+            
             <div className='buttons'>
                 {canSwipe &&
                 <Div className='buttons'>
@@ -180,9 +157,21 @@ function CardTinderCard() {
         </div>
     )
 }
-
-const mapDispatchToProps = {
-    
+const mapStateToProps = (state) => {
+    console.log(state)
+    return {
+        products: state.products.products,
+    };
 };
 
-export default connect(null, mapDispatchToProps)(CardTinderCard);
+const mapDispatchToProps = {
+    openPopout,
+    closePopout, 
+    closeModal, 
+    openModal, 
+    setPage, 
+    setStory,
+    addProduct,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(CardTinderCard);

@@ -50,6 +50,7 @@ namespace TinderServer.Controllers
                         continue;
 
                     allProducts.AddRange(menu.Products.Select(x => new ProductCuteView(x, vendor)));
+                    allProducts.Reverse();
                 }
                 catch (Exception ex)
                 {

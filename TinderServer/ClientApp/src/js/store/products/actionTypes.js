@@ -1,0 +1,3 @@
+export const SET_PRODUCTS = 'SET_PRODUCTS';
+export const ADD_PRODUCTS = 'ADD_PRODUCTS';
+export const INCREMENT_OFFSET = 'INCREMENT_OFFSET';
