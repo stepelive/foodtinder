@@ -5,7 +5,7 @@ import {goBack, closeModal, setStory} from "./js/store/router/actions";
 import {getActivePanel} from "./js/services/_functions";
 import * as VK from './js/services/VK';
 
-import {Epic, View, Root, Tabbar, ModalRoot, TabbarItem, ConfigProvider} from "@vkontakte/vkui";
+import {Epic, View, Root, Tabbar, ModalRoot, TabbarItem, ConfigProvider, AdaptivityProvider, AppRoot} from "@vkontakte/vkui";
 
 import Icon28Newsfeed from '@vkontakte/icons/dist/28/newsfeed';
 import Icon28More from '@vkontakte/icons/dist/28/more';
@@ -13,7 +13,7 @@ import CardItem from './js/panels/tinder/cardTinderCard';
 
 import ModalTemplate from './js/components/modals/ModalTemplate';
 import CardTinderCard from './js/panels/tinder/cardTinderCard'
-
+    
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -81,25 +81,29 @@ class App extends React.Component {
 
         return (
             <ConfigProvider isWebView={true} scheme={colorScheme}>
-                <Epic activeStory={activeStory} tabbar={
-                    <Tabbar>
-                        <TabbarItem
-                            onClick={() => setStory('tindercard', 'tindercard')}
-                            selected={activeStory === 'tindercard'}
-                        ><Icon28Newsfeed/></TabbarItem>
-                    </Tabbar>
-                }>
+                <AdaptivityProvider>
+                    <AppRoot>
+                        <Epic activeStory={activeStory} tabbar={
+                            <Tabbar>
+                                <TabbarItem
+                                    onClick={() => setStory('tindercard', 'tindercard')}
+                                    selected={activeStory === 'tindercard'}
+                                ><Icon28Newsfeed/></TabbarItem>
+                            </Tabbar>
+                        }>
 
-                    <View
-                        id="tindercard"
-                        modal={homeModals}
-                        activePanel={getActivePanel("modal")}
-                        history={history}
-                        onSwipeBack={() => goBack()}
-                    >
-                        <CardTinderCard id="tindercard"/>
-                    </View>
-                </Epic>
+                            <View
+                                id="tindercard"
+                                modal={homeModals}
+                                activePanel={getActivePanel("modal")}
+                                history={history}
+                                onSwipeBack={() => goBack()}
+                            >
+                                <CardTinderCard id="tindercard"/>
+                            </View>
+                        </Epic>
+                    </AppRoot>
+                </AdaptivityProvider>
             </ConfigProvider>
         );
     }
