@@ -6,10 +6,15 @@ namespace TinderServer.Services
 {
     public class ProductSortService
     {
-        public List<Product> SortProducts(ProductResponse products, VendorsResponse vendors)
+        public static string[] bannedCategories => new[]
         {
-            var productsResponse = products.Products.Where(x => x.Price.Value > 200);
-            return productsResponse.ToList();
-        }
+            "соусы", "напитки", "дополнительно", "закуски"
+        };
+
+        public static string[] bannedWords => new[]
+        {
+            "соус", "салфетк", "вода", "сок"
+        };
+
     }
 }

@@ -5,23 +5,18 @@ import {goBack, closeModal, setStory} from "./js/store/router/actions";
 import {getActivePanel} from "./js/services/_functions";
 import {setProducts} from './js/store/products/actions'
 import * as VK from './js/services/VK';
+import * as data from './productsmock.json'
 
 import {
-    Epic,
     View,
     Root,
-    Tabbar,
     ModalRoot,
-    TabbarItem,
     ConfigProvider,
     AdaptivityProvider,
-    AppRoot, PanelSpinner
+    PanelSpinner
 } from "@vkontakte/vkui";
 
-import Icon28Newsfeed from '@vkontakte/icons/dist/28/newsfeed';
-import Icon28More from '@vkontakte/icons/dist/28/more';
-import CardItem from './js/panels/tinder/cardTinderCard';
-
+import Cart from './js/panels/tinder/cart'
 import ModalTemplate from './js/components/modals/ModalTemplate';
 import CardTinderCard from './js/panels/tinder/cardTinderCard'
 import axios from "axios";
@@ -32,6 +27,7 @@ class App extends React.Component {
 
         this.lastAndroidBackAction = 0;
     }
+
     componentDidMount() {
         const {goBack, dispatch} = this.props;
         this.updateProducts();
@@ -66,17 +62,18 @@ class App extends React.Component {
             window.scroll(0, pageScrollPosition);
         }
     }
+
     updateProducts() {
         var t = this;
-        if(this.props.products.length === 0){
-            axios.get("Proxy").then(x => {
-                t.props.setProducts(x.data)
-                console.log(t.props.products)
-            });
+        if (this.props.products.length === 0) {
+            //axios.get("Proxy").then(x => {
+            this.props.setProducts(data.default)
+            // console.log(t.props.products)
+            //});
 
         }
     }
-    
+
 
     render() {
         const {
@@ -105,13 +102,13 @@ class App extends React.Component {
                     productList={productsCart}
                     onClose={() => closeModal()}
                 />
-                
+
             </ModalRoot>
         );
 
         return (
             <ConfigProvider isWebView={true} scheme={colorScheme}>
-                <AdaptivityProvider> 
+                <AdaptivityProvider>
                     <Root id="tindercard" activeView={activeView} popout={popout}>
 
 
@@ -122,12 +119,22 @@ class App extends React.Component {
                             history={history}
                             onSwipeBack={() => goBack()}
                         >
-                            {products && products.length > 0&&
-                                <CardTinderCard id="tindercard"/>
+                            {products && products.length > 0 &&
+                            <CardTinderCard id="tindercard"/>
                             }
                             {!products || products.length == 0 &&
-                            <PanelSpinner />
+                            <PanelSpinner/>
                             }
+
+                        </View>
+                        <View
+                            id="cart"
+                            modal={homeModals}
+                            activePanel={getActivePanel("modal")}
+                            history={history}
+                            onSwipeBack={() => goBack()}
+                        >
+                            <Cart id="cart"/>
                         </View>
                     </Root>
                 </AdaptivityProvider>
@@ -154,7 +161,7 @@ const mapStateToProps = (state) => {
 function mapDispatchToProps(dispatch) {
     return {
         dispatch,
-        ...bindActionCreators({setStory, goBack, closeModal,setProducts}, dispatch)
+        ...bindActionCreators({setStory, goBack, closeModal, setProducts}, dispatch)
     }
 }
 

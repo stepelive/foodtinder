@@ -33,7 +33,7 @@ export const getUserData = () => (dispatch) => {
         });
 }
 export const getAuthToken = (scope) => (dispatch) => {
-    VKConnect.send("VKWebAppGetAuthToken", {
+    bridge.send("VKWebAppGetAuthToken", {
         "app_id": APP_ID,
         "scope": scope.join(',')
     }).then(data => {
@@ -44,7 +44,7 @@ export const getAuthToken = (scope) => (dispatch) => {
 };
 
 export const closeApp = () => {
-    return VKConnect.send("VKWebAppClose", {
+    return bridge.send("VKWebAppClose", {
         "status": "success"
     }).then(data => {
         return data;
@@ -54,7 +54,7 @@ export const closeApp = () => {
 };
 
 export const swipeBackOn = () => {
-    return VKConnect.send("VKWebAppEnableSwipeBack", {}).then(data => {
+    return bridge.send("VKWebAppEnableSwipeBack", {}).then(data => {
         return data;
     }).catch(error => {
         return error;
@@ -62,7 +62,7 @@ export const swipeBackOn = () => {
 };
 
 export const swipeBackOff = () => {
-    return VKConnect.send("VKWebAppDisableSwipeBack", {}).then(data => {
+    return bridge.send("VKWebAppDisableSwipeBack", {}).then(data => {
         return data;
     }).catch(error => {
         return error;
@@ -81,7 +81,7 @@ export const APICall = (method, params) => {
     params['access_token'] = store.getState().vkui.accessToken;
     params['v'] = params['v'] === undefined ? API_VERSION : params['v'];
 
-    return VKConnect.send("VKWebAppCallAPIMethod", {
+    return bridge.send("VKWebAppCallAPIMethod", {
         "method": method,
         "params": params
     }).then(data => {

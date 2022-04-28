@@ -6,6 +6,7 @@ import {IconButton, Div,PanelSpinner, Alert} from '@vkontakte/vkui'
 import {Icon28LikeCircleFillRed, Icon28CancelCircleFillRed} from '@vkontakte/icons';
 import {openPopout, closePopout, closeModal, openModal, setPage, setStory} from '../../store/router/actions'
 import {addProduct} from "../../store/cart/actions";
+import {setProducts} from "../../store/products/actions";
 
 
 function CardTinderCard(props) {
@@ -38,10 +39,11 @@ function CardTinderCard(props) {
             addToCard(props.products[index]);
 
         if (direction === "left" )
-            addToCard(props.products[index]);
-        
-        
-        
+            disLike(props.products[index]);
+
+
+
+        Sort();
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
     }
@@ -51,7 +53,7 @@ function CardTinderCard(props) {
     }
 
     const openPopoutF = () => {
-        props.openModal('MODAL_PAGE_BOTS_LIST');
+        props.setPage('cart','cart');
     }
 
     const outOfFrame = (name, idx) => {
@@ -79,9 +81,32 @@ function CardTinderCard(props) {
         return renderCard(index, product);
     }
 
-    const disLike = () => {
+    const disLike = (product) => {
+        var fields =  negativeFilters.concat(product.ProductName.split(' '));
+        //addNegative(fields);
+    }
+    const Sort = () => {
+        var products = props.products;
+        var sorted = products.sort(SortByFields);
+        props.setProducts(sorted);
+        
+    }
+    const SortByFields = (a, b) =>{
+        return GetProductScore(a) > GetProductScore(b);
+    }
+    const GetProductScore = (product) => {
+        let score = 0;
+        negativeFilters.filter(x=>{
+            if(product.ProductName.contains(x))
+                score -=.1;
+        })
 
-
+        positiveFilters.filter(x=>{
+            if(product.ProductName.contains(x))
+                score +=.1;
+        })
+        return score;
+        
     }
 
     const getDirection = (direction) => {
@@ -171,6 +196,7 @@ const mapDispatchToProps = {
     setPage, 
     setStory,
     addProduct,
+    setProducts
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(CardTinderCard);

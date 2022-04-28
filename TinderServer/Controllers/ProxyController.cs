@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using TinderServer.Models.Requests;
 using TinderServer.Models.Responses;
+using TinderServer.Services;
 
 namespace TinderServer.Controllers
 {
@@ -46,11 +47,14 @@ namespace TinderServer.Controllers
                     var responseProducts = GetContent(
                         $"https://api.delivery-club.ru/api1.2/vendor/{vendor.Id.Primary}/menu?data=menu,products,actions&cacheBreaker=1651163491");
                     var menu = JsonConvert.DeserializeObject<ProductResponse>(responseProducts);
+                    var bannedItems = menu.Menu.Where(x => ProductSortService.bannedCategories.Contains(x.Name)).SelectMany(x=>x.ProductIds).ToList();
+                    bannedItems.AddRange(menu.Products.Where(x => ProductSortService.bannedWords.Any(bw => x.Name.ToLower().Contains(bw)))
+                        .Select(sm => sm.Id.Primary));
                     if (menu is null)
                         continue;
 
                     allProducts.AddRange(menu.Products.Select(x => new ProductCuteView(x, vendor)));
-                    allProducts.Reverse();
+                    allProducts = allProducts.Where(x => !bannedItems.Contains(x.ProductId)).ToList();
                 }
                 catch (Exception ex)
                 {

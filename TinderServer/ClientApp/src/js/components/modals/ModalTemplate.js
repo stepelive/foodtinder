@@ -30,8 +30,10 @@ class ModalTemplate extends React.Component {
                 {productList.map((x, index) => (
                     <Cell
                         description={x.ProductName}
+                        key={x.ProductId}
                         before={<Avatar size={40} src="https://vk.com/images/community_100.png?ava=1"/>}
-                    >{x.ProductName}
+                    >
+                        
                     </Cell>
                     )
 
