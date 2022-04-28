@@ -1,4 +1,4 @@
-import VKConnect from "@vkontakte/vk-connect";
+import bridge from "@vkontakte/vk-bridge";
 
 import {store} from "../../index";
 
@@ -8,22 +8,30 @@ const APP_ID = 6984089;
 const API_VERSION = '5.92';
 
 export const initApp = () => (dispatch) => {
-    const VKConnectCallback = (e) => {
+    const VKbridgeCallback = (e) => {
         if (e.detail.type === 'VKWebAppUpdateConfig') {
-            VKConnect.unsubscribe(VKConnectCallback);
+            bridge.unsubscribe(VKbridgeCallback);
 
             dispatch(setColorScheme(e.detail.data.scheme));
         }
     };
 
-    VKConnect.subscribe(VKConnectCallback);
-    return VKConnect.send('VKWebAppInit', {}).then(data => {
+    bridge.subscribe(VKbridgeCallback);
+    return bridge.send('VKWebAppInit', {}).then(data => {
         return data;
     }).catch(error => {
         return error;
     });
 };
-
+export const getUserData = () => (dispatch) => {
+    bridge.send('VKWebAppGetUserInfo')
+        .then(data => {
+            dispatch(setUserData(data));
+            console.log(data);
+        })
+        .catch(error => {
+        });
+}
 export const getAuthToken = (scope) => (dispatch) => {
     VKConnect.send("VKWebAppGetAuthToken", {
         "app_id": APP_ID,

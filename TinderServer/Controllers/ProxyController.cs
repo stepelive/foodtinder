@@ -1,8 +1,14 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using TinderServer.Models.Requests;
+using TinderServer.Models.Responses;
 
 namespace TinderServer.Controllers
 {
@@ -19,12 +25,47 @@ namespace TinderServer.Controllers
             _logger = logger;
         }
 
-        [HttpPost]
-        public JsonContent Get(RequestUrlModel model)
+        [HttpGet]
+        public string GetAllProducts(int page)
         {
-            var response = _client.GetAsync(model.Url).Result;
-            var content = response.Content.ReadAsStringAsync().Result;
-            return JsonContent.Create(content);
+            var allVendors = new List<Item>();
+            var vendorsContent = GetContent(
+                $"https://api.delivery-club.ru/api1.2/vendors?cacheBreaker=1651162433&latitude=56.827133&longitude=60.540656&limit={16}&offset={page * 16}&need_citymobil=true");
+            var vendors = JsonConvert.DeserializeObject<VendorsResponse>(vendorsContent);
+            if (vendors is null || vendors.Vendors?.Items.Any() == false)
+            {
+                return null;
+            }
+
+            allVendors.AddRange(vendors.Vendors.Items);
+            var allProducts = new List<ProductCuteView>();
+            foreach (var vendor in allVendors)
+            {
+                try
+                {
+                    var responseProducts = GetContent(
+                        $"https://api.delivery-club.ru/api1.2/vendor/{vendor.Id.Primary}/menu?data=menu,products,actions&cacheBreaker=1651163491");
+                    var menu = JsonConvert.DeserializeObject<ProductResponse>(responseProducts);
+                    if (menu is null)
+                        continue;
+
+                    allProducts.AddRange(menu.Products.Select(x => new ProductCuteView(x, vendor)));
+                }
+                catch (Exception ex)
+                {
+                    
+                }
+            }
+            
+            var result = JsonConvert.SerializeObject(allProducts);
+            return result;
+        }
+
+        private string GetContent(string url)
+        {
+            var responseProducts = _client.GetAsync(url)
+                .Result;
+            return responseProducts.Content.ReadAsStringAsync().Result;
         }
     }
 }

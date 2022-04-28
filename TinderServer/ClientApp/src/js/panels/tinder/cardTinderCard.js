@@ -1,10 +1,47 @@
 import React, {useState, useMemo, useRef} from 'react'
 import TinderCard from 'react-tinder-card'
 import * as data from '../../../productsmock.json'
+import axios from 'axios'
 import {connect} from 'react-redux';
 import { IconButton, Div, Alert } from '@vkontakte/vkui'
 import { Icon28LikeCircleFillRed, Icon28CancelCircleFillRed } from '@vkontakte/icons';
 
+const bannedCategories = ["Соусы", "Напитки", "Дополнительно", "Закуски"]
+const bannedWords = ["Соус", "Салфетк"]
+var bannedProducts = [];
+
+function isProductBanned(productName)
+{
+  for (var i = 0; i < bannedWords.length; i++) {
+    productName = productName.toLowerCase();
+    if (productName.includes(bannedWords[i].toLocaleLowerCase())){
+      return true
+    }
+  }
+
+  return false
+}
+
+function isCategoryBanned(categoryName)
+{
+  for (var i = 0; i < bannedCategories.length; i++) {
+    categoryName = categoryName.toLowerCase();
+    if (categoryName.includes(bannedCategories[i].toLocaleLowerCase())){
+      return true
+    }
+  }
+
+  return false
+}
+
+for (var i = 0; i < data.menu.length; i++) {
+  if (isCategoryBanned(data.menu[i].name)) {
+    bannedProducts = bannedProducts.concat(data.menu[i].productIds);
+  }
+}
+
+console.log(bannedProducts)
+const allData = data.products.filter((x) => {return !bannedProducts.includes(x.id.primary) && !isProductBanned(x.name)});
 const bannedCategories = ["Соусы", "Напитки", "Дополнительно", "Закуски"]
 const bannedWords = ["Соус", "Салфетк"]
 var bannedProducts = [];
@@ -39,6 +76,7 @@ for (var i = 0; i < data.menu.length; i++) {
   }
 }
 
+console.log(bannedProducts)
 const allData = data.products.filter((x) => {return !bannedProducts.includes(x.id.primary) && !isProductBanned(x.name)});
 
 function CardTinderCard() {
@@ -56,12 +94,17 @@ function CardTinderCard() {
                 .map((i) => React.createRef()),
         []
     )
+    const getProducts = ()=>{
+        
+        axios.get("Proxy").then(x=>{console.log(x.data)});
+    }
+    getProducts();
 
     const updateCurrentIndex = (val) => {
         setCurrentIndex(val)
         currentIndexRef.current = val
     }
-
+    
     const canSwipe = currentIndex >= 0
 
     const swiped = (direction, nameToDelete, index) => {
@@ -73,7 +116,7 @@ function CardTinderCard() {
         updateCurrentIndex(index - 1)
     }
     const addToCard = (product) => {
-       this.props.openPopout(undefined);
+      // this.props.openPopout(undefined);
        /* console.log(openModal)
         openModal("MODAL_PAGE_BOTS_LIST");*/
     }
@@ -108,6 +151,7 @@ function CardTinderCard() {
             await childRefs[currentIndex].current.swipe(dir) // Swipe the card!
         }
     }
+
     const getProductUrl = (product) => {
         try {
             return 'url(https://www.delivery-club.ru/' + product.images[650] + ')'
@@ -198,10 +242,7 @@ function CardTinderCard() {
 }
 
 const mapDispatchToProps = {
-    openPopout,
-    closePopout,
-    openModal,
-    closeModal
+    
 };
 
 export default connect(null, mapDispatchToProps)(CardTinderCard);

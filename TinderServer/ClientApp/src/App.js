@@ -26,6 +26,8 @@ class App extends React.Component {
         const {goBack, dispatch} = this.props;
 
         dispatch(VK.initApp());
+        dispatch(VK.getUserData());
+        
 
         window.onpopstate = () => {
             let timeNow = +new Date();
