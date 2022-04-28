@@ -127,7 +127,6 @@ function CardTinderCard() {
                 <div className='card'>
                     <div
                         style={{
-                            backgroundSize: "300px",
                             backgroundRepeat: 'no-repeat',
                             backgroundImage: getProductUrl(product)
                         }}
@@ -151,7 +150,7 @@ function CardTinderCard() {
                 rel='stylesheet'
             />
 
-            <h1>FoodTinder</h1>
+            <h1>FoodFinder</h1>
 
             <div className='cardContainer'>
                 {data.map((product, index) => renderCardIfCan(index, product)

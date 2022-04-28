@@ -87,15 +87,7 @@ class App extends React.Component {
             <ConfigProvider isWebView={true} scheme={colorScheme}>
                 <AdaptivityProvider>
                     <AppRoot>
-                        <Epic activeStory={activeStory} tabbar={
-                            <Tabbar>
-                                <TabbarItem
-                                    onClick={() => setStory('tindercard', 'tindercard')}
-                                    selected={activeStory === 'tindercard'}
-                                ><Icon28Newsfeed/></TabbarItem>
-                            </Tabbar>
-                        }>
-
+                        <Epic activeStory={activeStory}>
                             <View
                                 id="tindercard"
                                 modal={homeModals}
