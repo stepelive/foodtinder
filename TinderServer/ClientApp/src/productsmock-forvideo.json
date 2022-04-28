@@ -1,0 +1,2178 @@
+{
+    "menu": [
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "-2",
+                "primary": "-2"
+            },
+            "name": "Популярные",
+            "productIds": [
+                "344985809",
+                "344985828",
+                "344985817",
+                "344984720",
+                "344985980",
+                "344985841"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "302431877",
+                "primary": "302431877"
+            },
+            "name": "Новинки",
+            "productIds": [
+                "344948569",
+                "344948751",
+                "344948592",
+                "344948621"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301792610",
+                "primary": "301792610"
+            },
+            "name": "Комбо",
+            "productIds": [
+                "344984600",
+                "344984605",
+                "344984685",
+                "344984698",
+                "344984704",
+                "344984707",
+                "344984714"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "302403973",
+                "primary": "302403973"
+            },
+            "name": "Римская пицца",
+            "productIds": [
+                "344984720",
+                "344985809",
+                "344985817",
+                "344985823",
+                "344985828",
+                "344985841",
+                "344985846",
+                "344985854",
+                "344985866",
+                "344985870",
+                "344985891",
+                "344985946",
+                "344985957",
+                "344985962",
+                "344985968",
+                "344985975",
+                "344985980",
+                "344985984",
+                "344985987",
+                "344985917",
+                "344985938"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "302403974",
+                "primary": "302403974"
+            },
+            "name": "Eazzy chef (готовь дома)",
+            "productIds": [
+                "344950541",
+                "344950538",
+                "344950536"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301752038",
+                "primary": "301752038"
+            },
+            "name": "Супы",
+            "productIds": [
+                "344950588",
+                "344950605",
+                "344950609"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301752037",
+                "primary": "301752037"
+            },
+            "name": "Салаты",
+            "productIds": [
+                "344950677",
+                "344950682",
+                "344950685",
+                "344950690"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301752036",
+                "primary": "301752036"
+            },
+            "name": "Закуски",
+            "productIds": [
+                "344950728",
+                "344950725",
+                "344950721",
+                "344950829",
+                "344950819",
+                "344950814",
+                "344950838",
+                "344951555"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301752039",
+                "primary": "301752039"
+            },
+            "name": "Паста",
+            "productIds": [
+                "344950873",
+                "344987301"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "301752043",
+                "primary": "301752043"
+            },
+            "name": "Напитки",
+            "productIds": [
+                "344950896",
+                "344950901",
+                "344950904",
+                "344950913",
+                "344950916",
+                "344950924",
+                "344950927",
+                "344950936",
+                "344951181",
+                "344951185",
+                "344951195",
+                "344951211",
+                "344951228",
+                "344951231"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "302403975",
+                "primary": "302403975"
+            },
+            "name": "Соусы для корочек",
+            "productIds": [
+                "345106045",
+                "345106047",
+                "345106052",
+                "345106060",
+                "345106062"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "description": "Сыровяленый свиной окорок, бекон из свиной вырезки, груша консервированная, дорблю, моцарелла, пармезан, соус сливочно-томатный, трюфельное масло, тимьян , тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344948569",
+                "primary": "344948569"
+            },
+            "images": {
+                "200": "/media/cms/relation_product/35462/332679534_m200_4bff3656a1455583c0b3e3ed4904e29dc752867a34e0d9564fa2172f87f618c4.jpg",
+                "650": "/media/cms/relation_product/35462/332679534_m650_3a3ef0d02fa848d75e10dbb546cccc675cfd140fe3a0e15e5a9b1a2799c55529.jpg",
+                "1000": "/media/cms/relation_product/35462/332679534_m1000_4229ce550cb2a4085546eb39d9efd2cd5165857a3412abd5098bd23d742a947b.jpg"
+            },
+            "name": "Огромный чизбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 749
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Запеченная куриная грудка, картофельные дольки, моцарелла, пармезан, огурцы маринованные, красный лук, соус томатный, медово-горчичный, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344948751",
+                "primary": "344948751"
+            },
+            "images": {
+                "650": "/media/cms/relation_product/7911/323656654_m650.jpg"
+            },
+            "name": "Пицца мясное ассорти 35 см",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "390"
+            },
+            "template": 4
+        },
+        {
+            "description": "Брокколи, болгарский перец, кукуруза, каперсы, красный лук, чернослив, моцарелла, перец чили, кинза, соус томатный, сладкий чили, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344948621",
+                "primary": "344948621"
+            },
+            "images": {
+                "650": "/media/cms/relation_product/649/335316321_m650_8d4d6c3ae89610491aad54a26ac0717cb4fa005061785eb302f9ada987236779.jpg"
+            },
+            "name": "Куриные крылья с сычуаньским соусом",
+            "price": {
+                "currency": "RUB",
+                "value": 649
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "470"
+            },
+            "template": 4
+        },
+        {
+            "description": "Классический набор по специальной цене. Пицца Ветчина и грибы (ветчина из индейки, бекон свиной, шампиньоны) (27x20 см), картофельные дольки и пепси 0,5",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984600",
+                "primary": "344984600"
+            },
+            "images": {
+                "650": "/media/cms/relation_product/60993/333373734_m650_ca206a696f5c491bea8d46943b4a244ddc78d21619bb12b89d40e8eb6c31398d.jpg"
+            },
+            "name": "Теплый салат с говяжьей вырезкой",
+            "price": {
+                "currency": "RUB",
+                "value": 769
+            },
+            "properties": {
+                "calories": "1070,5",
+                "volume": null,
+                "weight": "580"
+            },
+            "template": 1
+        },
+        {
+            "description": "Сытный набор по специальной цене. Пицца Карбонара (бекон свиной, чеддер, сливочный соус) (27x20 см), снэк Четыре сыра и  клюквенный морс собственного приготовления 0,5",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984605",
+                "primary": "344984605"
+            },
+            "images": {
+                "650": "/media/cms/relation_product/56916/325083270_m650.jpg"
+            },
+            "name": "Поке с лососем",
+            "price": {
+                "currency": "RUB",
+                "value": 869
+            },
+            "properties": {
+                "calories": "1857",
+                "volume": null,
+                "weight": "520"
+            },
+            "template": 1
+        },
+        {
+            "description": "Комбо из двух классических пицц. Пицца Маргарита (моцарелла, томатный соус, томаты)  и Пицца Трюфельная (шампиньоны, моцарелла, пармезан, соус сырный, трюфельное масло) ( 27x20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984685",
+                "primary": "344984685"
+            },
+            "images": {
+                "650": "/media/cms/relation_product/56916/325083272_m650.jpg"
+            },
+            "name": "Поке с креветками",
+            "price": {
+                "currency": "RUB",
+                "value": 969
+            },
+            "properties": {
+                "calories": "1535",
+                "volume": null,
+                "weight": "710"
+            },
+            "template": 1
+        },
+        {
+            "description": "Идеальное комбо для ужина с кино. Пицца Баварская (бекон свиной, говяжьи колбаски, колбаса сырокопчёная, луковый джем, горчично-медовый соус), Курица и грибы (курица запеченная, шампиньоны) (27x20 см) и две порции картофельных долек",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984698",
+                "primary": "344984698"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530974_m1000_63cfc001009845fe17479d07d8e7a66bfbed5cbf888c5c304d8d2419db5a63e3.jpg",
+                "200": "/media/cms/relation_product/69622/344530974_m200_8f6123e5c0dd6309ae010d7f70b4acf688f125f267d235b94ec43d5934e65fa3.jpg",
+                "650": "/media/cms/relation_product/69622/344530974_m650_e5a60d4dfac0376496a8bad347e93bd9019ece335bcbfea2c9ad18eb3619cd85.jpg"
+            },
+            "name": "Семейное",
+            "price": {
+                "currency": "RUB",
+                "value": 1389
+            },
+            "properties": {
+                "calories": "3172",
+                "volume": null,
+                "weight": "1110"
+            },
+            "template": 1
+        },
+        {
+            "description": "Комбо из пяти пицц на компанию: BBQ, Трюфельная, Пепперони, Гавайская, Дьявола (27x20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984704",
+                "primary": "344984704"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530975_m1000_c92101775b082cc93e77a44719e5374acc5a6a863c57efa099495c3010f6a7b2.jpg",
+                "200": "/media/cms/relation_product/69622/344530975_m200_6c2444b9633ef7087efc4f775fa22f4a0a891007a21aa9e47fc3cad19fc8b117.jpg",
+                "650": "/media/cms/relation_product/69622/344530975_m650_0d092a1885d1fc7101cf6dd4530b9c0648ceeb0099ae7773d46fb70eb1e888ae.jpg"
+            },
+            "name": "Корпоратив",
+            "price": {
+                "currency": "RUB",
+                "value": 2699
+            },
+            "properties": {
+                "calories": "4951",
+                "volume": null,
+                "weight": "1970"
+            },
+            "template": 1
+        },
+        {
+            "description": "Комбо из семи пицц на компанию: Трюфельная, Ветчина и грибы, Маргарита, Карбонара, Дьявола, Курица и грибы, Гавайская (27x20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984707",
+                "primary": "344984707"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530976_m1000_4b8c89518422d797bfc7e8f9d14d713d733ccd4049fe787ee6a323b7b9df0de9.jpg",
+                "200": "/media/cms/relation_product/69622/344530976_s_e6bef92da6c97df41ba165b050dd5e2da8ee6dbfc0fa401fb79b55e02dfd37b2.jpg",
+                "650": "/media/cms/relation_product/69622/344530976_m650_67d8ca7a4c931b956c6311339ccf474bd16dadff8a1ff78fbc73d513dae7487c.jpg"
+            },
+            "name": "Party Hard",
+            "price": {
+                "currency": "RUB",
+                "value": 3499
+            },
+            "properties": {
+                "calories": "6341",
+                "volume": null,
+                "weight": "2680"
+            },
+            "template": 1
+        },
+        {
+            "description": "Комбо Пицца и Джелато на выбор",
+            "discountPrice": {
+                "value": 1001
+            },
+            "id": {
+                "inventory": "344984714",
+                "primary": "344984714"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530970_m1000_1ef3efa9a26990bfb141434d85e718c0b09ba17c02e4abb196b523fb4c0d7c7e.jpg",
+                "200": "/media/cms/relation_product/69622/344530970_m200_e00ad4474ca37977f781221a4345cf8e9c79394a874382304e4182b25f5afeb4.jpg",
+                "650": "/media/cms/relation_product/69622/344530970_m650_1fea155bd53513c39e56460adda34fafe2a2a88c1623476fe36d53235c1f7104.jpg"
+            },
+            "name": "Пицца и Джелато",
+            "price": {
+                "currency": "RUB",
+                "value": 1178
+            },
+            "properties": {
+                "calories": "1702",
+                "volume": null,
+                "weight": "650"
+            },
+            "template": 4
+        },
+        {
+            "description": "Моцарелла, пармезан, орегано, соус томатный, оливковое масло, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344984720",
+                "primary": "344984720"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530977_m1000_9de3e375bc89408402cd624b04625846eedaeec72c1fec484646bf6a63295e14.jpg",
+                "200": "/media/cms/relation_product/69622/344530977_m200_4262b52cdb3abfddde6d7d886dfa3bd7e049870dc9547ac41ba9b30d03d4f0ce.jpg",
+                "650": "/media/cms/relation_product/69622/344530977_m650_87b7ebaf85f3fb961cbf41564dfa0d7be94f61c7626768fba53ce47ed9663bbb.jpg"
+            },
+            "name": "Маргарита",
+            "price": {
+                "currency": "RUB",
+                "value": 389
+            },
+            "properties": {
+                "calories": "680",
+                "volume": null,
+                "weight": "370"
+            },
+            "template": 4
+        },
+        {
+            "description": "Пепперони (свинина, говядина), моцарелла, пармезан, орегано, соус томатный, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985809",
+                "primary": "344985809"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530978_m1000_ebb181a9f048dbf2b7b7144d323c095eb95bbb20b9172df6127d9d6bf6be1928.jpg",
+                "200": "/media/cms/relation_product/69622/344530978_m200_1e2170ddcfb4d237f392222d71b46d6343409f1224b2df0bcc375a9b51e681ff.jpg",
+                "650": "/media/cms/relation_product/69622/344530978_m650_310a022dea40068b4e45a5595ca02048495babf44cfc062169ae7735a04f4c9f.jpg"
+            },
+            "name": "Пепперони",
+            "price": {
+                "currency": "RUB",
+                "value": 459
+            },
+            "properties": {
+                "calories": "818",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Ветчина из индейки, бекон из свиной вырезки, шампиньоны, моцарелла, пармезан, томатный соус, масло трюфельное, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985817",
+                "primary": "344985817"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530988_m1000_5f6b4302295cfe968237379e54be681f1952313ce4c7118194b89fc87cc3269a.jpg",
+                "200": "/media/cms/relation_product/69622/344530988_m200_630fdfa8997dbe4c5d00bd3b68fa9a8199d457c21e683a2b8413e2c264cd9d0e.jpg",
+                "650": "/media/cms/relation_product/69622/344530988_m650_792aeedd4f588bb6f9c20abfab7d9837c5e2a16d37f750612b55df2b407cf7b8.jpg"
+            },
+            "name": "Ветчина и грибы",
+            "price": {
+                "currency": "RUB",
+                "value": 459
+            },
+            "properties": {
+                "calories": "747",
+                "volume": null,
+                "weight": "410"
+            },
+            "template": 4
+        },
+        {
+            "description": "Бекон из свиной вырезки, моцарелла, пармезан, чеддер, соус сливочный с петрушкой, масло трюфельное, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985823",
+                "primary": "344985823"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530984_m1000_776b67a994f9da92d41d71a9a401fea15b93a4b4c61bbb8ce94829108c8a016c.jpg",
+                "200": "/media/cms/relation_product/69622/344530984_m200_c6912a3c57492cd009f9ef6863e0095fa67f4b52094d8244f3ea7c4a58113349.jpg",
+                "650": "/media/cms/relation_product/69622/344530984_m650_9fe629309c123fae808c5ead315c65c82906b01f50d9f0d95fe826e8ef151bce.jpg"
+            },
+            "name": "Карбонара",
+            "price": {
+                "currency": "RUB",
+                "value": 489
+            },
+            "properties": {
+                "calories": "1339",
+                "volume": null,
+                "weight": "370"
+            },
+            "template": 4
+        },
+        {
+            "description": "Запеченная куриная грудка, шампиньоны, моцарелла, пармезан, томаты черри, соус сливочный с петрушкой, масло трюфельное, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985828",
+                "primary": "344985828"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530990_m1000_1ffddd75e3d9a512228769bd03bb02bc245068af9cb571dcc50a06f3739ed223.jpg",
+                "200": "/media/cms/relation_product/69622/344530990_m200_1c43bcbac40009c80f94a455e53dcc95d0f1e154d21ef26d268c004da5103389.jpg",
+                "650": "/media/cms/relation_product/69622/344530990_m650_85a600d9d9b5a1bcbb8479847396e4e0328723c3c56d4259445cb27c8a0925e5.jpg"
+            },
+            "name": "Курица и грибы",
+            "price": {
+                "currency": "RUB",
+                "value": 489
+            },
+            "properties": {
+                "calories": "1356",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Дорблю, моцарелла, пармезан, мягкий молочный сыр, соус сырный, масло трюфельное, тимьян, тесто для римской пиццы  (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985841",
+                "primary": "344985841"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530979_m1000_7b9d118e2057a53c1d0707cb4e08c5b41947c6312fbac201cb701e88578169c2.jpg",
+                "200": "/media/cms/relation_product/69622/344530979_m200_443470c9c87392c44caada1c46f54a8cab5a4b5ef8903c21e075b26e59afc241.jpg",
+                "650": "/media/cms/relation_product/69622/344530979_m650_8481cec9f36e38fa7f554b49da610267422b81485b21b6d6eafdd70f42955212.jpg"
+            },
+            "name": "Четыре сыра",
+            "price": {
+                "currency": "RUB",
+                "value": 529
+            },
+            "properties": {
+                "calories": "855",
+                "volume": null,
+                "weight": "340"
+            },
+            "template": 4
+        },
+        {
+            "description": "Пепперони (свинина, говядина), ветчина из индейки, бекон из свиной вырезки, моцарелла, пармезан, каперсы, томаты вяленые, соус томатный, острый табаджан, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985846",
+                "primary": "344985846"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530980_m1000_722da171accff1ef9c5f44207734292fe24932531616680eec977875015ccde2.jpg",
+                "200": "/media/cms/relation_product/69622/344530980_m200_a5385e93d2153ea2382b9ff9d8c410a983595ca2c3a0452c5ccc098645f8ac8b.jpg",
+                "650": "/media/cms/relation_product/69622/344530980_m650_f56d1d0870c7107d298d3459ee467309a25baaf74a759dfef4fd63e053ef55d7.jpg"
+            },
+            "name": "Дьявола",
+            "price": {
+                "currency": "RUB",
+                "value": 549
+            },
+            "properties": {
+                "calories": "883",
+                "volume": null,
+                "weight": "400"
+            },
+            "template": 4
+        },
+        {
+            "description": "Бекон из свиной вырезки, запеченная куриная грудка, ананас, моцарелла, пармезан, базилик, соус томатный, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985854",
+                "primary": "344985854"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530997_m1000_3811454f53252ac566660695058b9ffa93abf53395205d76d37c682f154c215a.jpg",
+                "200": "/media/cms/relation_product/69622/344530997_m200_47f12aa469ddbfa6a27dd94d0c14e2521b069271c50371c0ebdd57f044b4aaa0.jpg",
+                "650": "/media/cms/relation_product/69622/344530997_m650_1c164f7ad5c65e573f63bd905a5cd01d02463b1d31f378bf938fdf28bad8b9a1.jpg"
+            },
+            "name": "Гавайская",
+            "price": {
+                "currency": "RUB",
+                "value": 549
+            },
+            "properties": {
+                "calories": "857",
+                "volume": null,
+                "weight": "400"
+            },
+            "template": 4
+        },
+        {
+            "description": "Бекон из свиной вырезки, говяжьи колбаски, колбаса сырокопченая (свинина, говядина), моцарелла, пармезан, луковый джем, соус сливочный с петрушкой, горчично-медовый, бальзамик, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985866",
+                "primary": "344985866"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530982_m1000_0c7c9646462bcc33a85a208b9edd93b339c559ee3e4ae265998f534c8932bd10.jpg",
+                "200": "/media/cms/relation_product/69622/344530982_m200_01bb913ad14e0d0af91a59c5549bbd04b3dc622ba96bf047b82c8fd74c78c8f8.jpg",
+                "650": "/media/cms/relation_product/69622/344530982_m650_e33471e82bc6c725dfebd1f765a264b1c20ac92a1178863616308975ac48a8ae.jpg"
+            },
+            "name": "Баварская",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": "1384",
+                "volume": null,
+                "weight": "390"
+            },
+            "template": 4
+        },
+        {
+            "description": "Шампиньоны, моцарелла, пармезан, соус сырный, трюфельное масло, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985891",
+                "primary": "344985891"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530991_m1000_af980da9c8ea529b07251771ce8997691334a49b68e7a8050deb11abf2a4bc93.jpg",
+                "200": "/media/cms/relation_product/69622/344530991_m200_c669b00c68e53031e39aaa1c49bb9106e7570aa3305bca70bf52115f9cb53a9e.jpg",
+                "650": "/media/cms/relation_product/69622/344530991_m650_1be31ee8ffee8d284b0f49da4f54e2368252dce8a3b44cb1868b14d0ba6f2975.jpg"
+            },
+            "name": "Трюфельная",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": "837",
+                "volume": null,
+                "weight": "350"
+            },
+            "template": 4
+        },
+        {
+            "description": "Бекон из свиной вырезки, запеченная куриная грудка, колбаса сырокопченая (свинина, говядина), моцарелла, маслины, луковый джем, соус томатный, барбекю, бальзамик, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985946",
+                "primary": "344985946"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530983_m1000_b5f74d269bd08e0bddf223c4d237ab1997d0a5b73194ddb9fd579812f7f17a26.jpg",
+                "200": "/media/cms/relation_product/69622/344530983_m200_e04aa62619069a1f0015f2d12f47190a16d380433e146a464b650a00d32bba82.jpg",
+                "650": "/media/cms/relation_product/69622/344530983_m650_62a5edc39e589d4763801e87370bd73dec86e0d231f303e1bdb9d357bea5c4be.jpg"
+            },
+            "name": "BBQ",
+            "price": {
+                "currency": "RUB",
+                "value": 649
+            },
+            "properties": {
+                "calories": "1085",
+                "volume": null,
+                "weight": "440"
+            },
+            "template": 4
+        },
+        {
+            "description": "Креветки, манго, моцарелла, пармезан, соус сливочный с петрушкой, юдзу, цедра лайма, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985957",
+                "primary": "344985957"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530992_m1000_e27ad77c5b430d300c3fcf1ffd16080a6074ed413e2d2335f1a45e3092bd67df.jpg",
+                "200": "/media/cms/relation_product/69622/344530992_m200_ad546da61f50cb3a3ccbc07d4529786dbff32bf96c46cef17eb6164706c080fe.jpg",
+                "650": "/media/cms/relation_product/69622/344530992_m650_3e9d918244863c6213f769fc303bafe7dfd3514614568725e00ad4c58c3dbc92.jpg"
+            },
+            "name": "Манго и креветки",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "1303",
+                "volume": null,
+                "weight": "310"
+            },
+            "template": 4
+        },
+        {
+            "description": "Коппа (сыровяленая свиная шея), бекон из свиной вырезки, артишок, моцарелла, пармезан, каперсы, рукола, соус томатный, бальзамик, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985962",
+                "primary": "344985962"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530993_m1000_1518d2e6f4cb887f4b16fb47791991d362b90ea758c6bd2a0e3a82936d6656dc.jpg",
+                "200": "/media/cms/relation_product/69622/344530993_m200_2bb4b702c212c1cf67d166849c89971615248d0ef16e2d9598ee7b59ebbc4400.jpg",
+                "650": "/media/cms/relation_product/69622/344530993_m650_f2f1f2ed00ac7d5c98fe80c23d88ed368d424fc8a414136fb9bd38b7deb33ba0.jpg"
+            },
+            "name": "Коппа",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "904",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Дорблю, груша консервированная, моцарелла, пармезан, соус сырный, масло трюфельное, грецкие орехи, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985968",
+                "primary": "344985968"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530996_m1000_07b4669b03f4e33b725af5b794127eaeac83721443aaf875c672f3296c10ca6c.jpg",
+                "200": "/media/cms/relation_product/69622/344530996_m200_4a8e5be03b8e54d80db0627c4296dc9a7fa87f3111f26900d23554396ed3ebb9.jpg",
+                "650": "/media/cms/relation_product/69622/344530996_m650_3382e0889e965d56d3f71b90fb7797d83cf91c20391432dd95df3ddf892bea32.jpg"
+            },
+            "name": "Груша и горгонзола",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "978",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Ветчина из индейки, бекон из свиной вырезки, артишок, моцарелла, пармезан, рукола, соус томатный, крем из фисташек, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985975",
+                "primary": "344985975"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530998_m1000_ef0f6644b8b20276de40958486fd134602538b7b1459e9da9726c5eb4e84d1ba.jpg",
+                "200": "/media/cms/relation_product/69622/344530998_m200_9ae60201723b1cbe63e9538aae82253b29e18b19b73e369a49c5738a26670778.jpg",
+                "650": "/media/cms/relation_product/69622/344530998_m650_3476c53fb1ac52c4fb9311b9e0ea14411815a229d1dee468af92eb31d3affb4b.jpg"
+            },
+            "name": "Мортаделла и фисташки",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "758",
+                "volume": null,
+                "weight": "420"
+            },
+            "template": 4
+        },
+        {
+            "description": "Коппа (сыровяленая свиная шея), бекон из свиной вырезки, артишок, креветки, манго, моцарелла, пармезан, каперсы, рукола, соус томатный, бальзамик, сливочный с петрушкой, юдзу, цедра лайма, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985980",
+                "primary": "344985980"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531002_m1000_aa677ab38f014d4e29eb2cf4858bb3374bf08f905317c71b9c1387ba4445bd2a.jpg",
+                "200": "/media/cms/relation_product/69622/344531002_m200_e532dab9de39f9b2ef532987aeb731b26d7853a57741cc869f848ed70ca4739b.jpg",
+                "650": "/media/cms/relation_product/69622/344531002_m650_a3564ea0d0733d0edbdf132e1da6d0b9063026a512786b0623d125db386069ac.jpg"
+            },
+            "name": "EAZZYPIZZY",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "1035",
+                "volume": null,
+                "weight": "420"
+            },
+            "template": 4
+        },
+        {
+            "description": "Сёмга холодного копчения, моцарелла, пармезан, каперсы, рукола, соус томатный, бальзамик, цедра лайма, тесто для римской пиццы (27х20 см)\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985984",
+                "primary": "344985984"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530986_m1000_ddde239e4c0cb4a2f85c0aa28d9c0fe528b9d0966171947e8816625cc46c9802.jpg",
+                "200": "/media/cms/relation_product/69622/344530986_m200_6fc241b60198f12eeba83f0c72743ba9132f71242cbfe759991da7d331e5361c.jpg",
+                "650": "/media/cms/relation_product/69622/344530986_m650_7a671f059b04240018a9bb33850abc7a08cd33c98463592d5ce9d5e3a7fea6ae.jpg"
+            },
+            "name": "Лосось и лайм",
+            "price": {
+                "currency": "RUB",
+                "value": 749
+            },
+            "properties": {
+                "calories": "626",
+                "volume": null,
+                "weight": "370"
+            },
+            "template": 4
+        },
+        {
+            "description": "Прошутто (сыровяленое свиное бедро), дорблю, моцарелла, пармезан, рукола, соус сырный, масло трюфельное, тимьян, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985987",
+                "primary": "344985987"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344530995_m1000_41a1900ff8eee9285e26f8ef10e5acaaa89c78a1e4a764a43833c5634ce1952d.jpg",
+                "200": "/media/cms/relation_product/69622/344530995_m200_7c62a82bbe94f1ff6e94462c6494d5dbadf4f190e0d254c07ff3583cec720a77.jpg",
+                "650": "/media/cms/relation_product/69622/344530995_m650_9c9c4994d5b4084cd40e89304d405a0b4e233d35be6b6122735ff126c3c00d97.jpg"
+            },
+            "name": "Парма",
+            "price": {
+                "currency": "RUB",
+                "value": 749
+            },
+            "properties": {
+                "calories": "898",
+                "volume": null,
+                "weight": "380"
+            },
+            "template": 4
+        },
+        {
+            "description": "Шоколадная паста нутелла, клубника, банан, маршмеллоу, карамельный соус, кокосовая стружка, сыр моцарелла, тесто для римской пиццы (27х20 см)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985917",
+                "primary": "344985917"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531003_m1000_3946076f6661410d7b9afe9826390073ffba8772598c135f132372e38f34b63d.jpg",
+                "200": "/media/cms/relation_product/69622/344531003_m200_5be98484c20b13e36dfc7b01987d387b9b5cbe82f1c17f6b3c37119741884a70.jpg",
+                "650": "/media/cms/relation_product/69622/344531003_m650_73fc0d15ec8905cdcaf112534149d5f62d249fc08e114b143ccb20e2c80439d5.jpg"
+            },
+            "name": "Римская маршмеллоу",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": "1015",
+                "volume": null,
+                "weight": "390"
+            },
+            "template": 1
+        },
+        {
+            "description": "Яблоко, апельсин, моцарелла, сгущенное молоко, грецкие орехи, цедра апельсина, мята, корица, тесто для римской пиццы (27х20 см). Подается с мороженным джелато ны выбор\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344985938",
+                "primary": "344985938"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531007_m1000_bf6d47b31ea11d418a23d02a5cc8c0a7d04ed798d8d9db7c1602e05bed05a09a.jpg",
+                "200": "/media/cms/relation_product/69622/344531007_m200_7f3b4a947f12b5184682e94a3ba9e9995f2f2eef790d173ba63f2345fc784054.jpg",
+                "650": "/media/cms/relation_product/69622/344531007_m650_76420a63889173932c38fc3f3c3a1aadb535878f115702641c70989be72e8bed.jpg"
+            },
+            "name": "Штрудель и Джелато",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": "480"
+            },
+            "template": 4
+        },
+        {
+            "description": "Охлажденная пицца Eazzy Chef из свежих ингредиентов для запекания в домашней духовке (27х20 см). Рекомендации по приготовлению: 7 минут при температуре 220 °с. Начинка на выбор.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531008",
+                "primary": "344950541"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531009_m1000_9e255e6011dcb90eaaca689d42a53ab27292b085eb540aa522aec16f890e58a4.jpg",
+                "200": "/media/cms/relation_product/69622/344531009_m200_0d91d8ce5786dbaee43c6105ae89442ddfb9155f61a23aecd15dbc35846a46bf.jpg",
+                "650": "/media/cms/relation_product/69622/344531009_m650_a833d51b300e0d4447bbdbcea79794b4b21d01b50e8fea404545c225e1d6bb04.jpg"
+            },
+            "name": "EAZZY CHEF Классика",
+            "price": {
+                "currency": "RUB",
+                "value": 389
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "370"
+            },
+            "template": 4
+        },
+        {
+            "description": "Охлажденная пицца Eazzy Chef из свежих ингредиентов для запекания в домашней духовке (27х20 см). Рекомендации по приготовлению: 7 минут при температуре 220 °с. Начинка на выбор.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531009",
+                "primary": "344950538"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531009_m1000_9e255e6011dcb90eaaca689d42a53ab27292b085eb540aa522aec16f890e58a4.jpg",
+                "200": "/media/cms/relation_product/69622/344531009_m200_0d91d8ce5786dbaee43c6105ae89442ddfb9155f61a23aecd15dbc35846a46bf.jpg",
+                "650": "/media/cms/relation_product/69622/344531009_m650_a833d51b300e0d4447bbdbcea79794b4b21d01b50e8fea404545c225e1d6bb04.jpg"
+            },
+            "name": "EAZZY CHEF Хиты",
+            "price": {
+                "currency": "RUB",
+                "value": 589
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "340"
+            },
+            "template": 4
+        },
+        {
+            "description": "Охлажденная пицца Eazzy Chef из свежих ингредиентов для запекания в домашней духовке (27х20 см). Рекомендации по приготовлению: 7 минут при температуре 220 °с. Начинка на выбор.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531010",
+                "primary": "344950536"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531009_m1000_9e255e6011dcb90eaaca689d42a53ab27292b085eb540aa522aec16f890e58a4.jpg",
+                "200": "/media/cms/relation_product/69622/344531009_m200_0d91d8ce5786dbaee43c6105ae89442ddfb9155f61a23aecd15dbc35846a46bf.jpg",
+                "650": "/media/cms/relation_product/69622/344531009_m650_a833d51b300e0d4447bbdbcea79794b4b21d01b50e8fea404545c225e1d6bb04.jpg"
+            },
+            "name": "EAZZY CHEF Премиум",
+            "price": {
+                "currency": "RUB",
+                "value": 689
+            },
+            "properties": {
+                "calories": "",
+                "volume": null,
+                "weight": "310"
+            },
+            "template": 4
+        },
+        {
+            "description": "Шампиньоны, картофель, грибной бульон, сливки, лук репчатый, гренки пшеничные\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531019",
+                "primary": "344950588"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531019_m1000_92faa117aece4ea92e12e06085f8b952dbcd4d0c30e494cc8dd5651d0f6747b3.jpg",
+                "200": "/media/cms/relation_product/69622/344531019_m200_165be52a3d50d6fb30e17493246e07e33cc97412bc66d7b541a89e50a6db8ff0.jpg",
+                "650": "/media/cms/relation_product/69622/344531019_m650_70d8a07b2ea995e225719ef0f164169739296daabe82623ccf0b89e0c2d075f5.jpg"
+            },
+            "name": "Грибной крем-суп",
+            "price": {
+                "currency": "RUB",
+                "value": 289
+            },
+            "properties": {
+                "calories": "545",
+                "volume": null,
+                "weight": "210"
+            },
+            "template": 1
+        },
+        {
+            "description": "Пепперони (свинина, говядина), бекон из свиной вырезки, маслины, артишоки, томатный бульон, соус томатный, гренки пшеничные",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531020",
+                "primary": "344950605"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531020_m1000_91a941fc89e3b9944650852133835ab822e5e3a241f4fd7f8dc5950132cdc9d8.jpg",
+                "200": "/media/cms/relation_product/69622/344531020_m200_4c092cdf2650599ccd092453abca87c34e4cf09a8c3a9ab077a76d89e12b6ca3.jpg",
+                "650": "/media/cms/relation_product/69622/344531020_m650_499953e75d62a7d4ee0a4700429d645d086acae6442d8e5d6cb2ac2908408dc0.jpg"
+            },
+            "name": "Римская солянка",
+            "price": {
+                "currency": "RUB",
+                "value": 329
+            },
+            "properties": {
+                "calories": "214",
+                "volume": null,
+                "weight": "210"
+            },
+            "template": 1
+        },
+        {
+            "description": "Томаты, сельдерей, огурец, овощной бульон, страчателла, базилик, масло оливковое",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531021",
+                "primary": "344950609"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531021_m1000_f8db50a0123feef107b5881d0569ce342ed1d7dc1978302ea8ed24a62dc1467b.jpg",
+                "200": "/media/cms/relation_product/69622/344531021_m200_af8a4da60d95272e0e3146355d9cf7863fe0f25f7b485ad2edd2abfdb9fa5c3c.jpg",
+                "650": "/media/cms/relation_product/69622/344531021_m650_9950d3b446fc23ca38e7715f25b0471ee99a7bc5ec3e768a6881a445ff7ac5e3.jpg"
+            },
+            "name": "Гаспачо",
+            "price": {
+                "currency": "RUB",
+                "value": 249
+            },
+            "properties": {
+                "calories": "121",
+                "volume": null,
+                "weight": "210"
+            },
+            "template": 1
+        },
+        {
+            "description": "Куриная грудка запечённая, айсберг, романо, помидоры черри, соус цезарь на основе анчоусов, пармезан, крутоны с паприкой",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531022",
+                "primary": "344950677"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531022_m1000_77d497780f065357b9e212630f73610319714fa3a2aa92f46ed023a47a1aa956.jpg",
+                "200": "/media/cms/relation_product/69622/344531022_m200_d397b660ef9832e5c2d2571667f2fe8d45dacd8f8e7bc26c80c9f843da282a67.jpg",
+                "650": "/media/cms/relation_product/69622/344531022_m650_0e121d2211bf189435fb957084c1beddf82c2aa3061c0cbccaa84accea2602c0.jpg"
+            },
+            "name": "Салат Цезарь с курицей",
+            "price": {
+                "currency": "RUB",
+                "value": 399
+            },
+            "properties": {
+                "calories": "587",
+                "volume": null,
+                "weight": "220"
+            },
+            "template": 1
+        },
+        {
+            "description": "Перец болгарский, огурец, романо, помидоры черри, маслины, оливки, брынза, масло оливковое, орегано",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531023",
+                "primary": "344950682"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531023_m1000_96ffac8dc72f45261df3b5e1e39ef649f868e5ff8d7963f0b265cfaf3aeba04f.jpg",
+                "200": "/media/cms/relation_product/69622/344531023_m200_63468165a3d76aefc460dc2650d20a0ad02ad9a7705584ff3d9f383432890f24.jpg",
+                "650": "/media/cms/relation_product/69622/344531023_m650_410788c994c90a17062cc9f89ccccd5671839b236ffd09c904d71a0565e3e1c9.jpg"
+            },
+            "name": "Салат Греческий",
+            "price": {
+                "currency": "RUB",
+                "value": 389
+            },
+            "properties": {
+                "calories": "300",
+                "volume": null,
+                "weight": "240"
+            },
+            "template": 1
+        },
+        {
+            "description": "Манго, креветки тигровые жареные, айсберг, лоло росса, рукола, пармезан, соус юдзу, цедра лайма",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531024",
+                "primary": "344950685"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531024_m1000_bdb576b33224f3e7f00248d2b46ac833fd92e58c79f8317ab35226f6ea1db186.jpg",
+                "200": "/media/cms/relation_product/69622/344531024_m200_10e42a8bf12ff283beb0f45758cccdadccb1fadafc6f18454b876210a7fd597e.jpg",
+                "650": "/media/cms/relation_product/69622/344531024_m650_3cc813f571a0ffe15ddeecd936caa6272be5e6fc58215c9b527461e2d42c292c.jpg"
+            },
+            "name": "Салат Манго и креветки",
+            "price": {
+                "currency": "RUB",
+                "value": 399
+            },
+            "properties": {
+                "calories": "145",
+                "volume": null,
+                "weight": "110"
+            },
+            "template": 1
+        },
+        {
+            "description": "Прошутто (сыровяленое свиное бедро), дорблю, груша консервированная, айсберг, лоло росса, соус медово-горчичный, масло трюфельное",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531025",
+                "primary": "344950690"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531025_m1000_83f64c96fc7bf1aaac0cb9bf319a590bdd958c33828410f364494e18f82e01cc.jpg",
+                "200": "/media/cms/relation_product/69622/344531025_m200_d2f03ab6c29363335aa64347a7d6450efe1564673a291f86f0679e5c058351d0.jpg",
+                "650": "/media/cms/relation_product/69622/344531025_m650_b109bef57eea8a77b53851cfda4c0f9cc8b37f13dbf3999ac6c5483f2b880878.jpg"
+            },
+            "name": "Салат Парма и горгонзола",
+            "price": {
+                "currency": "RUB",
+                "value": 389
+            },
+            "properties": {
+                "calories": "237",
+                "volume": null,
+                "weight": "100"
+            },
+            "template": 1
+        },
+        {
+            "description": "Пармезан, песто, маслины, масло оливковое, тесто для римской пиццы (27х20 см)\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531026",
+                "primary": "344950728"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531026_m1000_97468f06893c1e6be1abf50d9b88d4d4a1cf6a490f4f0ac96c7054ad3fdc8916.jpg",
+                "200": "/media/cms/relation_product/69622/344531026_m200_f46959d332deb7f4d770f09195d5ae6e1b215e172e0cc52c28f0cbef38af2743.jpg",
+                "650": "/media/cms/relation_product/69622/344531026_m650_2086ece451aa85aa05c6a6e1304abd3a9e6fc2ecaefddc859252b865fbbc3d86.jpg"
+            },
+            "name": "Фокачча с песто и пармезаном",
+            "price": {
+                "currency": "RUB",
+                "value": 299
+            },
+            "properties": {
+                "calories": "550",
+                "volume": null,
+                "weight": "220"
+            },
+            "template": 1
+        },
+        {
+            "description": "Картофель, тимьян, пармезан\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531027",
+                "primary": "344950725"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531027_m1000_2c967bac80f03eae4ceb47069029f651d7f538c748e81d35893b7ca43454ddec.jpg",
+                "200": "/media/cms/relation_product/69622/344531027_m200_34ddb843799b43b88d3e3ca24557691c7aa1ee66e874fc4fd4323f6f1e3a8d27.jpg",
+                "650": "/media/cms/relation_product/69622/344531027_m650_3ff43e0614932b9af2356184dbf925666e86aee751d53b97e889dc8b44068f66.jpg"
+            },
+            "name": "Картофельные дольки",
+            "price": {
+                "currency": "RUB",
+                "value": 159
+            },
+            "properties": {
+                "calories": "261",
+                "volume": null,
+                "weight": "170"
+            },
+            "template": 4
+        },
+        {
+            "description": "Колбаски пепперони (свинина, говядина), моцарелла, пармезан, соус томатный, картофельная булочка (2 шт.)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531028",
+                "primary": "344950721"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531028_m1000_d720f70e5b50ef59924b8652f9eeaea880dafd8ff3ba1f34ab02db200ab68404.jpg",
+                "200": "/media/cms/relation_product/69622/344531028_m200_49adcaba8734042de84e4ed9c3e5c3936d753d79230b0c20e97b5251095c2979.jpg",
+                "650": "/media/cms/relation_product/69622/344531028_m650_568b0c7660ff9ae39c5008e7c331a01d6269696ba86049056b9892e9c3fe3431.jpg"
+            },
+            "name": "Снек Пепперони",
+            "price": {
+                "currency": "RUB",
+                "value": 269
+            },
+            "properties": {
+                "calories": "380",
+                "volume": null,
+                "weight": "145"
+            },
+            "template": 1
+        },
+        {
+            "description": "Моцарелла, дорблю, пармезан, груша консервированная, соус сырный, масло трюфельное, тимьян, картофельная булочка (2 шт.)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531029",
+                "primary": "344950829"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531029_m1000_e3619def108b0f3c10229fd43cee50d16b0225eea540aa23b82c4f3a2ed1ed37.jpg",
+                "200": "/media/cms/relation_product/69622/344531029_m200_a78df082e8a73a348b25a84505571b365821e3800aeb4a2bc09262a5e886e81f.jpg",
+                "650": "/media/cms/relation_product/69622/344531029_m650_7b953d405f9626703c86c91b1407eeb3da64b52160ca6de43a8b8c76f1be48d0.jpg"
+            },
+            "name": "Снек 4 сыра с грушей",
+            "price": {
+                "currency": "RUB",
+                "value": 269
+            },
+            "properties": {
+                "calories": "365",
+                "volume": null,
+                "weight": "150"
+            },
+            "template": 1
+        },
+        {
+            "description": "Куриные крылья, соус сладкий чили, кунжут белый (6 шт.)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531030",
+                "primary": "344950819"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531030_m1000_611307781b274d9bc86115eb5293349d54b01386becee91d407dd36c425d5389.jpg",
+                "200": "/media/cms/relation_product/69622/344531030_m200_d5a30ff1dfca2235b0d1243d106da5cb2c6be15ef8b3665454765f7fc6cc27d9.jpg",
+                "650": "/media/cms/relation_product/69622/344531030_m650_dd0491a7f72e290d710b5dbd9713c234140e9c795ac8b1407593f7ce2e308b50.jpg"
+            },
+            "name": "Крылышки сладкий чили",
+            "price": {
+                "currency": "RUB",
+                "value": 399
+            },
+            "properties": {
+                "calories": "433",
+                "volume": null,
+                "weight": "180"
+            },
+            "template": 4
+        },
+        {
+            "description": "Куриные крылья, соус сладкий чили, кунжут белый (12 шт.)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531031",
+                "primary": "344950814"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531031_m1000_d74f7aa977c1a2cc0bc20e2d9e4fa9abdbf1ac02a30d8ce523847de5693ec5bd.jpg",
+                "200": "/media/cms/relation_product/69622/344531031_m200_d8e6878bccb3b48b0b6cc471e8b6ec7971aa12c3208520a88c6e0d0d45af4ce4.jpg",
+                "650": "/media/cms/relation_product/69622/344531031_m650_c687506d294c95641d5d4ca9d4f429d3beab56eb4c45e3c59322b1831a71ca93.jpg"
+            },
+            "name": "Крылышки сладкий чили дабл",
+            "price": {
+                "currency": "RUB",
+                "value": 789
+            },
+            "properties": {
+                "calories": "880",
+                "volume": null,
+                "weight": "360"
+            },
+            "template": 4
+        },
+        {
+            "description": "Куриные крылья, соус барбекю, луковые хлопья (6 шт.)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531032",
+                "primary": "344950838"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531032_m1000_d2d5a5f3afb280841a87c81b464083d77a9ef8f66bf4c551faccd0ba23a420b7.jpg",
+                "200": "/media/cms/relation_product/69622/344531032_m200_d8592f7496636d29de61cef0bdba22cecb461f0b57487090e6658ae9fa6dbdd1.jpg",
+                "650": "/media/cms/relation_product/69622/344531032_m650_1c6405c0324ba7b701dbce13a570956184e7da8c97ce269b0b0bf1225db39333.jpg"
+            },
+            "name": "Крылышки BBQ",
+            "price": {
+                "currency": "RUB",
+                "value": 399
+            },
+            "properties": {
+                "calories": "569",
+                "volume": null,
+                "weight": "180"
+            },
+            "template": 4
+        },
+        {
+            "description": "Куриные крылья, соус барбекю, луковые хлопья (12 шт.)\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531033",
+                "primary": "344951555"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531033_m1000_b5299690c5bab17ffb5cab3a3fecd80dab73b6923ad16c85b4e3e85b3ac0c1f2.jpg",
+                "200": "/media/cms/relation_product/69622/344531033_m200_3c906c34b13af0b581646aa29a0d072a3c50fad66e7ce594b9d89a0fc65321c6.jpg",
+                "650": "/media/cms/relation_product/69622/344531033_m650_5a07459ec3d6188428a95acec97f838fabc92329b560e3f799391698191bdc47.jpg"
+            },
+            "name": "Крылышки BBQ дабл",
+            "price": {
+                "currency": "RUB",
+                "value": 789
+            },
+            "properties": {
+                "calories": "1107",
+                "volume": null,
+                "weight": "360"
+            },
+            "template": 4
+        },
+        {
+            "description": "Бекон из свиной вырезки, соус сливочный, крем из шампиньонов с трюфелями, пармезан, спагетти\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531034",
+                "primary": "344950873"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531034_m1000_32c75b5e0a4a01ed9461ce5a2f9380e5c76414097cdc4d01af301e5d6c33a814.jpg",
+                "200": "/media/cms/relation_product/69622/344531034_m200_effdb42759c18ca2a37a278d9c9103bcee3e38fcacd805198f4ba4405282678d.jpg",
+                "650": "/media/cms/relation_product/69622/344531034_m650_aed551d60e196fa045a32fd6636eb07221f1d5acac945f9427b8e1df20c45f75.jpg"
+            },
+            "name": "Спагетти Карбонара",
+            "price": {
+                "currency": "RUB",
+                "value": 349
+            },
+            "properties": {
+                "calories": "619",
+                "volume": null,
+                "weight": "200"
+            },
+            "template": 1
+        },
+        {
+            "description": "Дорблю, пармезан, соус сырный, масло трюфельное, тимьян, пенне\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344987301",
+                "primary": "344987301"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531035_m1000_4864f15b96a6fc37dcc86c66417f6fe1f5c0f3ac77a69af7980513533667daa6.jpg",
+                "200": "/media/cms/relation_product/69622/344531035_m200_549b98adbfd1ae0561338475352c378bb7fed814f4e363ad1efd033af89b4bb3.jpg",
+                "650": "/media/cms/relation_product/69622/344531035_m650_0c6b803419218471425e602c2e3e7ffaba732d53a80be6bfe5b01ccc03ec2aaa.jpg"
+            },
+            "name": "Пенне Четыре сыра",
+            "price": {
+                "currency": "RUB",
+                "value": 349
+            },
+            "properties": {
+                "calories": "602",
+                "volume": null,
+                "weight": "220"
+            },
+            "template": 1
+        },
+        {
+            "description": "Лимон, сироп из тростникового сахара, вода с газом\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531038",
+                "primary": "344950896"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531038_m1000_8399271c67f836b0b80c7053f0f8f33fdb50f27b7adabc068f00645867e0512e.jpg",
+                "200": "/media/cms/relation_product/69622/344531038_m200_8389c2c414e5659ff31416fbd014e0e801c62165ee6da99b398d611c513d3db1.jpg",
+                "650": "/media/cms/relation_product/69622/344531038_m650_cb18dc91fb767c43880335d871e9e797a41ce5b94b0e510eed9c82cf4c2b5091.jpg"
+            },
+            "name": "Лимонад Лимончелло",
+            "price": {
+                "currency": "RUB",
+                "value": 199
+            },
+            "properties": {
+                "calories": "88",
+                "volume": "250",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Газированный напиток\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531040",
+                "primary": "344950901"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531040_m1000_2e6448431a0910d871dc8ad36d0f624f64fc7cca1b4d5ca5ff2455c80103e2fd.jpg",
+                "200": "/media/cms/relation_product/69622/344531040_m200_c8f7c8fb6443a396362faeb83bbc806dc204933d60cbf2eca2da4d58fd6c8e84.jpg",
+                "650": "/media/cms/relation_product/69622/344531040_m650_3a2922e5d8ed98b51f602c21f02ff1675b3703bd70e70fad8fa24d36a59551ce.jpg"
+            },
+            "name": "7 Up",
+            "price": {
+                "currency": "RUB",
+                "value": 169
+            },
+            "properties": {
+                "calories": "74",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Газированный напиток\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531041",
+                "primary": "344950904"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531041_m1000_2e086fb0aa17682e6a77d407814c75a2855567fec5f8b98a40e09742bade8f93.jpg",
+                "200": "/media/cms/relation_product/69622/344531041_m200_e8201144fd153250cd5a3be60713d855f8e4749f64e9859537ac285cd473e8a5.jpg",
+                "650": "/media/cms/relation_product/69622/344531041_m650_4e8cd3bebad963a578aad5cdcf0f2a62fa790dedda3833a3fa8254d88cc744b0.jpg"
+            },
+            "name": "Pepsi",
+            "price": {
+                "currency": "RUB",
+                "value": 169
+            },
+            "properties": {
+                "calories": "107,5",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Газированный напиток\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531042",
+                "primary": "344950913"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531042_m1000_f4db010607793d4dd7354a6952f71873faa3a56954c0006348312343e3c923d8.jpg",
+                "200": "/media/cms/relation_product/69622/344531042_m200_6386c8b6052b2eb34274d4e5bc8dd6b29f88facb0cc5201d034c16ce604bb346.jpg",
+                "650": "/media/cms/relation_product/69622/344531042_m650_2e0f3c9643f7b014969210220e052baff06402de9c1ae9a37062137861962a00.jpg"
+            },
+            "name": "Pepsi Max",
+            "price": {
+                "currency": "RUB",
+                "value": 169
+            },
+            "properties": {
+                "calories": "2",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Газированный напиток\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531043",
+                "primary": "344950916"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531043_m1000_533cb8a97cc61c2d1c0b6d36bc1f64d111ef9d865c52097ad908329a509c541e.jpg",
+                "200": "/media/cms/relation_product/69622/344531043_m200_ecf328f5bf94be89cb55ac74214d4058b0c48da959c281b714dd79c69564828b.jpg",
+                "650": "/media/cms/relation_product/69622/344531043_m650_879067416c447a607c86b44be86e4fba5de6a66ab1ff51018fd6ef2dfd89e93d.jpg"
+            },
+            "name": "Mirinda",
+            "price": {
+                "currency": "RUB",
+                "value": 169
+            },
+            "properties": {
+                "calories": "122",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Газированный напиток\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531044",
+                "primary": "344950924"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531044_m1000_3e103201996430f7665e8e8e2b761ea2ac05584a68dab860d604a14448bd1f0b.jpg",
+                "200": "/media/cms/relation_product/69622/344531044_m200_c77dd2ba415cca144f3421fc6ff7e2ac207cc7a9265e2c5c69c91e9d1a710c79.jpg",
+                "650": "/media/cms/relation_product/69622/344531044_m650_e9d239b91334413b852ae85da92125c436b746b28f188a1a88aca2d2f0ca2f62.jpg"
+            },
+            "name": "Aqua Minerale газированная",
+            "price": {
+                "currency": "RUB",
+                "value": 119
+            },
+            "properties": {
+                "calories": "0",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Не газированный напиток.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531045",
+                "primary": "344950927"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531045_m1000_73dbd44f5fde31be49372d7fdc7410f88a5ede9da3dbfc62169525b7fdd6fad4.jpg",
+                "200": "/media/cms/relation_product/69622/344531045_m200_e82722053fcf46f35379e8feae47dd5525c15f9cd032fe6ac471a1c57d0b497c.jpg",
+                "650": "/media/cms/relation_product/69622/344531045_m650_3e1c288e73d04196e373a4a2c6ff7d7afc4502592e5a6a816bf6a7700ad5791a.jpg"
+            },
+            "name": "Aqua Minerale негазированная",
+            "price": {
+                "currency": "RUB",
+                "value": 119
+            },
+            "properties": {
+                "calories": "0",
+                "volume": "500",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Сок вишневый осветленный\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531046",
+                "primary": "344950936"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531046_m1000_dd14a83abcfa2385615535605e3930762030c43d7631b959e3dfeebfcc5b8274.jpg",
+                "200": "/media/cms/relation_product/69622/344531046_m200_c6421aa1804f89d53fd713538c0a3a008be3e18a828b606d0c09604ed4c78c2b.jpg",
+                "650": "/media/cms/relation_product/69622/344531046_m650_b4e79e6145f37ca697e446a0b4c62070077acfe925521341a48924ccee566aa5.jpg"
+            },
+            "name": "Вишневый сок",
+            "price": {
+                "currency": "RUB",
+                "value": 199
+            },
+            "properties": {
+                "calories": "112",
+                "volume": "970",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Сок апельсиновый с мякотью.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531047",
+                "primary": "344951181"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531047_m1000_58bbdb795eb3eea7f889d6e061e67661d3fe5965503617672cfce040f9a67ea9.jpg",
+                "200": "/media/cms/relation_product/69622/344531047_m200_df3360448f3c610fbea919dfe29ebccaa249d3c2b6fa6ea4469b1e856ccaf285.jpg",
+                "650": "/media/cms/relation_product/69622/344531047_m650_4cc18321fa38db6848e56eeafb0216dfb16027a4cf173899ac327d2682f5960e.jpg"
+            },
+            "name": "Апельсиновый сок",
+            "price": {
+                "currency": "RUB",
+                "value": 199
+            },
+            "properties": {
+                "calories": "88,4",
+                "volume": "970",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Сок яблочный осветленный.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531048",
+                "primary": "344951185"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531048_m1000_749e5804d026aab6934a475096a40842afb4a15122b92130fb6b069c9d90f05d.jpg",
+                "200": "/media/cms/relation_product/69622/344531048_m200_85427f36e79d4b273599bb5fe0cec36fcb095c396291432fb477f593aebf5b20.jpg",
+                "650": "/media/cms/relation_product/69622/344531048_m650_ffcbf37c45909fbe0107622bf7ac88aebb37fa0a3b154671f738ef5998ef642d.jpg"
+            },
+            "name": "Яблочный сок",
+            "price": {
+                "currency": "RUB",
+                "value": 199
+            },
+            "properties": {
+                "calories": "88,4",
+                "volume": "970",
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Морс из клюквы собственного приготовления.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531049",
+                "primary": "344951195"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531049_m1000_28f9fc0def8194d24fa5a41e1f3b93bc9b6440171ab9b6b6a2ec5b71b318165e.jpg",
+                "200": "/media/cms/relation_product/69622/344531049_m200_ed52adca892cd7471ba27667bf09d85fd9f9794e19bb4ea8e66c3d6ba494d169.jpg",
+                "650": "/media/cms/relation_product/69622/344531049_m650_9bedf1266b5b6d76f3579533ae8824572e52aa15ced45d7d7183ed2aa7e3540d.jpg"
+            },
+            "name": "Клюквенный морс",
+            "price": {
+                "currency": "RUB",
+                "value": 89
+            },
+            "properties": {
+                "calories": "85",
+                "volume": "250",
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Эспрессо, горячая вода.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531050",
+                "primary": "344951211"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531050_m1000_931f6eb89566607bf1ad9cab8fd78cb9e6f1c916ed43c47da0a2517aba92e931.jpg",
+                "200": "/media/cms/relation_product/69622/344531050_m200_8e0c6a1dd7b66ff766d85de7203eefd2c145387ba1f25a1b50233ab21aff16fc.jpg",
+                "650": "/media/cms/relation_product/69622/344531050_m650_5ba93debb0eccccd634c1c212cd7969d5e5a8eaffb98c6d05f93778c2a1b4a51.jpg"
+            },
+            "name": "Американо",
+            "price": {
+                "currency": "RUB",
+                "value": 159
+            },
+            "properties": {
+                "calories": "88",
+                "volume": "300",
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Эспрессо, вспененное молоко, молочная пена.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531051",
+                "primary": "344951228"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531051_m1000_ce2a3b627df7bd140cd3df9254dbe6febf80bb491d8cc5e73586736931019536.jpg",
+                "200": "/media/cms/relation_product/69622/344531051_m200_2585e2a319aa63a2b8a5507bab971bd16e11305786e497cafba71a0abce8f1c3.jpg",
+                "650": "/media/cms/relation_product/69622/344531051_m650_752b4330c2a7bb05dd8caedd5af4e4b807d19192302d95b7286e90f8548840af.jpg"
+            },
+            "name": "Капучино",
+            "price": {
+                "currency": "RUB",
+                "value": 189
+            },
+            "properties": {
+                "calories": "172",
+                "volume": "300",
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Молочная пена, вспененное молоко, эспрессо.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531052",
+                "primary": "344951231"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531052_m1000_9e3a232a01c90853504ee525c6ccee858dd4fe3d3a110bc9e54fd8abe0269b77.jpg",
+                "200": "/media/cms/relation_product/69622/344531052_m200_f3357739fc1f99819deb9751fd49201b47a84fe050026df3bd0f19ab55e9ae1c.jpg",
+                "650": "/media/cms/relation_product/69622/344531052_m650_211f755662ddf8bb38095f1312a16c889f3b62ddf7b5986e789fe07712fd86f6.jpg"
+            },
+            "name": "Латте",
+            "price": {
+                "currency": "RUB",
+                "value": 189
+            },
+            "properties": {
+                "calories": "183",
+                "volume": "300",
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Паста томатная, соус терияки, перец черный, паприка красная. Идеально для корочек.\n",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531053",
+                "primary": "345106045"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531053_m1000_d3856e9000a64eb6c5ee6d09dec9c024d9bc3b07c476fdc13a323679a920c822.jpg",
+                "200": "/media/cms/relation_product/69622/344531053_m200_21ef258c6a239983bbeaa22dc31eebd20ca3803728da8e6c6fe552eda567772d.jpg",
+                "650": "/media/cms/relation_product/69622/344531053_m650_d5e99f6f0a5eed236bf3bc972f8850d83bb3b6618fd06bfb5a45d0e96fdfbf7e.jpg"
+            },
+            "name": "Соус BBQ",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": "39",
+                "volume": null,
+                "weight": "30"
+            },
+            "template": 1
+        },
+        {
+            "description": "Красный перец чили, сахар, чеснок, уксус, кукурузный крахмал, вода. Идеально для корочек.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531054",
+                "primary": "345106047"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531054_m1000_6588631f7f82711dd585e47369f456e1ea65128de41e4cdbd80cdd2c8f59a380.jpg",
+                "200": "/media/cms/relation_product/69622/344531054_m200_93e07dce1b0909e31fd48b66d07b638f22ace718413a3568d8a6f523acbfcc89.jpg",
+                "650": "/media/cms/relation_product/69622/344531054_m650_0c2d0f88341fc8cf33e6bc594e8ca7c358991078db022641f815dad7774841ba.jpg"
+            },
+            "name": "Соус сладкий чили",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": "67",
+                "volume": null,
+                "weight": "30"
+            },
+            "template": 1
+        },
+        {
+            "description": "Сливки, молоко, сыр творожный, чеддер, дорблю, мускатный орех. Идеально для корочек.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531055",
+                "primary": "345106052"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531055_m1000_79762c5120533336f5338fcc9610861d6aefd3095e092cb72e311bb5e22d1092.jpg",
+                "200": "/media/cms/relation_product/69622/344531055_m200_4f9279856c52a81a4b7bc1750cf6aa4e529d020e6772c78c34142c13b8e4983d.jpg",
+                "650": "/media/cms/relation_product/69622/344531055_m650_0f0749af2caadd9f15644949929abe65b033017446e57a54b78287f7d124d92c.jpg"
+            },
+            "name": "Соус сливочный",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": "79",
+                "volume": null,
+                "weight": "30"
+            },
+            "template": 1
+        },
+        {
+            "description": "Томаты, орегано, базилик, масло оливковое. Идеально для корочек.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531056",
+                "primary": "345106060"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531056_m1000_8654dc9cced3841c23c1b37158439d43ce548d224b584bf6ba388dd7ed66d1bf.jpg",
+                "200": "/media/cms/relation_product/69622/344531056_m200_060402a7999bf5ac55371adb3160fc7dc84ee4311da4ca4f25f0f5cc814069c7.jpg",
+                "650": "/media/cms/relation_product/69622/344531056_m650_c0002ebd403d59dc22bd4865f13e6cb0f2c52e37615530e01da0f9c9b85d8847.jpg"
+            },
+            "name": "Соус томатный",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": "14",
+                "volume": null,
+                "weight": "30"
+            },
+            "template": 1
+        },
+        {
+            "description": "Сливки, горчица, тимьян, чеснок, лук репчатый, масло сливочное. Идеально для корочек.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344531057",
+                "primary": "345106062"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/69622/344531057_m1000_fa5a72564445fdadcaa72d13902ef1dcb6bb94adf667f03e3ccf6bdb90a9b532.jpg",
+                "200": "/media/cms/relation_product/69622/344531057_m200_13b8ec54ed71c3f43b0586ec882b85ec467af04883965e7070029c653253363d.jpg",
+                "650": "/media/cms/relation_product/69622/344531057_m650_b6b55c2ceb194381a4fb88f57a7d9f91cf607e1241c70591d80b92a9a755c82f.jpg"
+            },
+            "name": "Соус горчичный",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": "81",
+                "volume": null,
+                "weight": "30"
+            },
+            "template": 1
+        }
+    ],
+    "promoActions": [
+        {
+            "description": "При заказе от 1490 ₽ «Пицца EAZZYPIZZY» в подарок",
+            "giftOptions": [
+                {
+                    "condition": {
+                        "description": "При заказе от 1490 ₽",
+                        "id": {
+                            "inventory": ""
+                        }
+                    },
+                    "reward": {
+                        "id": {
+                            "inventory": "344985980"
+                        },
+                        "variants": []
+                    }
+                }
+            ],
+            "id": {
+                "primary": "43dc6dba-bc8f-11ec-ad67-b06ebf3abbc9"
+            },
+            "image": "https://image-router.dclub.ru/img/naturmort/69622",
+            "label": {
+                "name": "Блюдо в подарок"
+            },
+            "name": "Пицца EAZZYPIZZY в подарок",
+            "reward": {
+                "amount": 0,
+                "customTitle": "Пицца EAZZYPIZZY",
+                "isFinishCost": false,
+                "maxQuantity": 0,
+                "name": "EAZZYPIZZY",
+                "percent": 0,
+                "references": [
+                    {
+                        "id": {
+                            "inventory": "344985980"
+                        },
+                        "type": 1
+                    }
+                ],
+                "type": 2
+            },
+            "schedule": {
+                "reference": {
+                    "secondsLeft": 14447,
+                    "type": "timer"
+                }
+            },
+            "template": "product_as_a_gift"
+        },
+        {
+            "description": "Пицца Пепперони при заказе Пицца Манго и креветки",
+            "giftOptions": [
+                {
+                    "condition": {
+                        "description": "При заказе Пицца Манго и креветки",
+                        "id": {
+                            "inventory": "344985957"
+                        }
+                    },
+                    "reward": {
+                        "id": {
+                            "inventory": "344985809"
+                        },
+                        "variants": []
+                    }
+                }
+            ],
+            "id": {
+                "primary": "a5dcf71a-c585-11ec-bbd2-a66c3ad71f82"
+            },
+            "image": "https://image-router.dclub.ru/img/naturmort/69622",
+            "label": {
+                "name": "Блюдо в подарок"
+            },
+            "name": "Пицца Пепперони при заказе Пицца Манго и креветки",
+            "reward": {
+                "amount": 0,
+                "customTitle": "Пицца Пепперони",
+                "isFinishCost": false,
+                "maxQuantity": 0,
+                "name": "Пепперони",
+                "percent": 0,
+                "references": [
+                    {
+                        "id": {
+                            "inventory": "344985809"
+                        },
+                        "type": 1
+                    }
+                ],
+                "type": 2
+            },
+            "schedule": {
+                "reference": {
+                    "secondsLeft": 14447,
+                    "type": "timer"
+                }
+            },
+            "template": "extended_gift_by_product"
+        },
+        {
+            "description": "Пицца Маргарита при заказе Пицца Курица и грибы",
+            "giftOptions": [
+                {
+                    "condition": {
+                        "description": "При заказе Пицца Курица и грибы",
+                        "id": {
+                            "inventory": "344985828"
+                        }
+                    },
+                    "reward": {
+                        "id": {
+                            "inventory": "344984720"
+                        },
+                        "variants": []
+                    }
+                }
+            ],
+            "id": {
+                "primary": "7b90f57e-c585-11ec-87be-6a1aca1c504d"
+            },
+            "image": "https://image-router.dclub.ru/img/naturmort/69622",
+            "label": {
+                "name": "Блюдо в подарок"
+            },
+            "name": "Пицца Маргарита при заказе Пицца Курица и грибы",
+            "reward": {
+                "amount": 0,
+                "customTitle": "Пицца Маргарита",
+                "isFinishCost": false,
+                "maxQuantity": 0,
+                "name": "Маргарита",
+                "percent": 0,
+                "references": [
+                    {
+                        "id": {
+                            "inventory": "344984720"
+                        },
+                        "type": 1
+                    }
+                ],
+                "type": 2
+            },
+            "schedule": {
+                "reference": {
+                    "secondsLeft": 14447,
+                    "type": "timer"
+                }
+            },
+            "template": "extended_gift_by_product"
+        },
+        {
+            "description": "С 00:00 до 23:59 скидка 15% на некоторые категории",
+            "giftOptions": [],
+            "id": {
+                "primary": "05906c28-bc8f-11ec-875f-04d4c45d3222"
+            },
+            "image": "https://image-router.dclub.ru/img/naturmort/69622",
+            "label": {
+                "name": "Счастливые часы"
+            },
+            "name": "Счастливые часы",
+            "reward": {
+                "amount": 0,
+                "isFinishCost": false,
+                "maxQuantity": 0,
+                "percent": 15,
+                "references": [
+                    {
+                        "id": {
+                            "inventory": "344984714"
+                        },
+                        "type": 1
+                    }
+                ],
+                "type": 1
+            },
+            "schedule": {
+                "reference": {
+                    "secondsLeft": 14388,
+                    "type": "timer"
+                }
+            },
+            "template": "happy_hours"
+        }
+    ],
+    "promoActionsOld": []
+}
