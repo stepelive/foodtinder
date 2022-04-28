@@ -3,10 +3,20 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux'
 import {goBack, closeModal, setStory} from "./js/store/router/actions";
 import {getActivePanel} from "./js/services/_functions";
+import {setProducts} from './js/store/products/actions'
 import * as VK from './js/services/VK';
-import { openPopout } from  './js/services/_functions'
 
-import {Epic, View, Root, Tabbar, ModalRoot, TabbarItem, ConfigProvider, AdaptivityProvider, AppRoot} from "@vkontakte/vkui";
+import {
+    Epic,
+    View,
+    Root,
+    Tabbar,
+    ModalRoot,
+    TabbarItem,
+    ConfigProvider,
+    AdaptivityProvider,
+    AppRoot, PanelSpinner
+} from "@vkontakte/vkui";
 
 import Icon28Newsfeed from '@vkontakte/icons/dist/28/newsfeed';
 import Icon28More from '@vkontakte/icons/dist/28/more';
@@ -14,20 +24,21 @@ import CardItem from './js/panels/tinder/cardTinderCard';
 
 import ModalTemplate from './js/components/modals/ModalTemplate';
 import CardTinderCard from './js/panels/tinder/cardTinderCard'
-    
+import axios from "axios";
+
 class App extends React.Component {
     constructor(props) {
         super(props);
 
         this.lastAndroidBackAction = 0;
     }
-
     componentDidMount() {
         const {goBack, dispatch} = this.props;
+        this.updateProducts();
 
         dispatch(VK.initApp());
         dispatch(VK.getUserData());
-        
+
 
         window.onpopstate = () => {
             let timeNow = +new Date();
@@ -55,6 +66,17 @@ class App extends React.Component {
             window.scroll(0, pageScrollPosition);
         }
     }
+    updateProducts() {
+        var t = this;
+        if(this.props.products.length === 0){
+            axios.get("Proxy").then(x => {
+                t.props.setProducts(x.data)
+                console.log(t.props.products)
+            });
+
+        }
+    }
+    
 
     render() {
         const {
@@ -67,7 +89,9 @@ class App extends React.Component {
             activeStory,
             activeModals,
             panelsHistory,
-            colorScheme
+            colorScheme,
+            products,
+            productsCart
         } = this.props;
 
         let history = (panelsHistory[activeView] === undefined) ? [activeView] : panelsHistory[activeView];
@@ -78,28 +102,34 @@ class App extends React.Component {
             <ModalRoot activeModal={activeModal}>
                 <ModalTemplate
                     id="MODAL_PAGE_BOTS_LIST"
+                    productList={productsCart}
                     onClose={() => closeModal()}
                 />
+                
             </ModalRoot>
         );
 
         return (
             <ConfigProvider isWebView={true} scheme={colorScheme}>
-                <AdaptivityProvider>
-                    <AppRoot>
-                        <Epic activeStory={activeStory}>
-                            <View
-                                id="tindercard"
-                                modal={homeModals}
-                                activePanel={getActivePanel("modal")}
-                                history={history}
-                                onSwipeBack={() => goBack()}
-                            >
-                                <CardTinderCard openPopout={openPopout}
-                                    id="tindercard"/>
-                            </View>
-                        </Epic>
-                    </AppRoot>
+                <AdaptivityProvider> 
+                    <Root id="tindercard" activeView={activeView} popout={popout}>
+
+
+                        <View
+                            id="tindercard"
+                            modal={homeModals}
+                            activePanel={getActivePanel("modal")}
+                            history={history}
+                            onSwipeBack={() => goBack()}
+                        >
+                            {products && products.length > 0&&
+                                <CardTinderCard id="tindercard"/>
+                            }
+                            {!products || products.length == 0 &&
+                            <PanelSpinner />
+                            }
+                        </View>
+                    </Root>
                 </AdaptivityProvider>
             </ConfigProvider>
         );
@@ -108,13 +138,14 @@ class App extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
+        products: state.products.products,
+        productsCart: state.caart.products,
         activeView: state.router.activeView,
         activeStory: state.router.activeStory,
         panelsHistory: state.router.panelsHistory,
         activeModals: state.router.activeModals,
         popouts: state.router.popouts,
         scrollPosition: state.router.scrollPosition,
-
         colorScheme: state.vkui.colorScheme
     };
 };
@@ -123,7 +154,7 @@ const mapStateToProps = (state) => {
 function mapDispatchToProps(dispatch) {
     return {
         dispatch,
-        ...bindActionCreators({setStory, goBack, closeModal}, dispatch)
+        ...bindActionCreators({setStory, goBack, closeModal,setProducts}, dispatch)
     }
 }
 

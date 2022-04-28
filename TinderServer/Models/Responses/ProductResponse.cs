@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace TinderServer.Models.Responses
 {
     public class ProductResponse
     {
-        [JsonPropertyName("menu")]
+        [JsonProperty("Menu")]
         public List<Menu> Menu { get; set; }
 
         [JsonPropertyName("products")]
@@ -48,7 +49,8 @@ namespace TinderServer.Models.Responses
 
         [JsonPropertyName("200")] public string _200 { get; set; }
 
-        [JsonPropertyName("650")] public string _650 { get; set; }
+        
+        [JsonProperty("650")] public string _650 { get; set; }
     }
 
     public class Properties
