@@ -106,7 +106,6 @@ function CardTinderCard(props) {
                 <div className='card'>
                     <div
                         style={{
-                            backgroundSize: "300px",
                             backgroundRepeat: 'no-repeat',
                             backgroundImage: getProductUrl(product)
                         }}
@@ -131,9 +130,9 @@ function CardTinderCard(props) {
             />
 
             <h1>FoodTinder</h1>
-                <div className='cardContainer'>
-                    {props.products.map((product, index) => renderCardIfCan(index, product))}
-                </div>
+            <div className='cardContainer'>
+                {props.products.map((product, index) => renderCardIfCan(index, product))}
+            </div>
             
             <div className='buttons'>
                 {canSwipe &&

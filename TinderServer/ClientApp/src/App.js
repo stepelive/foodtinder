@@ -137,7 +137,6 @@ class App extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state)
     return {
         products: state.products.products,
         productsCart: state.caart.products,
