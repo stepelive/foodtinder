@@ -110,8 +110,6 @@ class App extends React.Component {
             <ConfigProvider isWebView={true} scheme={colorScheme}>
                 <AdaptivityProvider>
                     <Root id="tindercard" activeView={activeView} popout={popout}>
-
-
                         <View
                             id="tindercard"
                             modal={homeModals}

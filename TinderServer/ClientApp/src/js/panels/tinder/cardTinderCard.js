@@ -175,7 +175,6 @@ function CardTinderCard(props) {
                 </h2>
             ) : (
                 <h2 className='infoText'>
-                    Влево=пропустить, вправо=в корзину, вверх=показать похожее
                 </h2>
             )}
         </div>
