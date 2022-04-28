@@ -3,14 +3,50 @@ import TinderCard from 'react-tinder-card'
 import * as data from '../../../productsmock.json'
 import { IconButton, Div } from '@vkontakte/vkui'
 import { Icon28LikeCircleFillRed, Icon28CancelCircleFillRed } from '@vkontakte/icons';
-const allData = data.products.filter((x) => {return x.template == 4});;
+
+const bannedCategories = ["Соусы", "Напитки", "Дополнительно", "Закуски"]
+const bannedWords = ["Соус", "Салфетк"]
+var bannedProducts = [];
+
+function isProductBanned(productName)
+{
+  for (var i = 0; i < bannedWords.length; i++) {
+    var productName = productName.toLowerCase();
+    if (productName.includes(bannedWords[i].toLocaleLowerCase())){
+      return true
+    }
+  }
+
+  return false
+}
+
+function isCategoryBanned(categoryName)
+{
+  for (var i = 0; i < bannedCategories.length; i++) {
+    var categoryName = categoryName.toLowerCase();
+    if (categoryName.includes(bannedCategories[i].toLocaleLowerCase())){
+      return true
+    }
+  }
+
+  return false
+}
+
+for (var i = 0; i < data.menu.length; i++) {
+  if (isCategoryBanned(data.menu[i].name)) {
+    bannedProducts = bannedProducts.concat(data.menu[i].productIds);
+  }
+}
+
+console.log(bannedProducts)
+const allData = data.products.filter((x) => {return !bannedProducts.includes(x.id.primary) && !isProductBanned(x.name)});
 
 function CardTinderCard() {
   const [currentIndex, setCurrentIndex] = useState(allData.length - 1)
   const [lastDirection, setLastDirection] = useState()
   const currentIndexRef = useRef(currentIndex)
 
-  const changes = "фылвфы вофылов"
+  const changes = "фылвфы вdофdылов"
   const childRefs = useMemo(
     () =>
       Array(allData.length)
