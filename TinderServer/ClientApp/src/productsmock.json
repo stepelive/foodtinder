@@ -1,0 +1,3931 @@
+{
+    "menu": [
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "-2",
+                "primary": "-2"
+            },
+            "name": "Популярные",
+            "productIds": [
+                "344573522",
+                "344573365",
+                "344582005",
+                "344573536",
+                "344573521",
+                "344577357"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300687038",
+                "primary": "300834409"
+            },
+            "name": "Акции",
+            "productIds": [
+                "340163784",
+                "340163785",
+                "344573470",
+                "344582002",
+                "344575332",
+                "344586470",
+                "344586268",
+                "344586473"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300496314",
+                "primary": "300496314"
+            },
+            "name": "МакКомбо",
+            "productIds": [
+                "344573475",
+                "344573476",
+                "344573477",
+                "344577126",
+                "344577357",
+                "344577358",
+                "344573480",
+                "344577359",
+                "344573482",
+                "344577360",
+                "344577130",
+                "344582004",
+                "344577131",
+                "344582005",
+                "344573488",
+                "344573489",
+                "344573490",
+                "344577135",
+                "344582006",
+                "344582007",
+                "344573494",
+                "344573495",
+                "344573496",
+                "344573497",
+                "344573498",
+                "344573499",
+                "344573500",
+                "344573501",
+                "344573502",
+                "344577365"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300496315",
+                "primary": "301675319"
+            },
+            "name": "Сандвичи, Роллы, Стартеры",
+            "productIds": [
+                "344573504",
+                "344573505",
+                "344573506",
+                "344573507",
+                "344573508",
+                "344573509",
+                "344573510",
+                "344573511",
+                "344573512",
+                "344573513",
+                "344573514",
+                "344577138",
+                "344575351",
+                "344573517",
+                "344582008",
+                "344582009",
+                "344573520",
+                "344573521",
+                "344573522",
+                "344573523",
+                "344573524",
+                "344575972",
+                "344575973",
+                "344575974",
+                "344573527",
+                "344573528",
+                "344577371",
+                "344577372",
+                "344573531",
+                "344582010",
+                "344573533",
+                "344573534",
+                "344573535",
+                "344573416",
+                "344573536",
+                "344573537",
+                "344573538",
+                "344573539",
+                "344573540",
+                "344573541",
+                "344573542",
+                "344573417",
+                "335307217",
+                "344573418",
+                "344573419"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300449642",
+                "primary": "300496316"
+            },
+            "name": "Картофель",
+            "productIds": [
+                "344586522",
+                "344573365",
+                "344573367",
+                "344573368",
+                "335307217",
+                "344573543",
+                "344573544",
+                "344573545"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300496317",
+                "primary": "300496317"
+            },
+            "name": "Десерты и выпечка",
+            "productIds": [
+                "344573420",
+                "344575959",
+                "344575957",
+                "344575958",
+                "344573421",
+                "344573422",
+                "344575956",
+                "344573423",
+                "344573425",
+                "344573424",
+                "344624317",
+                "344573426",
+                "344573427",
+                "344575960",
+                "344575961",
+                "344575962",
+                "344575963",
+                "344575964",
+                "335307217"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300449645",
+                "primary": "300496318"
+            },
+            "name": "Соусы",
+            "productIds": [
+                "344573432",
+                "344573433",
+                "344573434",
+                "344573435",
+                "344573436",
+                "344573437",
+                "344573438",
+                "344573439",
+                "344573440",
+                "344573441",
+                "344573546",
+                "344573547"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300449653",
+                "primary": "300496320"
+            },
+            "name": "Хэппи Мил",
+            "productIds": [
+                "344575358",
+                "344575359",
+                "344573465",
+                "344575360",
+                "344575361",
+                "344573469",
+                "344573367",
+                "344573368",
+                "344573420"
+            ]
+        },
+        {
+            "byPoints": false,
+            "categories": [],
+            "id": {
+                "inventory": "300496319",
+                "primary": "300496319"
+            },
+            "name": "Напитки и коктейли",
+            "productIds": [
+                "344573445",
+                "344573443",
+                "344573444",
+                "344573446",
+                "344573442",
+                "344586448",
+                "344586450",
+                "344586452",
+                "344573450",
+                "344573451",
+                "344573452",
+                "344573453",
+                "344573454",
+                "344575362",
+                "344575363",
+                "344575364",
+                "344575365",
+                "344575366",
+                "344575367",
+                "344573459",
+                "344573462"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "description": "Вкусные, обжаренные в растительном фритюре и слегка посоленные палочки картофеля",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916656",
+                "primary": "344573365"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521142_m1000_fdcad15ff677e3aea018b83c01f4cea1f25b1d49c632cb1a9bec8ba5537cf612.jpg",
+                "200": "/media/cms/relation_product/30405/311521142_m200_f06a955ae37174fa3f45964853f13a40446e9bfee858144313b0d32a1443c22e.jpg",
+                "650": "/media/cms/relation_product/30405/311521142_m650_d9990ae5071d24ad67378510de90ed15e07de205c3718ebfc2459015e509d5ed.jpg"
+            },
+            "name": "Картофель Фри",
+            "price": {
+                "currency": "RUB",
+                "value": 85
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Отборные, нарезанные дольками, свежие яблоки",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "328060568",
+                "primary": "344573367"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/327992338_m1000_a5137c63e015c882867752b2c8e245040ccc3856e61cc854c5ccd716f138a680.jpg",
+                "200": "/media/cms/relation_product/30405/327992338_m200_88358ef1d06fcd068624df65e01a47ecdfdc8fb161e59182cb81188a6a5ba9b4.jpg",
+                "650": "/media/cms/relation_product/30405/327992338_m650_6be8e090098a3ddc74d325006b4910aff61a7d0fbb7f0eed17853f3b192ed570.jpg"
+            },
+            "name": "Яблочные дольки",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916653",
+                "primary": "335307217"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916653_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916653_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916653_m650.jpg"
+            },
+            "name": "Салфетка влажная",
+            "price": {
+                "currency": "RUB",
+                "value": 4
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Неподражаемые Чикен Макнаггетс – это сочное 100% белое куриное мясо в хрустящей панировке со специями. Только натуральная курочка без искусственных красителей и ароматизаторов и без консервантов",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "325487087",
+                "primary": "344573416"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/325487087_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/325487087_m200.jpg",
+                "650": "/media/cms/relation_product/31130/325487087_m650.jpg"
+            },
+            "name": "Чикен Макнаггетс (18 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 204
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Неподражаемые Чикен МакНаггетс – 5 шт. Маленькая порция Картофеля фри",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723044",
+                "primary": "344573417"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521138_m1000_8b1a9b57227f6bbdec5fe906b4fb7f55792a88cbff766a3366f95794f2adbd0c.jpg",
+                "200": "/media/cms/relation_product/30405/311521138_m200_8c438c696633b4b2309bf023dfdadf6b25438826e116dfc6c06db0008da197e5.jpg",
+                "650": "/media/cms/relation_product/30405/311521138_m650_b4ba4b1e74f3136a8530e30d8e1c40bd00f126f9ed8b2f0a258d74b2f09d76d2.jpg"
+            },
+            "name": "Наггетс Бокс",
+            "price": {
+                "currency": "RUB",
+                "value": 99
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Жевательная резинка Orbit  Bubblemint без сахара с ароматом фруктов и мяты способствует поддержанию здоровья зубов: удаляет остатки пищи и способствует уменьшению зубного налета.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "337879587",
+                "primary": "344573418"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/337467209_m1000_5d3c61e22df286fd59005c198ba125ed55d3c2f62b1ab22315cfa7afb856662c.jpg",
+                "200": "/media/cms/relation_product/30405/337467209_m200_e0d3b4955641a1d610e576e6fc8759e930680ba2cfdcf7b64658947a05131960.jpg",
+                "650": "/media/cms/relation_product/30405/337467209_m650_aedc204d2dd6d44416a13365a2d641b4674144c57f70aab03d2304e14d4a7fee.jpg"
+            },
+            "name": "Orbit Bubblemint",
+            "price": {
+                "currency": "RUB",
+                "value": 39
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Жевательная резинка Orbit Нежная мята без сахара способствует поддержанию здоровья зубов: удаляет остатки пищи и способствует уменьшению зубного налета.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "337879588",
+                "primary": "344573419"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/337467210_m1000_ec803cf2d9a6b83f3e367f42d5b4c1fa41b3a915285b1fe9c6b3e67f79fc6698.jpg",
+                "200": "/media/cms/relation_product/30405/337467210_m200_9fee0feadf1779eef53e3307d85b1678263419213d23f057aee1967c0a413c2c.jpg",
+                "650": "/media/cms/relation_product/30405/337467210_m650_8347e072ed5e875242e36769a6d3b5971919dbe68d5d624098a844d68c38341a.jpg"
+            },
+            "name": "Orbit Нежная мята",
+            "price": {
+                "currency": "RUB",
+                "value": 39
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Фруктовое пюре",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "328925779",
+                "primary": "344573420"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/29367/328926656_m1000_5d6d4f247227809ca0981d49ee00d92731888212311995af4aba819ff14c7f1e.jpg",
+                "200": "/media/cms/relation_product/29367/328926656_m200_55d0c0e18d1132db7597d22396332ad8df4ee09da986086dd6d004ca4be0e63c.jpg",
+                "650": "/media/cms/relation_product/29367/328926656_m650_154245e5f881e92035b738ca465e8cfc0a9db20957792232fb2d5a34f5639a5c.jpg"
+            },
+            "name": "Яблочное пюре Агуша",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Круассан из слоёного дрожжевого теста",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916708",
+                "primary": "344575956"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916708_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916708_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916708_m650.jpg"
+            },
+            "name": "Круассан",
+            "price": {
+                "currency": "RUB",
+                "value": 91
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Три ароматных сырника с румяной корочкой, приготовленные из натурального творога, идеальны для завтрака или ланча в течение дня",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "337371551",
+                "primary": "344575957"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/337371552_m1000_cb9301fcad00bb4b12a664407dda28beca079a93156c9d20d1066fb94b20c141.jpg",
+                "200": "/media/cms/relation_product/31130/337371552_m200_9c3e0f91cf634a80529a6cbcbe87014d54760d25103c5e68a4c019bb19032a0b.jpg",
+                "650": "/media/cms/relation_product/31130/337371552_m650_3079ab53a749179213ce5f26be0c828479fa1147ea97834326b1fb4affe3fb84.jpg"
+            },
+            "name": "Сырники",
+            "price": {
+                "currency": "RUB",
+                "value": 149
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Воздушная плетёная булочка из слоёного теста, украшенная орехом пекан и глазурью",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334271457",
+                "primary": "344575958"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/33044/332676680_m1000_09650ca8a0f8a2d0fe37f5cb43d131a529076545b9ca5eb1f20284a2407ef59e.jpg",
+                "200": "/media/cms/relation_product/33044/332676737_m200_d31c7e14b95146bec7b00f1e7ac7de221bdf5016dfb7ef44e56c36f829e3bc9f.jpg",
+                "650": "/media/cms/relation_product/33044/332676680_m650_f7eae816cd5f25c44927ffcf60511dd98dd2470cc92d838a2664ea9e7bf04104.jpg"
+            },
+            "name": "Кленовый пекан",
+            "price": {
+                "currency": "RUB",
+                "value": 109
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Аромантый донат с нежной начинкой из ванильного крема, покрытый белой и шоколадной глазурью",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "315178775",
+                "primary": "344573421"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/315178775_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/315178775_m200.jpg",
+                "650": "/media/cms/relation_product/31130/315178775_m650.jpg"
+            },
+            "name": "Донат с ванильным кремом",
+            "price": {
+                "currency": "RUB",
+                "value": 96
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Нежный донат с шоколадно-кремовой начинкой, покрытый молочной и шоколадной глазурью",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313881307",
+                "primary": "344573422"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/313881307_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/313881307_m200.jpg",
+                "650": "/media/cms/relation_product/31130/313881307_m650.jpg"
+            },
+            "name": "Донат с шоколадным кремом",
+            "price": {
+                "currency": "RUB",
+                "value": 96
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Мороженое из цельного молока, взбитое с сочным топпингом с натуральными кусочками вишни и кубиками мягкого шоколадного бисквита",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "333811795",
+                "primary": "344573423"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/333794359_m1000_7bb07f682c901f836aca8a07bad9be4b641b746b41bde4de88091edfcbb2db04.jpg",
+                "200": "/media/cms/relation_product/28447/333794359_m200_e5e9036032203cc32165cccbb32b2ae8a4e716d816753b768f6cb722da1570cf.jpg",
+                "650": "/media/cms/relation_product/28447/333794359_m650_b75fa161558d8ad008244444489c08e788c439322f68ecd595386a89ec5dffd0.jpg"
+            },
+            "name": "Макфлурри Вишневый пирог",
+            "price": {
+                "currency": "RUB",
+                "value": 128
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сытный пирог с начинкой из куриного филе и шампиньонов",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "333894407",
+                "primary": "344575959"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/333878821_m1000_9de79dff7c7b3d51b1ceaef486bbd7024e905639d48e4470f3d7ffbf868d5fc6.jpg",
+                "200": "/media/cms/relation_product/30405/333878821_m200_cf5191169427a73b15c5498da7cd04fbc5fcf3f9f8e352231574c23cca840238.jpg",
+                "650": "/media/cms/relation_product/30405/333878821_m650_2f873bcce910e671ffb0d57341ac353e06352ca31722bcd6239912540eb20c65.jpg"
+            },
+            "name": "Киш с курицей и грибами",
+            "price": {
+                "currency": "RUB",
+                "value": 156
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Мороженое из натурального цельного молока, взбитое с клубничным наполнителем и с вафельно-шоколадной крошкой",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916660",
+                "primary": "344573424"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/309164878_m1000_50be452c8a733f6ffab947d0492173f821a528a2862c15bead7d99f084aacb0d.jpg",
+                "200": "/media/cms/relation_product/30405/309164878_m200_0b8ac2b70e6e0efadb56137ed4fd49dffe9c37d7690256dcb35ac4517c11403e.jpg",
+                "650": "/media/cms/relation_product/30405/309164878_m650_4d0a0a65196d28015617672172d725adc4a15f0854125879d1c8e51e148fddc5.jpg"
+            },
+            "name": "Макфлурри Де Люкс Клубнично-Шоколадное",
+            "price": {
+                "currency": "RUB",
+                "value": 116
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Мороженое из натурального цельного молока, взбитое с добавкой сливочной помадки с вафельно-шоколадной крошкой",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916661",
+                "primary": "344573425"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/309164877_m1000_f952b217267f65ad10be421f3c0de70547c1040d8107619ed49e24ec42ee436d.jpg",
+                "200": "/media/cms/relation_product/30405/309164877_m200_f5d54a3ae9d696ef64c3c6b2f9775fd5989f718ffa99944694ca76dae4c978c1.jpg",
+                "650": "/media/cms/relation_product/30405/309164877_m650_e5e250180c284f48b5cc44a3b56cf9634d03033d519c5d1f40a2b3e8dec1e95f.jpg"
+            },
+            "name": "Макфлурри Де Люкс Карамельно-Шоколадное",
+            "price": {
+                "currency": "RUB",
+                "value": 116
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Обжаренный во фритюре пирожок со сладкой начинкой из вишни",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916663",
+                "primary": "344573427"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916663_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916663_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916663_m650.jpg"
+            },
+            "name": "Пирожок Вишневый",
+            "price": {
+                "currency": "RUB",
+                "value": 59
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Круассан из слоёного дрожжевого теста с двумя ломтиками сыра Эмменталь и двумя ломтиками ветчины",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "319637581",
+                "primary": "344575960"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/319637581_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/319637581_m200.jpg",
+                "650": "/media/cms/relation_product/31130/319637581_m650.jpg"
+            },
+            "name": "Круассан с ветчиной и сыром",
+            "price": {
+                "currency": "RUB",
+                "value": 102
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Воздушная булочка из слоёного теста, украшенная орехом пекан и карамельной глазурью",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "319637582",
+                "primary": "344575961"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/319637582_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/319637582_m200.jpg",
+                "650": "/media/cms/relation_product/31130/319637582_m650.jpg"
+            },
+            "name": "Улитка с карамелью",
+            "price": {
+                "currency": "RUB",
+                "value": 109
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Горячая булочка Чиабатта, поджаренная в тостере, с тунцом, сыром Чеддер, заправленная специальным соусом Тар-Тар",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001693",
+                "primary": "344575962"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/325897934_m1000_79a168828821c8b7cc512e1236db20ea11e780b8dca1229fe9c8076f434ef12f.jpg",
+                "200": "/media/cms/relation_product/47896/325897934_m200_1ca27840b7c81a8bce290e58644af18b76cbd1df1899ee7b8fda0521b5a7dbbd.jpg",
+                "650": "/media/cms/relation_product/47896/325897934_m650_352a2c53159a02c8520c31e3cb183797d33f4f5ec39ee3934b30a2c3482ee70f.jpg"
+            },
+            "name": "Чиабатта с тунцом",
+            "price": {
+                "currency": "RUB",
+                "value": 151
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Горячая булочка Чиабатта, поджаренная в тостере, с тремя ломтиками сыра Эмменталь, двумя кусочками ветчины и двумя ломтиками помидора",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001694",
+                "primary": "344575963"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/325897935_m1000_dfa1ecbf15350bd4fc58dcfe1e91f901b99047fd0ad151522487f464b1fbbd43.jpg",
+                "200": "/media/cms/relation_product/47896/325897935_m200_193511554d5ae38dc1ba43c80dc524c69971b9b0e5ef05387a2ca4d48d2a6417.jpg",
+                "650": "/media/cms/relation_product/47896/325897935_m650_84397e2ea293efcf1cf070d25d53be4c60ca8a7dcb2a090a752cabc9b1ba6e55.jpg"
+            },
+            "name": "Чиабатта с ветчиной и сыром",
+            "price": {
+                "currency": "RUB",
+                "value": 151
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Шоколадное песочное печенье с кусочками белого и молочного шоколада",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001695",
+                "primary": "344575964"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/321001695_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/321001695_m200.jpg",
+                "650": "/media/cms/relation_product/31130/321001695_m650.jpg"
+            },
+            "name": "Печенье шоколадное с кусочками шоколада",
+            "price": {
+                "currency": "RUB",
+                "value": 81
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Классический  солоновато-сладкий соус  Азиатской  кухни на основе соевого соуса",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "315297163",
+                "primary": "344573433"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/315297163_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/315297163_m200.jpg",
+                "650": "/media/cms/relation_product/31130/315297163_m650.jpg"
+            },
+            "name": "Соус Терияки",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Пикантный соус с нежным сливочно-чесночным вкусом",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313452430",
+                "primary": "344573434"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/313452430_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/313452430_m200.jpg",
+                "650": "/media/cms/relation_product/31130/313452430_m650.jpg"
+            },
+            "name": "Соус Чесночный",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723045",
+                "primary": "344573435"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723045_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723045_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723045_m650.jpg"
+            },
+            "name": "Соус Сырный",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723046",
+                "primary": "344573436"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723046_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723046_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723046_m650.jpg"
+            },
+            "name": "Соус Кисло-Сладкий",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723047",
+                "primary": "344573437"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723047_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723047_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723047_m650.jpg"
+            },
+            "name": "Соус Барбекю",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723049",
+                "primary": "344573438"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723049_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723049_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723049_m650.jpg"
+            },
+            "name": "Соус Горчичный",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916667",
+                "primary": "344573439"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916667_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916667_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916667_m650.jpg"
+            },
+            "name": "Соус Тысяча Островов",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723051",
+                "primary": "344573440"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723051_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723051_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723051_m650.jpg"
+            },
+            "name": "Соус Сладкий Чили",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723052",
+                "primary": "344573441"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723052_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723052_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723052_m650.jpg"
+            },
+            "name": "Кетчуп",
+            "price": {
+                "currency": "RUB",
+                "value": 43
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Молочный напиток с тонким ароматом эспрессо и нежной молочной пеной (Средний 300 мл, Большой 400 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916673",
+                "primary": "344573442"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916673_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916673_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916673_m650.jpg"
+            },
+            "name": "Латте",
+            "price": {
+                "currency": "RUB",
+                "value": 109
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Молочный напиток с тонким ароматом эспрессо и плотной шапкой молочной пены со вкусом кленового сиропа и ореха пекан",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334399151",
+                "primary": "344573443"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/334359660_m1000_32c3c2bdea2073eae0cd10db7e52bb7e1d697c48e8a90e60e07bf2363bf611c8.jpg",
+                "200": "/media/cms/relation_product/30405/334359660_m200_433c42f2e9f95ffe12a331ce52e38e6d5bc8a2f41698c06ace5a26b82add208d.jpg",
+                "650": "/media/cms/relation_product/30405/334359660_m650_3c9a3889a9fddea04eb065b387d2e4649d0c123ef10edead93a9ee5db7396050.jpg"
+            },
+            "name": "Капучино Кленовый пекан",
+            "price": {
+                "currency": "RUB",
+                "value": 143
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Согревающий напиток на основе натурального пюре из ягод вишни и черной смородины с легкой ноткой пряности",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334399152",
+                "primary": "344573444"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/334359661_m1000_b75955436db44b875037b69d119ce23f1133b694a4f9b4476a9d65e2322ae9c7.jpg",
+                "200": "/media/cms/relation_product/30405/334359661_m200_05abee3e20e6a13ee1bbb65179013265c63fbc81d64510e784a2fab1ef252a39.jpg",
+                "650": "/media/cms/relation_product/30405/334359661_m650_19774ac6f14b73c6e5dfcae42de95afe14278f414b34ffd893ede95e48adb1d4.jpg"
+            },
+            "name": "Пунш Пряная вишня-Смородина",
+            "price": {
+                "currency": "RUB",
+                "value": 106
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Молочный напиток с тонким ароматом эспрессо и плотной шапкой молочной пены (Средний 300 мл, Большой 400 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916674",
+                "primary": "344573445"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916674_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916674_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916674_m650.jpg"
+            },
+            "name": "Капучино",
+            "price": {
+                "currency": "RUB",
+                "value": 109
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Чёрный кофе на основе порции эспрессо и горячей воды (Средний 300 мл, Большой 400 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321283522",
+                "primary": "344573446"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/321283522_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/321283522_m200.jpg",
+                "650": "/media/cms/relation_product/31130/321283522_m650.jpg"
+            },
+            "name": "Американо",
+            "price": {
+                "currency": "RUB",
+                "value": 86
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Чай черный с бергамотом Эрл Грей (Средний 300 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334271458",
+                "primary": "344586448"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/314186973_m1000_748ca849ce008547340c488079342820f8cfb9545b56edd40da336f61b466488.jpg",
+                "200": "/media/cms/relation_product/34450/314186973_m200_958776049c5d12cb08e5ad76468bb1820b15fc08cea7372271b47157f31c6a8c.jpg",
+                "650": "/media/cms/relation_product/34450/314186973_m650_8ba42afdb5d46316369d733d3a7dd8796439af453ddff5acc3746829af02d8b8.jpg"
+            },
+            "name": "Чай черный Эрл Грей",
+            "price": {
+                "currency": "RUB",
+                "value": 72
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Чай черный (Средний 300 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334271459",
+                "primary": "344586450"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/314186974_m1000_105678a745a6854813538ddf720df4049e287e3ebb8205e61cb912fde3d9ab28.jpg",
+                "200": "/media/cms/relation_product/34450/314186974_m200_61cdf2bd51282099d7d325bcd07cd1f6051edf7579972ce84823f4ce408cf759.jpg",
+                "650": "/media/cms/relation_product/34450/314186974_m650_ad80cc859257ef9b1bcbf8802ecde22e151f50ff144295cbc9231b8d50092c8f.jpg"
+            },
+            "name": "Чай черный",
+            "price": {
+                "currency": "RUB",
+                "value": 72
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Чай зеленый (Средний 300 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334271460",
+                "primary": "344586452"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/314186975_m1000_d7d087b62d9c225c30ee8b80aeb58da1d0589cc9761e84499eb9d8921e16e279.jpg",
+                "200": "/media/cms/relation_product/34450/314186975_m200_9ed7bcc7887ac94a09633f71a7b10a98c4b8adecf88ceb9be347222d62ff363f.jpg",
+                "650": "/media/cms/relation_product/34450/314186975_m650_d26e6f78f627b205212216ac3a7f86ee5715e1862e3f039943c61d8a7a6244c1.jpg"
+            },
+            "name": "Чай зеленый",
+            "price": {
+                "currency": "RUB",
+                "value": 72
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Минеральная вода с газом (500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916679",
+                "primary": "344573450"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916679_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916679_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916679_m650.jpg"
+            },
+            "name": "Питьевая вода Аква Минерале газированная",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Минеральная вода без газа (500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916680",
+                "primary": "344573451"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/311916680_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/311916680_m200.jpg",
+                "650": "/media/cms/relation_product/31130/311916680_m650.jpg"
+            },
+            "name": "Питьевая вода Аква Минерале негазированная",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси и клубничного сиропа (Средний 470 мл, Большой 600 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916668",
+                "primary": "344573452"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/310862771_m1000_fe867f7e7fce2d243176fb3bb4fe72c0b0a61a71fe07899e5f122dce5bb6ddbf.jpg",
+                "200": "/media/cms/relation_product/30405/310862771_m200_beb2dd8ea7d3ac08e36d6376490769f2e4368d8ae12fb42b8f377e23f6499aea.jpg",
+                "650": "/media/cms/relation_product/30405/310862771_m650_caf99768164c363c3d609994765998b87d5768c5f4bcdfa175f2ff57022ffeb3.jpg"
+            },
+            "name": "Молочный Коктейль Клубничный",
+            "price": {
+                "currency": "RUB",
+                "value": 131
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси и ванильного сиропа (Средний 470 мл, Большой 600 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916669",
+                "primary": "344573453"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/310862772_m1000_30fb2e9ee6767b283a951025a3241889d35c2a8267b8283e0f93531ba8236433.jpg",
+                "200": "/media/cms/relation_product/30405/310862772_m200_41a31584a78bd975f5c21d1371208717536a263c96b48b698ff47f15b157b1fd.jpg",
+                "650": "/media/cms/relation_product/30405/310862772_m650_79b175da6e54cd7c2e939eb602893ba4d790b843f8822684360e249c0a4bc2e7.jpg"
+            },
+            "name": "Молочный Коктейль Ванильный",
+            "price": {
+                "currency": "RUB",
+                "value": 131
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Великолепно взбитый коктейль, приготовленный из высококачественной молочной смеси и шоколадного сиропа (Средний 470 мл, Большой 600 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916670",
+                "primary": "344573454"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/310862832_m1000_b30046fa2d15b900871641aa762c8ce6036b407fb9fd647aa9cd2cd005963112.jpg",
+                "200": "/media/cms/relation_product/30405/310862832_m200_012cf11ec6fccb6ca1518c9f11dcf999662a5786bbb64ee83ac3dff672034c7e.jpg",
+                "650": "/media/cms/relation_product/30405/310862832_m650_0f2d2f388043f6eb5c09e54925730d52e9ca0b284eb957ce1fa51a6eef736690.jpg"
+            },
+            "name": "Молочный Коктейль Шоколадный",
+            "price": {
+                "currency": "RUB",
+                "value": 131
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный газированный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916615",
+                "primary": "344575362"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/333458953_m1000_c36d1009a6f3ec9025d8a6c3410b27978facd0cffc523262fa90ec07769681aa.jpg",
+                "200": "/media/cms/relation_product/30405/333458953_m200_044591812f7d14c5b3dd5b0e8e3b181505038457a7359e3fb378f71fa7a81020.jpg",
+                "650": "/media/cms/relation_product/30405/333458953_m650_5d7ec2a72093337dcdc05fac7fedcfe43ba55b3eaabdc336003b8f7d0f37161f.jpg"
+            },
+            "name": "Кока-Кола",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный газированный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "333500404",
+                "primary": "344575363"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/333458953_m1000_c36d1009a6f3ec9025d8a6c3410b27978facd0cffc523262fa90ec07769681aa.jpg",
+                "200": "/media/cms/relation_product/30405/333458953_m200_044591812f7d14c5b3dd5b0e8e3b181505038457a7359e3fb378f71fa7a81020.jpg",
+                "650": "/media/cms/relation_product/30405/333458953_m650_5d7ec2a72093337dcdc05fac7fedcfe43ba55b3eaabdc336003b8f7d0f37161f.jpg"
+            },
+            "name": "Кока-Кола Без сахара",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный газированный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916617",
+                "primary": "344575364"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521163_m1000_bc971fc807745d4294828f1638f5703416033e9ec6ef89eb78e94b77015ddddd.jpg",
+                "200": "/media/cms/relation_product/30405/311521163_m200_2b718b412e0ec45c39ef90ccf415a1a6e23edb7418acd5ad01049f1d5bcfcd8f.jpg",
+                "650": "/media/cms/relation_product/30405/311521163_m650_511818004eb8fdc6a7c0f0c4cd251f4a183e7ffc9745e015e425b9badade49e4.jpg"
+            },
+            "name": "Спрайт",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный газированный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916618",
+                "primary": "344575365"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/310862845_m1000_48de0202e170143a658a9b92a99aeff1b5aed5cdffef246b401ccd27a56ff989.jpg",
+                "200": "/media/cms/relation_product/30405/310862845_m200_1a82330f544c6ca78afc564f60f0ac7c28c76a40260804a17db1b4eeb387a64e.jpg",
+                "650": "/media/cms/relation_product/30405/310862845_m650_8de7cc10bc400bb5b9b10d3c382b3f5e57738427e847a21772c6f3479a054a56.jpg"
+            },
+            "name": "Фанта",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Свежевосстановленный апельсиновый сок (Средний 470 мл, Большой 600 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916688",
+                "primary": "344573459"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521167_m1000_7e6cc8afe68bb324c1bffb6bf5ae32e46f5d80880b5b685ab24cda42e5f1f8ad.jpg",
+                "200": "/media/cms/relation_product/30405/311521167_m200_3c1bbe63e642f04ef0df095723dd101cfb3ef3c21f338231b1b71a9694df39ae.jpg",
+                "650": "/media/cms/relation_product/30405/311521167_m650_4fdcdf6abc35d790ca5f7eb9d4ed06bd7a5e5ea29f8e1723675c602cae48b842.jpg"
+            },
+            "name": "Апельсиновый сок",
+            "price": {
+                "currency": "RUB",
+                "value": 90
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916619",
+                "primary": "344575366"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521165_m1000_c5daa111b5c5b6c024a778bf039d763f669e84c303e2ec7be673177af2842893.jpg",
+                "200": "/media/cms/relation_product/30405/311521165_m200_f43e814c71c44cf5823f63644cec240ca3fad57731939ad9ed4ede9c29414c07.jpg",
+                "650": "/media/cms/relation_product/30405/311521165_m650_4f31f7e263427bbb47c68a24175d881b2e224cf315743422d215e51bc6511ada.jpg"
+            },
+            "name": "Липтон Айс Ти - Лимон",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Прохладительный напиток (Средний 400 мл, Большой 500 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916620",
+                "primary": "344575367"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521166_m1000_a04a44dc89ea3b2b45bd9e4f1cb1f55c5bf5be677d54f58f5e72a66a7ee35dee.jpg",
+                "200": "/media/cms/relation_product/30405/311521166_m200_84504547b536b771aa545a58bea757ed27952dd452968b82d1b7fda6dc500982.jpg",
+                "650": "/media/cms/relation_product/30405/311521166_m650_9dde3f2abff97dda5834c734015197784b79701e6a1acc369474a21bc7cc16cd.jpg"
+            },
+            "name": "Липтон Айс Ти - Зеленый Чай",
+            "price": {
+                "currency": "RUB",
+                "value": 84
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Свежевосстановленный яблочный сок (Средний 470 мл, Большой 600 мл)",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "311916689",
+                "primary": "344573462"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/310862790_m1000_79a1adbc184cd323d303ce74ce0e059448929db95149c3d209b688ccf20d4b2a.jpg",
+                "200": "/media/cms/relation_product/30405/310862790_m200_f936377a4216fd04b14a6e912a5ba881d361d80f3eb41dabe0d4d11c6ffb361d.jpg",
+                "650": "/media/cms/relation_product/30405/310862790_m650_e71a5b4071cfddcb0cefe0011a416e823a80c31c0870c5a25abb3da95b0e23b7.jpg"
+            },
+            "name": "Яблочный Сок",
+            "price": {
+                "currency": "RUB",
+                "value": 90
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Игрушка Хэппи Мил в ассортименте. Собери всю коллекцию персонажей мультфильма!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "341024936",
+                "primary": "344573465"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34186/341022214_m1000_b099a88d1d91d8a8a653bdb97034fd469d28eb687452c9cbf1886b0ef74a41e5.jpg",
+                "200": "/media/cms/relation_product/34186/341022214_m200_fcaa0ad5851a1e201624d73c2f344825f64193100ee2ca6c84f31e8b9693a80c.jpg",
+                "650": "/media/cms/relation_product/34186/341022214_m650_a0f94723ddf1666b77a637cd75f784fc630e11c8776d0a01ca76cb63488b614a.jpg"
+            },
+            "name": "Игрушка из серии DreamWorks Все звезды",
+            "price": {
+                "currency": "RUB",
+                "value": 115
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Два Шримп Ролла по специальной цене!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "340163784",
+                "primary": "340163784"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/340161075_m1000_f964f1007245695e0e81d8f21115c6a109be4c58df0183e10ee5be59216323d9.jpg",
+                "200": "/media/cms/relation_product/47896/340161075_m200_6a55536cefa7728c59ad1fdcacd2e125c934ee8d9662c96232f19be938014e1d.jpg",
+                "650": "/media/cms/relation_product/47896/340161075_m650_40c840592ebcd8770f7f1976250707d3e901476d1c31da9bf6ca1e09a215ab13.jpg"
+            },
+            "name": "Пара Шримп Роллов",
+            "price": {
+                "currency": "RUB",
+                "value": 375
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два Цезарь Ролла с беконом по специальной цене!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "340163785",
+                "primary": "340163785"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/340161076_m1000_f97df5853f8206aeb4b1fe1d5bcb57b5753628d81bcc4b3a01a90f3f26a77fdd.jpg",
+                "200": "/media/cms/relation_product/47896/340161076_m200_a5ade70eb773b345c6d5b6d3fffcf9a4872ce52e8f34bcb5e658a28421ffe54d.jpg",
+                "650": "/media/cms/relation_product/47896/340161076_m650_1b3bf4069f5a0d0c4bdf46e7b5c356af8f8b7eed7cc4d910c0170fa410fb748c.jpg"
+            },
+            "name": "Пара Цезарь Роллов с беконом",
+            "price": {
+                "currency": "RUB",
+                "value": 359
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сытный обед с легендарным Биг Тейсти! Биг Тейсти – 2 шт., Картофель фри средняя порция – 2 шт., Чикен МакНаггетс (9 шт.) – 1 порция, Соус на выбор – 4 шт.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "329580178",
+                "primary": "344573470"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28720/329579657_m1000_05b1359cde4a9b608577808a59bd6a75a117fbf42e44b3797cf5105553792049.jpg",
+                "200": "/media/cms/relation_product/28720/329579657_m200_7be9af75e4260d1e470e16bc80dfaf1c4f7710dad241507fb2c0c00c74d9d99f.jpg",
+                "650": "/media/cms/relation_product/28720/329579657_m650_a80527c675a7ab79f3e2387a552f4d988f6af107ac596b411411914a6c25b656.jpg"
+            },
+            "name": "Обед с Биг Тейсти",
+            "price": {
+                "currency": "RUB",
+                "value": 945
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Только в МакДоставке! Биг Мак – 2 шт., Чикен Макнаггетс (9 шт.) – 1 порция, Картофель фри средняя порция – 2 шт., Соус на выбор – 4 шт.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269651",
+                "primary": "344582002"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/29367/313436262_m1000_0dae9f3742a64ce7cbe3dc3adeb7bee2be463b14d511c1907d56719ecfe63527.jpg",
+                "200": "/media/cms/relation_product/29367/313436262_m200_2d8e8985f587795733a912447ec2bd5db6dd6bf67751bc5d1c73bf70d65af4e1.jpg",
+                "650": "/media/cms/relation_product/29367/313436262_m650_a1d5d8881e330368150b6dbe51f902ce306026e9b3f93c66546f61a743aa1321.jpg"
+            },
+            "name": "Обед с Биг Мак и Чикен МакНаггетс (9 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 727
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Только в МакДоставке! Роял – 2 шт., Чикен МакНаггетс (9 шт.) – 1 порция, Картофель фри средняя порция – 2 шт., Соус на выбор – 4 шт.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269652",
+                "primary": "344575332"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/29367/313436263_m1000_d22702199f70477bcae1d0c1e9af85b8cbc897afaa674896d2714edd422e689b.jpg",
+                "200": "/media/cms/relation_product/29367/313436263_m200_a9219e5fe6173ef14e648403290a7498177bcbd67202c4479c1105bf82d05314.jpg",
+                "650": "/media/cms/relation_product/29367/313436263_m650_61beb56d3b85334eadbbe30c8ef8f8babcc4d57239fd4884d52918536432b5ca.jpg"
+            },
+            "name": "Обед с Роял и Чикен МакНаггетс (9 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 744
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сытный обед с двумя Роялами только в МакДоставке",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330542830",
+                "primary": "344586470"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/330541786_m1000_696761ae54d450210636566ab4473542664ad19df3b89fa879ff0dcc8ad9df00.jpg",
+                "200": "/media/cms/relation_product/47896/330541786_m200_7acc905cb1e5313b143602d5e81cccdd2b4308568374924699d2505080b14015.jpg",
+                "650": "/media/cms/relation_product/47896/330541786_m650_cf67e91b6a568dc48b72e0e0e646f342b0658fa1bdc68dfeec68aa87b28042da.jpg"
+            },
+            "name": "Обед на двоих с Роял",
+            "price": {
+                "currency": "RUB",
+                "value": 610
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сытный обед с двумя Биг Маками только в МакДоставке",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "327794151",
+                "primary": "344586268"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/55602/327794966_m1000_387041e537fdc297d97d15bdd086f15465fe9133c339f2e5e197006e5fc71721.jpg",
+                "200": "/media/cms/relation_product/55602/327794966_m200_6bf98f0c9a4d17934b370dc379cb6ac3190fa6ea716244ca4ff327bb62a94257.jpg",
+                "650": "/media/cms/relation_product/55602/327794966_m650_ac6f2688dcbcc5cb33c27af95879cbba46a8f4e332783bdf543c36795e15e61d.jpg"
+            },
+            "name": "Обед на двоих с Биг Маком",
+            "price": {
+                "currency": "RUB",
+                "value": 556
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сытный обед с двумя Макчикен Премьер только в МакДоставке",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "332879953",
+                "primary": "344586473"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/332877750_m1000_1485f21e0dc9dccbae8b82d7da1c5a359acfffbe3300a0809975fa2b00fb789f.jpg",
+                "200": "/media/cms/relation_product/47896/332877750_m200_d7bd8f59d1d4cb77217eff4523b250963c22dce06bc79b5a659708ce8c775e9a.jpg",
+                "650": "/media/cms/relation_product/47896/332877750_m650_5a80e3e5e69d3432f04371c17986d8b1b9c3ad489613a4ef18dec4b09129f986.jpg"
+            },
+            "name": "Обед на двоих с Макчикен Премьер",
+            "price": {
+                "currency": "RUB",
+                "value": 538
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Макчикена Острого, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847297",
+                "primary": "344573475"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339765310_m1000_d87cfeb94bdf66e8db8b56c5280fe63bb123868be04515f3d1efbfc07308073e.jpg",
+                "200": "/media/cms/relation_product/28447/339765310_m200_2dafd968a5b161b6a9968eb1f0577df9ea291cb158adb412e03ea89b2942c811.jpg",
+                "650": "/media/cms/relation_product/28447/339765310_m650_0c063971d844af522effa0666530118c8c5c0608569b79913a8fc2cf3947d7fe.jpg"
+            },
+            "name": "Макчикен Острый Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 245
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Макчикен Премьера Острого, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847298",
+                "primary": "344573476"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339765312_m1000_46c7a673f42c7a18984ee3ac97710f9e376a84a753396cee17a4ef21818f832c.jpg",
+                "200": "/media/cms/relation_product/28447/339765312_m200_dd09e78c842bda676ed77f31c0476c2f2a97980dd5e50ac1b1d209779c0e5df6.jpg",
+                "650": "/media/cms/relation_product/28447/339765312_m650_9c0bf218e125c7378a76e429ba1d6a607ffaa1f1128507d2052b78b5fd2cbdf8.jpg"
+            },
+            "name": "Макчикен Премьер Острый Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 298
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Двойного Биг Тейсти, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "314090886",
+                "primary": "344573477"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/314076519_m1000_7bb1c573e2fc5ce2fb59cd53f0ad386dd2660f5c3b73cf328fd3e221d9fea141.jpg",
+                "200": "/media/cms/relation_product/30405/314076519_m200_48e930b876a3e8017001a1ff3330bb290f1dc3b3ae1d3272c2f1d44660877c2d.jpg",
+                "650": "/media/cms/relation_product/30405/314076519_m650_c78f5cb5bf263efc72c54de4a4d903b5d12609ba2f17304b3a91bb2767d290b3.jpg"
+            },
+            "name": "Двойной Биг Тейсти Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 467
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Биг Тейсти Три сыра, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "338043378",
+                "primary": "344577126"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34460/337771221_m1000_85292c2929b48eb4d267e26ff1a76e35bd05c4ba6ff07910ce5b7f824e109f0b.jpg",
+                "200": "/media/cms/relation_product/34460/337771221_m200_e9014bd605c761547a878ea8d7210fa3840f31f373033806fe048fb420981d4f.jpg",
+                "650": "/media/cms/relation_product/34460/337771221_m650_0e2e4011c5cf83139146170ffb994cae3bee0906ced7e6ebfa4371db76cd7584.jpg"
+            },
+            "name": "Биг Тейсти Три сыра Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 405
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Биг Тейсти, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269655",
+                "primary": "344577357"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/311776958_m1000_d83035f6fdfd9352c0bf4ea08a27de7b791f6dc3d87d40e609e3493accd7a414.jpg",
+                "200": "/media/cms/relation_product/28447/311776958_m200_04ef36f6f09edd2497e4c125d7e9610c06764158b624eaac913f299901cc3679.jpg",
+                "650": "/media/cms/relation_product/28447/311776958_m650_b8b81d61d9426ce357231b1af65735c546747f867a56f021b3ebfcdc89e259c6.jpg"
+            },
+            "name": "Биг Тейсти Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 384
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Двойного Рояла, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269656",
+                "primary": "344577358"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/311776960_m1000_b695daae1feada04749721a05148a6dd81981c0d38360ec426337af7b5132031.jpg",
+                "200": "/media/cms/relation_product/28447/311776960_m200_3792521a38bb1a19eec99f004ec9f540e717801a09a0bbfb2c85b974e10ee196.jpg",
+                "650": "/media/cms/relation_product/28447/311776960_m650_fc6f25b4b5eefd44552c7e44e842ace0a0ded2476694ce3425adb7b15b6571e4.jpg"
+            },
+            "name": "Двойной Роял Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 381
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Двойного Биг Мака, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313109513",
+                "primary": "344573480"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/313100822_m1000_233c25e2229fb1a149020e6533cf02adbd752fd996c9e2d88ed40c902ada09c6.jpg",
+                "200": "/media/cms/relation_product/30405/313100822_m200_8cfa2a9836e3708ff9040720cc45b6e1ec2c83c0c7a8d7ca0aadc6cb986cac0c.jpg",
+                "650": "/media/cms/relation_product/30405/313100822_m650_1d4a19eb392e7e10aac74601dd6e0e4933cf8cd6d2b25acf172c5ceb99ce31ce.jpg"
+            },
+            "name": "Двойной Биг Мак Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 344
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Биг Тейсти Острый, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313930130",
+                "primary": "344577359"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/313954720_m1000_ee42566b8f597618dbc4586b6017c729277ea68c99514d579312c59238f9553f.jpg",
+                "200": "/media/cms/relation_product/30405/313954720_m200_cdf7a30b9354740c82ab6ac31fa29a9f80d75f9dbf7e9ae65f68d20284cab25c.jpg",
+                "650": "/media/cms/relation_product/30405/313954720_m650_6b9a016c5bd6deb1eb572256ac6d2189b05bf3de1fa95f9f299d1239a5878241.jpg"
+            },
+            "name": "Биг Тейсти Джуниор Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 354
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Двойного Филе-О-Фиш, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269657",
+                "primary": "344573482"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311126278_m1000_c54b5de493e2184777b557f19dc2b02cf9cbecaef3ca0526dde6cc7c08477b09.jpg",
+                "200": "/media/cms/relation_product/30405/311126278_m200_35ff930431ac69efbc331b9af03a3a07fad50f6db1d2b8c1e8dc66c7d714a5b9.jpg",
+                "650": "/media/cms/relation_product/30405/311126278_m650_97ccf607f1b025777c5d5c3a6d62eb82d6e8b9e6c628c4c4b9bbbfa77ccab71d.jpg"
+            },
+            "name": "Двойной Филе-О-Фиш Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 340
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Рояла Де Люкс, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269658",
+                "primary": "344577360"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311126281_m1000_5cc185c257dd5381ed2c6ddc355b4d7b893d8b40aa2d3bdad5a78a5160ed7016.jpg",
+                "200": "/media/cms/relation_product/30405/311126281_m200_d510de2a3eec625f7d5f521a4c2a8b5361090dbf1876aee4e3ab881afa699b24.jpg",
+                "650": "/media/cms/relation_product/30405/311126281_m650_a960986251660205f9f7fa54b8474655cc51d370b99ced0dcff2b6e4f775e5b7.jpg"
+            },
+            "name": "Роял Де Люкс Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 335
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Филе-О-Фиш, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269659",
+                "primary": "344577130"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311126279_m1000_ded2e724d4223b69f58d9dd146f5ecb0840583b38964c689a4e61668db3bba60.jpg",
+                "200": "/media/cms/relation_product/30405/311126279_m200_56f324fdac17fadfb388e3170eedc8643aff32537f5512e3c93ec17a770a5bd1.jpg",
+                "650": "/media/cms/relation_product/30405/311126279_m650_7bb2a9332830219f0f857930a8d9a1c6179d1999e3be83db11ba444da7b9a70f.jpg"
+            },
+            "name": "Филе-О-Фиш Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 298
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Рояла, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269660",
+                "primary": "344582004"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311126282_m1000_9df1c6dfaa0419be2032c6aa6b2eb64bb55d120c1cb7ce6321b7006579f8e1e5.jpg",
+                "200": "/media/cms/relation_product/30405/311126282_m200_4ffbbaa17a4aceb446eadd09dfe700d2bb8bc9f671564088bfb6e2167a5f2dfd.jpg",
+                "650": "/media/cms/relation_product/30405/311126282_m650_6f59f3a4d5a38e141ee0eef46018759153060bfbc73254c6d8d7038e76a7654e.jpg"
+            },
+            "name": "Роял Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 313
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Макчикен Премьера, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269661",
+                "primary": "344577131"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/35868/332880752_m1000_442ec3e87363ccd524c966377a87536e0bff0149815047a937d1998d195ae009.jpg",
+                "200": "/media/cms/relation_product/35868/332880752_m200_98dcb9b2b7e0a5781e784acc8c37247213848304d168311442e72196c68fca6c.jpg",
+                "650": "/media/cms/relation_product/35868/332880752_m650_cf8bc5568bd0361bf6a486ce3b9d7e6a81cb69eac3f0f8389bdb650a83ce0c44.jpg"
+            },
+            "name": "Макчикен Премьер Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 275
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Биг Мака, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269662",
+                "primary": "344582005"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521121_m1000_8f186dcbc175d3f688edc34c65ba91d01bdd98114627b2803b4a84b0e2f06b73.jpg",
+                "200": "/media/cms/relation_product/30405/311521121_m200_557e64cf5958b39f27c79aed4045da5fd693bc4158f6fedb0c82ee4543e4c365.jpg",
+                "650": "/media/cms/relation_product/30405/311521121_m650_93ff4375ea700a91be2f44393034ca55a819ea5e2d252197a8e172b8aad3ee05.jpg"
+            },
+            "name": "Биг Мак Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 274
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Двойного Чизбургера, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269663",
+                "primary": "344573488"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521127_m1000_a250391e3c4722a3a9b351021f8328a0986f24340d6d9313ce9523d903ab2f12.jpg",
+                "200": "/media/cms/relation_product/30405/311521127_m200_f6a0197630efe8df202f92141375058427e799c2d36389ba256f526ccd312589.jpg",
+                "650": "/media/cms/relation_product/30405/311521127_m650_abe2d92ea0411384e00571d88c86d8b40be57728a648cd56aaef87d0bceb4d94.jpg"
+            },
+            "name": "Двойной Чизбургер Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 247
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Макчикена, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269664",
+                "primary": "344573489"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/311521129_m1000_d97d8a99cb164bed8d98821807314982ab1e3575b91497db49717e3ca51a700a.jpg",
+                "200": "/media/cms/relation_product/30405/311521129_m200_175a50ff84ab8be20dd7e900ca5a2900e00f952dc39c0bcd060a8c46b8713d01.jpg",
+                "650": "/media/cms/relation_product/30405/311521129_m650_b598102069dd7074ad59164c3305afe814bd3a0a2f2681ac0e29b6cb1c021602.jpg"
+            },
+            "name": "Макчикен Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 218
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Крылышек (3 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269672",
+                "primary": "344573490"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/327992340_m1000_bc59320773d1986f040d14fadf53ee2aee6fe28d18ced2b75ce443849123cd66.jpg",
+                "200": "/media/cms/relation_product/30405/327992340_m200_4f50de580d0f58bfd91d1acb8ed13ee8e690013ccfcfd18f739952be608e6e8e.jpg",
+                "650": "/media/cms/relation_product/30405/327992340_m650_94846d3dfcb9c8464f45a5055bdce90f9cceb2bef6bfe57c44acfe76d9e609bb.jpg"
+            },
+            "name": "Куриные Крылышки (3 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 284
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Биг Тейсти Ролла, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "318635717",
+                "primary": "344577135"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/318576835_m1000_f79a29af07c3d885a059024f5a46a9c9867f9b31d66b76c0cb31edb730ed89bb.jpg",
+                "200": "/media/cms/relation_product/30405/318576835_m200_7d17b6a684624f3fb9fe20c5f88c107f11a06c4c9b7441054733a783446dbb11.jpg",
+                "650": "/media/cms/relation_product/30405/318576835_m650_a72515510faa3aa2dbcbebd960b7a40da1977e2e9b20ec143eca1e27881dfb45.jpg"
+            },
+            "name": "Биг Тейсти Ролл Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 328
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Цезарь Ролла с беконом, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847299",
+                "primary": "344582006"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339306855_m1000_0d35647ebc1702104fb9fcaca6e8e9b8d99d835220c2a619adaae4960757c8d5.jpg",
+                "200": "/media/cms/relation_product/28447/339306855_m200_63cc2eff2004ac8901dba431cf9d89b5db3bfccef2faee80ab4f761e24bdee24.jpg",
+                "650": "/media/cms/relation_product/28447/339306855_m650_c0b6e441839a5826f7695240e504de422c2a6d17139f7f40c0614dc30fa44135.jpg"
+            },
+            "name": "Цезарь Ролл с беконом Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 325
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Цезарь Ролла, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269666",
+                "primary": "344582007"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/35868/315698097_m1000_c75339b5092863bfcf1052309b5449ef7acf283f3bc151d2c600e86da5398906.jpg",
+                "200": "/media/cms/relation_product/35868/315698097_m200_159c3cf8e52fc1c41a169151c914851a2fd82f71b51757dcf81d235bd6dac661.jpg",
+                "650": "/media/cms/relation_product/35868/315698097_m650_1ff253867479b1db77fdf7b2f3ccc1bfba464b74aba07730ef62640585cb28af.jpg"
+            },
+            "name": "Цезарь Ролл Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 323
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Шримп Ролла, Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269667",
+                "primary": "344573494"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/311246815_m1000_b6a84022a35c234722b43be34fd365d853a66967f05328556425fb884df2499f.jpg",
+                "200": "/media/cms/relation_product/28447/311246815_m200_2d3c33844bbcb73e1ab12a792004d4238748e1fae3807ce11bed6b4f83bf00b5.jpg",
+                "650": "/media/cms/relation_product/28447/311246815_m650_9dafbf29f7ed6aca15877af93def119557beeaf35ad5d1d3c32f88dc171da2e8.jpg"
+            },
+            "name": "Шримп Ролл Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 371
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Креветок (9 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269668",
+                "primary": "344573495"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/311246811_m1000_d47c93923c138a09e3f54a2a440f363936141518ea57bc2421b23091567856b9.jpg",
+                "200": "/media/cms/relation_product/28447/311246811_m200_30f7ee741a1b9687d9c913305a62237bf3450fdfbb89ed5c85e13c82f37f785b.jpg",
+                "650": "/media/cms/relation_product/28447/311246811_m650_691718fdc798ccdde47a410fa3a60c5531a959d768e8e934e06269703ca8efb5.jpg"
+            },
+            "name": "Креветки (9 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 476
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Креветок (6 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269669",
+                "primary": "344573496"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/311246813_m1000_132e41d63ac4ee177fbf6bc12351c5100ac0f8cec3576020294d198d8f64d2b5.jpg",
+                "200": "/media/cms/relation_product/28447/311246813_m200_149f1b6ad295f9871f8f2758f5d8ddb73da89bab087c27b71ae2372e4d8477ff.jpg",
+                "650": "/media/cms/relation_product/28447/311246813_m650_cc6fdd98093aaa3c43f788f4818783d39efdc7f8ea2eaa2df3eea0cd6f89f784.jpg"
+            },
+            "name": "Креветки (6 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 377
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Крылышек (7 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269670",
+                "primary": "344573497"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/327992342_m1000_f1b906822927a9a55319762f8c692d1ac1354178e4458a5561de1078d33df7ec.jpg",
+                "200": "/media/cms/relation_product/30405/327992342_m200_78a7c845b52a3570fbb2298ab51c68fd400fcb7c4dd471bde462116bc32990b8.jpg",
+                "650": "/media/cms/relation_product/30405/327992342_m650_390547eb4053b8fe3f552b30761d3bd7882dd58d6e8f6e5bc1aaccfa9f8ad47f.jpg"
+            },
+            "name": "Куриные Крылышки (7 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 391
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Крылышек (5 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269671",
+                "primary": "344573498"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/327992341_m1000_7bc62955eb668148ca9adbeda36a5b9ae8fc27b1d6a6a32a37d8064b14bd8a9e.jpg",
+                "200": "/media/cms/relation_product/30405/327992341_m200_9f30b71cbb303487ac2b3e41681a74bc931b8b5cc8e64e219bfd7b659c161cf6.jpg",
+                "650": "/media/cms/relation_product/30405/327992341_m650_7adf1fa2bda019212f63823f6d483e35b4aaf7a91835ea8379c838763b4fae8c.jpg"
+            },
+            "name": "Куриные Крылышки (5 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 333
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Стрипсов (7 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "338043379",
+                "primary": "344573499"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30583/321411288_m1000_2698b5d5d94296b68974f242b954d4edc6bd39e590f98c8c3009b4a5ae7b02bf.jpg",
+                "200": "/media/cms/relation_product/30583/321411288_m200_cb6179d900ae8bb59d946d20be3e3d61bde4c554bd45d2926e1ece83040473af.jpg",
+                "650": "/media/cms/relation_product/30583/321411288_m650_3685300f00441b5e334f4ebca260efd6d9d2330c774dec281ec2bbddc8c57f5c.jpg"
+            },
+            "name": "Куриные Стрипсы (7 шт.) Большой  МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 349
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Стрипсов (5 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269673",
+                "primary": "344573500"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/321420082_m1000_4846f3780ea6eb8fd937b9a8146d7858b2eced14d59bbf5faea8459ee1657a33.jpg",
+                "200": "/media/cms/relation_product/30405/321420082_m200_ca39e442717706a58c5d9e3a583fcb23d6639254b29d603fa1a7753989a1e97e.jpg",
+                "650": "/media/cms/relation_product/30405/321420082_m650_70099a9d7bd3af76a433eaa2be6fdf0ebaccfccccc38d40f252eda7a2fefa34c.jpg"
+            },
+            "name": "Куриные Стрипсы (5 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 297
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Куриных Стрипсов (3 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269674",
+                "primary": "344573501"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/321420080_m1000_0d37911da27959ed8d54e193185c49d5f53a4b8ad6e16b55e31ceb1e02067bf1.jpg",
+                "200": "/media/cms/relation_product/30405/321420080_m200_819e9849df50dfa52ca88a447e11845c1ec5d47a4a2782a8be181a23359845d3.jpg",
+                "650": "/media/cms/relation_product/30405/321420080_m650_6abfa62a272ccbdf35a48a8b3c3bb684cac8cee3f8163820e9692470b75b0729.jpg"
+            },
+            "name": "Куриные Стрипсы (3 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 234
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Чикен Макнаггетс (9 шт.), Картофеля на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269675",
+                "primary": "344573502"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/334359693_m1000_f79a6bb0d73fe9255c1c56e837afb647991efc16f03ca54895f4f9d91331eb23.jpg",
+                "200": "/media/cms/relation_product/30405/334359693_m200_57045c0fca439b14590f4dfdcb0793843d21511ba427fa074bf51f6b42563395.jpg",
+                "650": "/media/cms/relation_product/30405/334359693_m650_f6dfaefaf1e115c984cde607833149bc02a42f5456df721eb4e638b22850793b.jpg"
+            },
+            "name": "Чикен Макнаггетс (9 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 251
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой МакКомбо состоит из Чикен Макнаггетс (6 шт.), Картофеля фри на выбор и Напитка на выбор. При изменении комплектации цена МакКомбо может измениться",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334269676",
+                "primary": "344577365"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/334359694_m1000_941202bb72cc7d7433bab51e64439a87a5e8e347ab9c0168f41b8d817aa9f982.jpg",
+                "200": "/media/cms/relation_product/30405/334359694_m200_f8ef0024c75196fba0a9678ac837b1ed744965f3df422e37196377032304f061.jpg",
+                "650": "/media/cms/relation_product/30405/334359694_m650_28a7150e88c2158a39bd3825dd2632f3a0a8c63bc4ee1651d72b312eecbd0cab.jpg"
+            },
+            "name": "Чикен Макнаггетс (6 шт.) Большой МакКомбо",
+            "price": {
+                "currency": "RUB",
+                "value": 221
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Новинка от Макдоналдс! Сочная куриная котлета в хрустящей панировке, салата Айсберг и острый соус",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847300",
+                "primary": "344573504"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339765309_m1000_339231f6d8dc9a62add3d1472d379fb9cff14d2b183a2f4b39b88d02a9a7992a.jpg",
+                "200": "/media/cms/relation_product/28447/339765309_m200_115ec69a2100caa8d87573790515f436faa946bb5c905c105457b158131898db.jpg",
+                "650": "/media/cms/relation_product/28447/339765309_m650_c508ce0eb4dccffcc4c41633a1b6192b7c05d835c0fc905b54fe4b4ae49c274f.jpg"
+            },
+            "name": "Макчикен Острый",
+            "price": {
+                "currency": "RUB",
+                "value": 127
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Новинка от Макдоналдс! Сочная куриная котлета в хрустящей панировке, заправленная острым соусом, сыр Чеддер, ароматный бекон, ломтик помидора и зеленые листья салата Айсберг",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847301",
+                "primary": "344573505"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339765311_m1000_df05e6ff35c7876ad87cb1603cedebb79b83080499d7dc8d85a3745fdbad6c36.jpg",
+                "200": "/media/cms/relation_product/28447/339765311_m200_327e92a7e2dbea294da6e2db1658b06513bafa1c530b39fd12d8d0e74993a3c3.jpg",
+                "650": "/media/cms/relation_product/28447/339765311_m650_da6d51abd241e818ddb5014707e2b90280e81452a86b1622bb6a7955b0f2088f.jpg"
+            },
+            "name": "Макчикен Премьер Острый",
+            "price": {
+                "currency": "RUB",
+                "value": 174
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Бургер с двумя большими рублеными бифштексами из 100% говядины на булочке с кунжутом. Особенный вкус сандвичу придают соус Гриль с дымком, 3 кусочка сыра Эмменталь, ломтик помидора, свежий салат и лук",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "314090887",
+                "primary": "344573506"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/314062131_m1000_0f56f0e4f6fe5e29c904d1f3fda9f7ad7e9d03592ba9564a51d5ae5d819c8e30.jpg",
+                "200": "/media/cms/relation_product/28447/314062131_m200_2043e85f8d3b7487ae581707515262fd89d69a287f09217a98559bf14f9840cf.jpg",
+                "650": "/media/cms/relation_product/28447/314062131_m650_ae4c0ef13e7f2e8c7d623b6e15536ad7a4ac23ddc4c60330c6918901f6967f17.jpg"
+            },
+            "name": "Двойной Биг Тейсти",
+            "price": {
+                "currency": "RUB",
+                "value": 367
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой сочный бифштекс из 100% говядины, приготовленный на гриле. Три вкуснейших сыра: нежный Эмменталь, сливочный Гауда, и плавленый Чеддер, в виде топпинга. Свежие овощи и знаменитый соус с дымком",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "337770308",
+                "primary": "344573507"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34460/337771222_m1000_b409559a68066eca920763d042f4b1e8a9a26ab1727a007bfd0af45df9354be9.jpg",
+                "200": "/media/cms/relation_product/34460/337771222_m200_424177dfe654fbeba61d2807791c70b827594fe4311320357ab8b6f03d7966cf.jpg",
+                "650": "/media/cms/relation_product/34460/337771222_m650_a9dfb9259714a3c5642b6da0ff0c2134e12eeb6097152f2973aa5c7f7731650d.jpg"
+            },
+            "name": "Биг Тейсти Три Сыра",
+            "price": {
+                "currency": "RUB",
+                "value": 306
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сандвич с большим, рубленым бифштексом из 100% говядины на булочке с кунжутом. Особенный вкус сандвичу придают три кусочка сыра Эмменталь, два ломтика помидора, салат, лук и пикантный соус Гриль",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723014",
+                "primary": "344573508"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/329637999_m1000_2b5f7daecf3391f95a7b58b7611791787feee787bd7f253a9e93316ad33ee148.jpg",
+                "200": "/media/cms/relation_product/28447/329637999_m200_e18cfb6edf21452260fbc1ab4d208d430cb56d53f0c4be3640d34d63ba8bd411.jpg",
+                "650": "/media/cms/relation_product/28447/329637999_m650_24d99939a66e164ac7c30b2365520d43b48c8c2f0a4d010de4bfdf5c38f8ae7b.jpg"
+            },
+            "name": "Биг Тейсти",
+            "price": {
+                "currency": "RUB",
+                "value": 276
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два сочных бифштекса из натуральной говядины, приготовленных на гриле, карамелизованная булочка с кунжутом, два ломтика сыра Чеддер, лук, маринованные огурчики, кетчуп и горчица",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723016",
+                "primary": "344573509"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/308261463_m1000_82cb86d3c185f890acea6ddb7162fcc769aaeaf2fa26663f29867cf77d464325.jpg",
+                "200": "/media/cms/relation_product/28447/308261463_m200_bae6bc8060b2bb7c6c6580dfe742f6e37a1eb5164836263f14030d7edafce57e.jpg",
+                "650": "/media/cms/relation_product/28447/308261463_m650_02998ea6de65ecbc19ad25a1df24f0efbdf1cdfe80fcad16f1971d47525467e9.jpg"
+            },
+            "name": "Двойной Роял",
+            "price": {
+                "currency": "RUB",
+                "value": 273
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Большой бургер с четырьмя рублеными бифштексами из натуральной цельной говядины на булочке Биг Мак, заправленной луком, маринованными огурчиками, сыром Чеддер, салатом и специальным соусом Биг Мак",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313109515",
+                "primary": "344573510"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/313109515_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/313109515_m200.jpg",
+                "650": "/media/cms/relation_product/31130/313109515_m650.jpg"
+            },
+            "name": "Двойной Биг Мак",
+            "price": {
+                "currency": "RUB",
+                "value": 214
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Тот самый Бургер с рубленым бифштексом из 100% говядины на булочке с кунжутом, два кусочка сыра Эмменталь, свежий салат, лук, ломтик помидора и особенный соус Гриль с дымком",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "313930132",
+                "primary": "344573511"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/313930132_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/313930132_m200.jpg",
+                "650": "/media/cms/relation_product/31130/313930132_m650.jpg"
+            },
+            "name": "Биг Тейсти Джуниор",
+            "price": {
+                "currency": "RUB",
+                "value": 224
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Три рубленных бифштекса из натуральной говядины на карамелизованной булочке, с тремя ломтиками сыра Чеддер, кетчупом, горчицей, луком и маринованными огурчиками",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "318027110",
+                "primary": "344573512"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/318027110_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/318027110_m200.jpg",
+                "650": "/media/cms/relation_product/31130/318027110_m650.jpg"
+            },
+            "name": "Тройной Чизбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 189
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два кусочка филе рыбы (семейство тресковых), которые подаются на пышной пропаренной булочке с кусочком сыра Чеддер. Сандвич заправлен соусом Тар-Тар",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723024",
+                "primary": "344573513"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723024_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723024_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723024_m650.jpg"
+            },
+            "name": "Двойной Филе-О-Фиш",
+            "price": {
+                "currency": "RUB",
+                "value": 215
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочный, большой бифштекс из 100% говядины, булочка с кунжутом, сыр Чеддер, хрустящий салат маринованные огурцы, помидор, свежий лук, соус Макчикен, кетчуп, горчица",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723018",
+                "primary": "344573514"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/307617045_m1000_63178318a0505d3007fbd5e333438ed4212f6f7ca466c6636d4ebc367ce1f11f.jpg",
+                "200": "/media/cms/relation_product/28447/307617045_m200_738c5b8d364fde1d002eaaf2d0d47d31acc874c0d82bf5aba923f1d84f9b5f4c.jpg",
+                "650": "/media/cms/relation_product/28447/307617045_m650_3564ae4ee473430caf63893a995cdfc38e40e43c1a88044092c9a6141e1e6565.jpg"
+            },
+            "name": "Роял Де Люкс",
+            "price": {
+                "currency": "RUB",
+                "value": 203
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Филе хорошо прожаренной рыбы (семейства тресковых), которое подается на пропаренной булочке с половинкой кусочка сыра Чеддер, заправленной специальным соусом Тар-Тар",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723025",
+                "primary": "344577138"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723025_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723025_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723025_m650.jpg"
+            },
+            "name": "Филе-О-Фиш",
+            "price": {
+                "currency": "RUB",
+                "value": 164
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочный бифштекс из натуральной говядины, приготовленный на гриле, карамелизованная булочка с кунжутом, два ломтика сыра Чеддер, кетчуп, горчица, свежий лук и маринованные огурчики",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723019",
+                "primary": "344575351"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/329638004_m1000_67fddc3645f907ebffe77dff9ade7328f7007ef4c10055ecf035a87b333d7a68.jpg",
+                "200": "/media/cms/relation_product/28447/329638004_m200_60e0c10238abb8c9e3ded1ef66bb054587dbc99f8fbe3017262c8861fc970271.jpg",
+                "650": "/media/cms/relation_product/28447/329638004_m650_1437d0e2e513748b68746d1860080dfcca251aefd460e3d35a88872c03c46bbe.jpg"
+            },
+            "name": "Роял",
+            "price": {
+                "currency": "RUB",
+                "value": 167
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочная куриная котлета в хрустящей панировке, сыр Чеддер, ароматный бекон, ломтик помидора, свежий салат, специальный соус и, конечно, та самая булочка с кунжутом",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "332879957",
+                "primary": "344573517"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/332877754_m1000_b71e7c8cecacdfb70df4ffb77f8a6023eb0c9b3d031c17f25f055af8c245e3f8.jpg",
+                "200": "/media/cms/relation_product/47896/332877754_m200_729c80ad20d9a1f320a09c27981f775edf9fc2f24c06bb67998a7ae80695bd07.jpg",
+                "650": "/media/cms/relation_product/47896/332877754_m650_ebf4038736e46434ad1e32b9eaf401b1f6f130a55951e55516d15fd83c343a55.jpg"
+            },
+            "name": "Макчикен Премьер",
+            "price": {
+                "currency": "RUB",
+                "value": 163
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два бифштекса из 100% говядины на специальной булочке Биг Мак, заправленной луком, двумя кусочками маринованных огурчиков, ломтиком сыра Чеддер, салатом, и специальным соусом Биг Мак",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723015",
+                "primary": "344582008"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723015_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723015_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723015_m650.jpg"
+            },
+            "name": "Биг Мак",
+            "price": {
+                "currency": "RUB",
+                "value": 158
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два рубленых бифштекса из натуральной цельной говядины с двумя кусочками сыра Чеддер на карамелизованной булочке, заправленной горчицей, кетчупом, луком и двумя кусочками маринованного огурчика",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723020",
+                "primary": "344582009"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723020_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723020_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723020_m650.jpg"
+            },
+            "name": "Двойной Чизбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 146
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Карамелизированная булочка с семенами кунжута, обжаренная куриная котлета из сочного куриного мяса, специальный соус Макчикен и салат Айсберг",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723026",
+                "primary": "344573520"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723026_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723026_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723026_m650.jpg"
+            },
+            "name": "Макчикен",
+            "price": {
+                "currency": "RUB",
+                "value": 108
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Обжаренная куриная котлета из сочного куриного мяса, панированная в сухарях, которая подается на карамелизованной булочке, заправленной свежим салатом и специальным соусом Макчикен",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723028",
+                "primary": "344573521"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723028_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723028_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723028_m650.jpg"
+            },
+            "name": "Чикенбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 72
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Рубленый бифштекс из натуральной цельной говядины с кусочками сыра Чеддер на карамелизованной булочке, заправленной горчицей, кетчупом, луком и кусочком маринованного огурчика",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723022",
+                "primary": "344573522"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723022_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723022_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723022_m650.jpg"
+            },
+            "name": "Чизбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 73
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Рубленый бифштекс из натуральной цельной говядины на карамелизованной булочке, заправленной горчицей, кетчупом, луком и кусочком маринованного огурчика",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723023",
+                "primary": "344573523"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723023_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723023_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723023_m650.jpg"
+            },
+            "name": "Гамбургер",
+            "price": {
+                "currency": "RUB",
+                "value": 63
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Аппетитные куриные крылышки в пикантной, хрустящей панировке. Еще вкуснее с соусом Барбекю!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001581",
+                "primary": "344573524"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/321001581_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/321001581_m200.jpg",
+                "650": "/media/cms/relation_product/31130/321001581_m650.jpg"
+            },
+            "name": "Куриные Крылышки (3 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 148
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Два сочных бифштекса из 100% говядины, свежие овощи, сыр, специальный соус Гриль с дымком и все это в пшеничной лепешке",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "318635718",
+                "primary": "344575972"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/318635718_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/318635718_m200.jpg",
+                "650": "/media/cms/relation_product/31130/318635718_m650.jpg"
+            },
+            "name": "Биг Тейсти Ролл",
+            "price": {
+                "currency": "RUB",
+                "value": 201
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочные, нежные Стрипсы в хрустящей панировке, ломтик помидора, листья салата, ароматный бекон и ломтики твердого сыра, заправленные специальным соусом и завернутые в пшеничную лепешку",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "339847302",
+                "primary": "344575973"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/339306854_m1000_00fe35806e5d4d955cec70b66ec05ef9f2b19dec91444a707505bda98b9829e1.jpg",
+                "200": "/media/cms/relation_product/28447/339306854_m200_5949f1bf187245e936929c9c4a8cad41000138328f5aaeafc5539ef95e187f1b.jpg",
+                "650": "/media/cms/relation_product/28447/339306854_m650_ef26eab32487c576f5e3e9fc261ffcbb9b2da71a882f0141b26ff44902b1be55.jpg"
+            },
+            "name": "Цезарь Ролл с беконом",
+            "price": {
+                "currency": "RUB",
+                "value": 216
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "100% белое куриное мясо в хрустящей панировке, ломтик помидора, листья салата и ломтики твёрдого сыра, заправленные специальным соусом и завёрнутые в пшеничную лепешку",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723029",
+                "primary": "344575974"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723029_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723029_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723029_m650.jpg"
+            },
+            "name": "Цезарь Ролл",
+            "price": {
+                "currency": "RUB",
+                "value": 191
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Нежные креветки в хрустящей панировке, свежий салат Айсберг и лук в пресной пшеничной лепешке, заправленной специальным соусом",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723030",
+                "primary": "344573527"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723030_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723030_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723030_m650.jpg"
+            },
+            "name": "Шримп Ролл",
+            "price": {
+                "currency": "RUB",
+                "value": 234
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Королевские креветки в хрустящей панировке. Еще аппетитнее с соусом 1000 островов. Легко. Изыскано. Вкусно",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330226033",
+                "primary": "344573528"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/330151138_m1000_c72f60990e6bd3b78eb68bb9398d8a4f6d436c7dc03c1200c7edc3c147cc5803.jpg",
+                "200": "/media/cms/relation_product/30405/330151138_m200_6695b39f3132e61604729d09bdb1d5dbc81c2eeafa72762c86a0679ae90c2d61.jpg",
+                "650": "/media/cms/relation_product/30405/330151138_m650_09280a37f6d639fd2d3ff1d555571365962a55bc04a8c7340724128c26dc839c.jpg"
+            },
+            "name": "Большие Креветки (18 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 683
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Королевские креветки в хрустящей панировке. Еще аппетитнее с соусом 1000 островов. Легко. Изыскано. Вкусно",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723036",
+                "primary": "344577371"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723036_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723036_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723036_m650.jpg"
+            },
+            "name": "Большие Креветки (9 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 397
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Королевские креветки в хрустящей панировке. Еще аппетитнее с соусом 1000 островов. Легко. Изыскано. Вкусно",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723037",
+                "primary": "344577372"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723037_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723037_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723037_m650.jpg"
+            },
+            "name": "Большие Креветки (6 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 277
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Аппетитные куриные крылышки в пикантной, хрустящей панировке. Еще вкуснее с соусом Барбекю!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001580",
+                "primary": "344573531"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/321001580_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/321001580_m200.jpg",
+                "650": "/media/cms/relation_product/31130/321001580_m650.jpg"
+            },
+            "name": "Куриные Крылышки (7 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 268
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Аппетитные куриные крылышки в пикантной, хрустящей панировке. Еще вкуснее с соусом Барбекю!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001582",
+                "primary": "344582010"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/321001582_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/321001582_m200.jpg",
+                "650": "/media/cms/relation_product/31130/321001582_m650.jpg"
+            },
+            "name": "Куриные Крылышки (5 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 193
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочная, нежная курица в хрустящей панировке. Попробуйте новые стрипсы от Макдоналдс из 100% белого мяса!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334961227",
+                "primary": "344573533"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/321110800_m1000_bdf7f7481c02a116670f3cc9d5f0ad5c36b4b7b5c84f2f8968fa22f030a89d38.jpg",
+                "200": "/media/cms/relation_product/34450/321110800_m200_4793cca0061fcd0c4154b1f77a1d34aadffec12ae65e39ee17e28d1ac6cb3090.jpg",
+                "650": "/media/cms/relation_product/34450/321110800_m650_6459cf6f6a9c11b8d56b8e72a0f88d9d305c717cb211a6a859bc3e46f91100b1.jpg"
+            },
+            "name": "Стрипсы (7 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 219
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочная, нежная курица в хрустящей панировке. Попробуйте новые стрипсы от Макдоналдс из 100% белого мяса!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334961228",
+                "primary": "344573534"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/318928162_m1000_03cd5731e8d961d18d7a8a1d36af015f722a1b8026d4c035055c7ae05cb318d0.jpg",
+                "200": "/media/cms/relation_product/34450/318928162_m200_8f10e254d4638cf221222f006714941e513614ea8e4c39d5a4f52b98bb77fc83.jpg",
+                "650": "/media/cms/relation_product/34450/318928162_m650_c90bad0b2cdf46b5f82442cfdf3bd55f14d4f46c93896857159f831ed0c6ca61.jpg"
+            },
+            "name": "Стрипсы (5 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 165
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочная, нежная курица в хрустящей панировке. Попробуйте новые стрипсы от Макдоналдс из 100% белого мяса!",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334961229",
+                "primary": "344573535"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34450/319078282_m1000_e9e704c6b766ff8a072d579d6f66d7a20b3722cc1ebd0e20894535f8a115e3d9.jpg",
+                "200": "/media/cms/relation_product/34450/319078282_m200_ffff4770bb7bc7e9fa52c7f590019e0e08b285f09223b7db04a972fa5932c8b8.jpg",
+                "650": "/media/cms/relation_product/34450/319078282_m650_b4be86a948b4fa9372d147b0af12d75053531ff359c9aeebe3abdc7e0d819e5d.jpg"
+            },
+            "name": "Стрипcы (3 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 104
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Неподражаемые Чикен Макнаггетс – это сочное 100% белое куриное мясо в хрустящей панировке со специями. Только натуральная курочка без искусственных красителей и ароматизаторов и без консервантов",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723042",
+                "primary": "344573536"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/310723042_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/310723042_m200.jpg",
+                "650": "/media/cms/relation_product/31130/310723042_m650.jpg"
+            },
+            "name": "Чикен Макнаггетс (9 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 106
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Неподражаемые Чикен Макнаггетс – это сочное 100% белое куриное мясо в хрустящей панировке со специями. Только натуральная курочка без искусственных красителей и ароматизаторов и без консервантов",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "317770746",
+                "primary": "344573537"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/31130/317770746_m1000.jpg",
+                "200": "/media/cms/relation_product/31130/317770746_m200.jpg",
+                "650": "/media/cms/relation_product/31130/317770746_m650.jpg"
+            },
+            "name": "Чикен Макнаггетс (6 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 80
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Вкуснейшие сырные палочки в хрустящей панировке.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "334961230",
+                "primary": "344573538"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/47896/334890174_m1000_b4ab6435eea78130b5ecad65d4389b5de68380fb6cfef8879ecb147e12286d98.jpg",
+                "200": "/media/cms/relation_product/47896/334890174_m200_284a253620d082fa2576c96cfbebcedb38ec6880dceadc8be3f149928b204084.jpg",
+                "650": "/media/cms/relation_product/47896/334890174_m650_c411e11d897aa729e0d05df08e06c6dff337c7db161bd52c5640d8e61cd4c492.jpg"
+            },
+            "name": "Сырные Палочки (3 шт.)",
+            "price": {
+                "currency": "RUB",
+                "value": 117
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Пикантные Куриные крылышки в хрустящей панировке – 4 шт. Неподражаемые Чикен МакНаггетс – 4 шт. Сырные палочки – 4 шт. 2 стандартные порции Картофеля фри",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "324504463",
+                "primary": "344573539"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28720/323962678_m1000_5296b460459313e91d6d1842dc735dffb24fd2c55576dbc83b910ce625b1fac5.jpg",
+                "200": "/media/cms/relation_product/28720/323962678_m200_0a3cdb46f5d9b8335cf7ee97e366bc5d50e0df3192e3eda37600d744f45897e5.jpg",
+                "650": "/media/cms/relation_product/28720/323962678_m650_f9b85d8550ad3d094117aac6ad507d2dd5d16c47611c2d77eb09f21c18a23d99.jpg"
+            },
+            "name": "Большой Снэк Бокс с Крыльями",
+            "price": {
+                "currency": "RUB",
+                "value": 464
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Сочные и нежные Стрипсы – 4 шт. Неподражаемые Чикен МакНаггетс – 4 шт. Сырные палочки – 4 шт. 2 стандартные порции Картофеля фри",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "324504464",
+                "primary": "344573540"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28720/323962679_m1000_204392a019c301049923377fabfa1a41ef27c5ed7463dba09affd48f66d1d3d1.jpg",
+                "200": "/media/cms/relation_product/28720/323962679_m200_ce9fe17c0a2cef36f8e93a6767b4ea07fb2c53891426d29a2cd622aa78f7f907.jpg",
+                "650": "/media/cms/relation_product/28720/323962679_m650_4ee075d8e65654d3b621bb025cbc21f5d1eb42fdb2726644a976020af3b5a52e.jpg"
+            },
+            "name": "Большой Снэк Бокс со Стрипсами",
+            "price": {
+                "currency": "RUB",
+                "value": 429
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Пикантные Куриные крылышки в хрустящей панировке – 2 шт. Неподражаемые Чикен МакНаггетс – 2 шт. Сочные и нежные Стрипсы – 2 шт. Стандартная порция Картофеля фри",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "321001579",
+                "primary": "344573541"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28720/321001717_m1000_ec8c6fcae72eead43a638384b57400886d774b3237ff9055689e2f76e551642f.jpg",
+                "200": "/media/cms/relation_product/28720/321001717_m200_4eaacefd28796ab4872ab06b38814bcd1158ce91c2d334713e98ef80bea427af.jpg",
+                "650": "/media/cms/relation_product/28720/321001717_m650_9cac4ecc7867ed9d5f1782134f5301121972dc422eda0f54df23290cfe69e2cf.jpg"
+            },
+            "name": "Снэк Бокс с Крыльями",
+            "price": {
+                "currency": "RUB",
+                "value": 219
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Неподражаемые Чикен МакНаггетс – 3 шт. Сочные и нежные Стрипсы – 2 шт. Маленькая порция Картофеля фри",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "320007263",
+                "primary": "344573542"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28720/320007546_m1000_db2ed49a9be6807744f3c4a09a1d534ba354865df76ac947085190c4cabfd177.jpg",
+                "200": "/media/cms/relation_product/28720/320007546_m200_69a2fa0a2ae1a2c09430d32f08032e6639b861906c3291b21f43f940100379dd.jpg",
+                "650": "/media/cms/relation_product/28720/320007546_m650_61071e5b53995e53f8e5828f202c79dfb11a0e2695daa6a9c3d7862499a7e6b5.jpg"
+            },
+            "name": "Снэк Бокс",
+            "price": {
+                "currency": "RUB",
+                "value": 156
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Вкусные, обжаренные в растительном фритюре ломтики картофеля со специями.",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "310723034",
+                "primary": "344586522"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/309164821_m1000_ea9c636e1af46f7757810e083faf64cedf7db5bffc89fce6b048cbc22279e1a2.jpg",
+                "200": "/media/cms/relation_product/30405/309164821_m200_367c80fc55cc4297eef63e907b8047b739a9bac017b1b43fb3038f80ec7b9927.jpg",
+                "650": "/media/cms/relation_product/30405/309164821_m650_f5727bceeaa48bc96eb0d9e45ba4bbbbfcb6ec7e50c9b61c9bf766c0c9b2a4b3.jpg"
+            },
+            "name": "Картофель по-деревенски",
+            "price": {
+                "currency": "RUB",
+                "value": 94
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Хрустящие листья салата Айсберг, сочные томаты черри и маслины",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330894063",
+                "primary": "344573543"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/330881409_m1000_6b17df83a1e8e8a5e225f28d5e74758c78dab444bf1be2d20fa96a8753c4f4a5.jpg",
+                "200": "/media/cms/relation_product/30405/330881409_m200_ad4bb371b158e4d604b51db68089a852d03d7b6903a4d1ddd2cbfc2af6f8744e.jpg",
+                "650": "/media/cms/relation_product/30405/330881409_m650_83f448359c051e9c2a1ab68d424122921ba5628a7f71e894bc29e3a8431f3e0f.jpg"
+            },
+            "name": "Салат овощной",
+            "price": {
+                "currency": "RUB",
+                "value": 106
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Хрустящие листья салата Айсберг, сочные томаты черри, ароматный тертый сыр пармезан и нежнейшие куриные стрипсы",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330894064",
+                "primary": "344573544"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/330881410_m1000_cc9d8a34e2074de70288ffb4f4df1f46ecf96a4e0ff06c0c235dcbf7e4f23d01.jpg",
+                "200": "/media/cms/relation_product/30405/330881410_m200_9fdff23a61f4196be2cecde95bb7848566877093c901937f01bc4564d4e4d897.jpg",
+                "650": "/media/cms/relation_product/30405/330881410_m650_213b82ea7bcc66f58ee77721e4fb48b3a50782828dc39cfbdbf177f2e18e0a69.jpg"
+            },
+            "name": "Салат Цезарь",
+            "price": {
+                "currency": "RUB",
+                "value": 160
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Хрустящие листья салата Айсберг, сочные томаты черри, ароматный тертый сыр пармезан и жаренные креветки в панировке",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330894065",
+                "primary": "344573545"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/28447/330881406_m1000_e9f0c52ee113ecf8f0b6313860d2a640c5673c4ac8f60c73db2629b56a21b322.jpg",
+                "200": "/media/cms/relation_product/28447/330881406_m200_7448fcac3db520a689897cd25af81121f6e3e8b58d408a3276ab45c421729499.jpg",
+                "650": "/media/cms/relation_product/28447/330881406_m650_8f8aad7bf0ab41a68ea62a32462053f274f7f86869157ced45302ae9baf2fdbd.jpg"
+            },
+            "name": "Салат Цезарь с креветками",
+            "price": {
+                "currency": "RUB",
+                "value": 235
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Горячий пирожок из слоеного теста с хрустящей корочкой и начинкой из ягод черной смородины",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "344624317",
+                "primary": "344624317"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30583/344624011_m1000_220a247a606ddc0e49836349d8f13c3d0f9153123976be887e1b2061a1ddbf96.jpg",
+                "200": "/media/cms/relation_product/30583/344624011_m200_c399f7a0b88bbab0005b8476d9c3047a1cbcbf65d110d8ed269f3ebafe5344c6.jpg",
+                "650": "/media/cms/relation_product/30583/344624011_m650_7c05a698ea721762c5a4d27eaeb49583286239232c54c117199f812145594c8f.jpg"
+            },
+            "name": "Пирожок Черная смородина",
+            "price": {
+                "currency": "RUB",
+                "value": 70
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Классическая заправка Цезарь с кислинкой лимона и сливочным вкусом",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330894066",
+                "primary": "344573546"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/330882560_m1000_75fa398efe53c45f1c2e6ee45b610c20b3a5f67f40453c5577e058d1d83326ae.jpg",
+                "200": "/media/cms/relation_product/30405/330882560_m200_b6022404ba66f84a72fa4b5fc9c018cf3008362d9862bf463b28ec5b5117fe02.jpg",
+                "650": "/media/cms/relation_product/30405/330882560_m650_eae7d1957b8b44dd86a645e6293a20fbb76739829c3581233bf6d8dd8bee9a64.jpg"
+            },
+            "name": "Соус Цезарь",
+            "price": {
+                "currency": "RUB",
+                "value": 32
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Натуральное оливковое масло высшей категории со свежим ароматом и гармоничным вкусом идеально дополнит вкус салатов",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "330894067",
+                "primary": "344573547"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/30405/330882561_m1000_29187f53bacd99e8184b596d2815c98d19e6e436d15fc822e98d421e083560db.jpg",
+                "200": "/media/cms/relation_product/30405/330882561_m200_113b899668f3a81f8f0482a4cee025ff561229c16b3a8c1a99ee82fed6e12dad.jpg",
+                "650": "/media/cms/relation_product/30405/330882561_m650_c8d3ecae45c96bb8fa7a256af16a9c924ae8e4d01d3e2664d5fd2e6f199db3e1.jpg"
+            },
+            "name": "Оливковое масло",
+            "price": {
+                "currency": "RUB",
+                "value": 32
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 1
+        },
+        {
+            "description": "Хэппи Мил Обед стандартный с игрушкой DreamWorks Все звезды",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "341024934",
+                "primary": "344575358"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34186/341022212_m1000_69052b7ddef6d4840113e1153aad14376f62f1db90c75b1427c74a6a83c5ebf1.jpg",
+                "200": "/media/cms/relation_product/34186/341022212_m200_a2f142e65011770699d9c81568511a85a20a6707b4f10f28f337bd238dba80dc.jpg",
+                "650": "/media/cms/relation_product/34186/341022212_m650_12d236f57881309d0582a7e7de0932f54fac117a5ec342f3198a12bd3299cd28.jpg"
+            },
+            "name": "Хэппи Мил Обед стандартный",
+            "price": {
+                "currency": "RUB",
+                "value": 202
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        },
+        {
+            "description": "Хэппи Мил Обед с Салатом овощным или Сырными палочками и игрушкой DreamWorks Все звезды",
+            "discountPrice": {
+                "value": null
+            },
+            "id": {
+                "inventory": "341024935",
+                "primary": "344575359"
+            },
+            "images": {
+                "1000": "/media/cms/relation_product/34186/341022213_m1000_d8731f7ee201ce9af12058e3a50f72dfe29745f1b43cd409f608f2b334e9edcc.jpg",
+                "200": "/media/cms/relation_product/34186/341022213_m200_6f89206e12cdaa6772364c88d1e4b31e2f58b328d675f5be609f0b42a21d5bb8.jpg",
+                "650": "/media/cms/relation_product/34186/341022213_m650_b3a8105e9f52b44333d38eea97847ac5d5f04400578c8dc59970e7c5e54a9b16.jpg"
+            },
+            "name": "Хэппи Мил Обед с Салатом овощным или Сырными палочками",
+            "price": {
+                "currency": "RUB",
+                "value": 202
+            },
+            "properties": {
+                "calories": null,
+                "volume": null,
+                "weight": null
+            },
+            "template": 4
+        }
+    ],
+    "promoActions": [],
+    "promoActionsOld": []
+}
