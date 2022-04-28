@@ -6,82 +6,14 @@ import {connect} from 'react-redux';
 import { IconButton, Div, Alert } from '@vkontakte/vkui'
 import { Icon28LikeCircleFillRed, Icon28CancelCircleFillRed } from '@vkontakte/icons';
 
-const bannedCategories = ["Соусы", "Напитки", "Дополнительно", "Закуски"]
-const bannedWords = ["Соус", "Салфетк"]
-var bannedProducts = [];
-
-function isProductBanned(productName)
-{
-  for (var i = 0; i < bannedWords.length; i++) {
-    productName = productName.toLowerCase();
-    if (productName.includes(bannedWords[i].toLocaleLowerCase())){
-      return true
-    }
-  }
-
-  return false
-}
-
-function isCategoryBanned(categoryName)
-{
-  for (var i = 0; i < bannedCategories.length; i++) {
-    categoryName = categoryName.toLowerCase();
-    if (categoryName.includes(bannedCategories[i].toLocaleLowerCase())){
-      return true
-    }
-  }
-
-  return false
-}
-
-for (var i = 0; i < data.menu.length; i++) {
-  if (isCategoryBanned(data.menu[i].name)) {
-    bannedProducts = bannedProducts.concat(data.menu[i].productIds);
-  }
-}
-
-console.log(bannedProducts)
-const allData = data.products.filter((x) => {return !bannedProducts.includes(x.id.primary) && !isProductBanned(x.name)});
-const bannedCategories = ["Соусы", "Напитки", "Дополнительно", "Закуски"]
-const bannedWords = ["Соус", "Салфетк"]
-var bannedProducts = [];
-
-function isProductBanned(productName)
-{
-  for (var i = 0; i < bannedWords.length; i++) {
-    var productName = productName.toLowerCase();
-    if (productName.includes(bannedWords[i].toLocaleLowerCase())){
-      return true
-    }
-  }
-
-  return false
-}
-
-function isCategoryBanned(categoryName)
-{
-  for (var i = 0; i < bannedCategories.length; i++) {
-    var categoryName = categoryName.toLowerCase();
-    if (categoryName.includes(bannedCategories[i].toLocaleLowerCase())){
-      return true
-    }
-  }
-
-  return false
-}
-
-for (var i = 0; i < data.menu.length; i++) {
-  if (isCategoryBanned(data.menu[i].name)) {
-    bannedProducts = bannedProducts.concat(data.menu[i].productIds);
-  }
-}
-
-console.log(bannedProducts)
-const allData = data.products.filter((x) => {return !bannedProducts.includes(x.id.primary) && !isProductBanned(x.name)});
+const allData = data.products;
 
 function CardTinderCard() {
     const [currentIndex, setCurrentIndex] = useState(allData.length - 1)
     const [cart, setCurrentCart] = useState(allData.length - 1)
+    const [data, setData] = useState(allData)
+    const [positiveFilters, addPositive] = useState([])
+    const [negativeFilters, addNegative] = useState([])
     const [lastDirection, setLastDirection] = useState()
     const currentIndexRef = useRef(currentIndex)
 
@@ -89,16 +21,20 @@ function CardTinderCard() {
     const changes = "фылвфы вофылов"
     const childRefs = useMemo(
         () =>
-            Array(allData.length)
+            Array(data.length)
                 .fill(0)
                 .map((i) => React.createRef()),
         []
     )
     const getProducts = ()=>{
         
-        axios.get("Proxy").then(x=>{console.log(x.data)});
+        axios.get("Proxy").then(x=>{
+            
+            console.log(x.data)
+        
+        });
     }
-    getProducts();
+    //getProducts();
 
     const updateCurrentIndex = (val) => {
         setCurrentIndex(val)
@@ -110,7 +46,7 @@ function CardTinderCard() {
     const swiped = (direction, nameToDelete, index) => {
 
         if(direction === "right")
-            addToCard(allData[index]);
+            addToCard(data[index]);
         
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
@@ -145,9 +81,7 @@ function CardTinderCard() {
     }
 
     const swipe = async (dir) => {
-        
-        
-        if (canSwipe && currentIndex < allData.length) {
+        if (canSwipe && currentIndex < data.length) {
             await childRefs[currentIndex].current.swipe(dir) // Swipe the card!
         }
     }
@@ -165,6 +99,12 @@ function CardTinderCard() {
             return undefined;
         return renderCard(index, product);
     }
+    
+    const disLike = () => {
+        
+        
+    }
+    
     const getDirection = (direction) => {
         switch (direction) {
             case "right":
@@ -214,7 +154,7 @@ function CardTinderCard() {
             <h1>FoodTinder</h1>
 
             <div className='cardContainer'>
-                {allData.map((product, index) => renderCardIfCan(index, product)
+                {data.map((product, index) => renderCardIfCan(index, product)
                 )}
             </div>
 
