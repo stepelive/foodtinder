@@ -114,7 +114,7 @@ function CardTinderCard() {
       >
         <div className='card'>
           <div
-            style={{ backgroundSize:"300px", backgroundRepeat:'no-repeat', backgroundImage: getProductUrl(product) }}
+            style={{ backgroundImage: getProductUrl(product) }}
             className='image'
           ></div>
           <h3 className="product_name">{product.name}</h3>
