@@ -233,6 +233,7 @@ export const routerReducer = (state = initialState, action) => {
         }
 
         case OPEN_POPOUT: {
+            console.log('open popout called!')
             window.history.pushState(null, null);
 
             return {

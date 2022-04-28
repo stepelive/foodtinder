@@ -31,6 +31,7 @@ export const restoreScrollPosition = () => {
 };
 
 export const getActivePanel = (view) => {
+    console.log('get active panel')
     let panel = store.getState().router.activePanel;
 
     let panelsHistory = store.getState().router.panelsHistory;

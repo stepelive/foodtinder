@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux'
 import {goBack, closeModal, setStory} from "./js/store/router/actions";
 import {getActivePanel} from "./js/services/_functions";
 import * as VK from './js/services/VK';
+import { openPopout } from  './js/services/_functions'
 
 import {Epic, View, Root, Tabbar, ModalRoot, TabbarItem, ConfigProvider, AdaptivityProvider, AppRoot} from "@vkontakte/vkui";
 
@@ -58,6 +59,7 @@ class App extends React.Component {
             goBack,
             setStory,
             closeModal,
+            openPopout,
             popouts,
             activeView,
             activeStory,
@@ -99,7 +101,8 @@ class App extends React.Component {
                                 history={history}
                                 onSwipeBack={() => goBack()}
                             >
-                                <CardTinderCard id="tindercard"/>
+                                <CardTinderCard openPopout={openPopout}
+                                    id="tindercard"/>
                             </View>
                         </Epic>
                     </AppRoot>
