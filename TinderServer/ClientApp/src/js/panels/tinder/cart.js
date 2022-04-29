@@ -2,7 +2,7 @@ import React, {useState, useMemo, useRef} from 'react'
 import TinderCard from 'react-tinder-card'
 import axios from 'axios'
 import {connect} from 'react-redux';
-import {IconButton,PanelHeader,PanelHeaderClose,Avatar, Div,PanelSpinner, Alert, Button} from '@vkontakte/vkui'
+import {IconButton,Panel,Group,PanelHeader,PanelHeaderClose,Avatar, Div,PanelSpinner, Alert, Button} from '@vkontakte/vkui'
 import {Icon28LikeCircleFillRed, Icon28CancelCircleFillRed} from '@vkontakte/icons';
 import {openPopout, closePopout, goBack, closeModal, openModal, setPage, setStory} from '../../store/router/actions'
 import {addProduct} from "../../store/cart/actions";
@@ -16,54 +16,48 @@ function Cart(props) {
     console.log(props);
 
     return (
-        <Div>
-             <link
-                href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap'
-                rel='stylesheet'
-            />
-            <link
-                href='https://fonts.googleapis.com/css?family=Roboto&display=swap'
-                rel='stylesheet'
-            />
+        <Panel id={props.id}>
+            <Group>
+                <PanelHeader
+                    onClick={()=>{props.setPage('tindercard','tindercard')}}
+                    left={<PanelHeaderClose />}
+                    right={<Avatar size={36} />}
+                >😊
+                </PanelHeader>
 
-            <PanelHeader
-                onClick={()=>{props.setPage('tindercard','tindercard')}}
-                left={<PanelHeaderClose />}
-                right={<Avatar size={36} />}
-            >😊
-            </PanelHeader>
+                <h1 style={{
+                    fontFamily: 'Montserrat',
+                    fontWeight: 700,
+                    fontSize: 54
+                }}>It's a Match!
+                </h1>
+                <p  style={{
+                    fontFamily: 'Roboto',
+                    fontSize: 24
+                }}>
+                    Вы и {props.product.ProductName} подходите друг-другу
+                </p>
+                <div className='lovers-images'>
+                    <Avatar
+                        size={100}
+                        src={"https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"}
+                    />
 
-            <h1 style={{
-                            fontFamily: 'Montserrat',
-                            fontWeight: 700,
-                            fontSize: 54
-                    }}>It's a Match!
-            </h1>
-            <p  style={{
-                            fontFamily: 'Roboto',
-                            fontSize: 24
-                    }}>
-                        Вы и {props.product.ProductName} подходите друг-другу 
-            </p>
-            <div className='lovers-images'>
-                <Avatar
-                    size={300}
-                    src={"https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"}
-                />
-
-                <Avatar
-                    size={300}
-                    src={`https://www.delivery-club.ru/${props.product.Image}`}
-                />
-            </div>
-            <Button 
-                size='l'
-                style={{fontFamily: 'Roboto'}}
-                label='regular'
-                onClick={() => openInNewTab('https://www.delivery-club.ru')}>
-                Перейти к оформлению заказа
-            </Button>
-        </Div>
+                    <Avatar
+                        size={100}
+                        src={`https://www.delivery-club.ru/${props.product.Image}`}
+                    />
+                </div>
+                <Button
+                    size='l'
+                    style={{fontFamily: 'Roboto'}}
+                    label='regular'
+                    onClick={() => openInNewTab('https://www.delivery-club.ru')}>
+                    Перейти к оформлению заказа
+                </Button>
+            </Group>
+            
+        </Panel>
         
     )
 }

@@ -151,15 +151,6 @@ function CardTinderCard(props) {
 
     return (
         <div>
-            <link
-                href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&display=swap'
-                rel='stylesheet'
-            />
-            <link
-                href='https://fonts.googleapis.com/css?family=Roboto&display=swap'
-                rel='stylesheet'
-            />
-
             <h1>FoodFinder</h1>
             <div className='cardContainer'>
                 {props.products.map((product, index) => renderCardIfCan(index, product))}
