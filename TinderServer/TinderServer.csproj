@@ -23,6 +23,7 @@
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
         <None Remove="Services\Filters\**" />
         <Content Remove="Services\Filters\**" />
+        <None Remove="README.md" />
     </ItemGroup>
 
     <ItemGroup>
