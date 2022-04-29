@@ -11,12 +11,11 @@ import {setProducts} from "../../store/products/actions";
 
 function CardTinderCard(props) {
     const [currentIndex, setCurrentIndex] = useState(props.products.length - 1)
-    const [cart, setCurrentCart] = useState(props.products.length - 1)
+    const [needProducts, setProduct] = useState([])
     const [positiveFilters, addPositive] = useState([])
     const [negativeFilters, addNegative] = useState([])
     const [lastDirection, setLastDirection] = useState()
     const currentIndexRef = useRef(currentIndex);
-    console.log(props);
     let childRefs = useMemo(
         () =>
             Array(props.products.length)
@@ -35,15 +34,22 @@ function CardTinderCard(props) {
 
     const swiped = (direction, nameToDelete, index) => {
 
-        if (direction === "up" || direction === "down" )
+        if (direction === "up" || direction === "down" ){
             addToCard(props.products[index]);
+            return;
+        }
+        
+        if (direction === "right" ) {
+            var pr = needProducts;
+            pr.push(props.products[index]);
+            setProduct(pr);
+            console.log(JSON.stringify(pr));
+        }
 
-        if (direction === "left" )
-            disLike(props.products[index]);
-
-
-
-        Sort();
+        if (direction === "left" ){
+            //disLike(props.products[index]);
+            //Sort();
+        }
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
     }
@@ -60,9 +66,9 @@ function CardTinderCard(props) {
         currentIndexRef.current >= idx && childRefs[idx].current.restoreCard()
     }
 
-    const swipe = async (dir) => {
+    const swipe =  (dir) => {
         if (canSwipe && currentIndex < props.products.length) {
-            await childRefs[currentIndex].current.swipe(dir) // Swipe the card!
+             childRefs[currentIndex].current.swipe(dir) // Swipe the card!
         }
     }
 
@@ -82,31 +88,32 @@ function CardTinderCard(props) {
     }
 
     const disLike = (product) => {
-        var fields =  negativeFilters.concat(product.ProductName.split(' '));
-        //addNegative(fields);
+        var current = negativeFilters;
+        console.log(current);
+        var fields =  product.ProductName.toLowerCase().split(' ');
+        addNegative(fields);
     }
     const Sort = () => {
-        var products = props.products;
-        var sorted = products.sort(SortByFields);
+        let products = props.products;
+        let sorted = products.sort(SortByFields);
         props.setProducts(sorted);
         
     }
     const SortByFields = (a, b) =>{
-        return GetProductScore(a) > GetProductScore(b);
+        return GetProductScore(a) - GetProductScore(b);
     }
     const GetProductScore = (product) => {
         let score = 0;
         negativeFilters.filter(x=>{
-            if(product.ProductName.contains(x))
-                score -=.1;
+            if(product.ProductName.toLowerCase().includes(x))
+                score -=1;
         })
 
         positiveFilters.filter(x=>{
-            if(product.ProductName.contains(x))
-                score +=.1;
+            if(product.ProductName.toLowerCase().includes(x))
+                score +=1;
         })
         return score;
-        
     }
 
     const positiveVibes = ["Да, супер!", "Нааайс!", "О, да!", "То что надо!", "Кайф!"];
