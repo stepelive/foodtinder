@@ -107,8 +107,8 @@ class App extends React.Component {
         );
 
         return (
-            <ConfigProvider isWebView={true} scheme={colorScheme}>
-                <AdaptivityProvider>
+            <ConfigProvider id={"cpr"} isWebView={true} scheme={colorScheme}>
+                <AdaptivityProvider id={"adPr"}>
                     <Root id="tindercard" activeView={activeView} popout={popout}>
                         <View
                             id="tindercard"
@@ -142,7 +142,7 @@ class App extends React.Component {
 const mapStateToProps = (state) => {
     return {
         products: state.products.products,
-        productsCart: state.caart.products,
+        productsCart: state.cart.product,
         activeView: state.router.activeView,
         activeStory: state.router.activeStory,
         panelsHistory: state.router.panelsHistory,

@@ -10,6 +10,7 @@ import {setProducts} from "../../store/products/actions";
 
 
 function Cart(props) {
+    console.log(props);
     
     
 
@@ -42,11 +43,18 @@ function Cart(props) {
                             fontFamily: 'Roboto',
                             fontSize: 24
                     }}>
-                        Вы и {props.products.map((x) => (x.product.ProductName))} подходите друг-другу 
+                        Вы и {props.product.ProductName} подходите друг-другу 
             </p>
             <div className='lovers-images'>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"></img>
-                <img src={"https://www.delivery-club.ru/" + props.products.map((x) => (x.product.Image))} ></img>
+                <Avatar
+                    size={300}
+                    src={"https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"}
+                />
+
+                <Avatar
+                    size={300}
+                    src={`https://www.delivery-club.ru/${props.product.Image}`}
+                />
             </div>
             <Button 
                 size='l'
@@ -62,7 +70,7 @@ function Cart(props) {
 const mapStateToProps = (state) => {
     console.log(state)
     return {
-        products: state.caart.products,
+        product: state.cart.product,
     };
 };
 

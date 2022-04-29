@@ -7,6 +7,6 @@ import {productsReducer} from './products/reducers';
 export default combineReducers({
     vkui: vkuiReducer,
     router: routerReducer,
-    caart: cartReducer,
+    cart: cartReducer,
     products: productsReducer,
 });

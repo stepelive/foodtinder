@@ -24,12 +24,23 @@ export const initApp = () => (dispatch) => {
     });
 };
 export const getUserData = () => (dispatch) => {
+    const VKbridgeCallback = (e) => {
+        if (e.detail.type === 'VKWebAppGetUserInfoResult') {
+            bridge.unsubscribe(VKbridgeCallback);
+            console.log(e);
+            console.log('get user data')
+        }
+    };
+    console.log('get user data')
+    
     bridge.send('VKWebAppGetUserInfo')
         .then(data => {
             dispatch(setUserData(data));
             console.log(data);
+            console.log('get user data')
         })
         .catch(error => {
+            console.log(error)
         });
 }
 export const getAuthToken = (scope) => (dispatch) => {
