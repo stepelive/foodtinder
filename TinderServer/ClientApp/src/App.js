@@ -112,7 +112,6 @@ class App extends React.Component {
                     <Root id="tindercard" activeView={activeView} popout={popout}>
                         <View
                             id="tindercard"
-                            modal={homeModals}
                             activePanel={getActivePanel("modal")}
                             history={history}
                             onSwipeBack={() => goBack()}
@@ -127,7 +126,6 @@ class App extends React.Component {
                         </View>
                         <View
                             id="cart"
-                            modal={homeModals}
                             activePanel={getActivePanel("modal")}
                             history={history}
                             onSwipeBack={() => goBack()}

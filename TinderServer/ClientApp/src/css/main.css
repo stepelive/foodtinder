@@ -4,6 +4,7 @@
     justify-content: center;
     min-height: 100vh;
     overflow: hidden;
+
     background: rgb(255, 255, 255)
   }
   
@@ -84,7 +85,7 @@
   
   }
   
-  .card h3 {
+h3 {
     margin: 15px;
     font-family: 'Roboto';
     color: #2e2e33 !important;
@@ -92,7 +93,7 @@
     text-align: center;
   }
 
-  .card p {
+p {
     font-family: 'Roboto';
     font-size: 12px;
   }
@@ -118,6 +119,20 @@
   
   .buttons button:hover {
     transform: scale(1.05);
+  }
+
+  .lovers-images {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 30px;
+  }
+
+  .lovers-images img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border: solid 6px #2e2e33;
   }
   
   @keyframes popup {
