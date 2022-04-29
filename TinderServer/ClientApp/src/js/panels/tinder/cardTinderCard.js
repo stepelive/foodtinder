@@ -109,16 +109,23 @@ function CardTinderCard(props) {
         
     }
 
+    const positiveVibes = ["Да, супер!", "Нааайс!", "О, да!", "То что надо!", "Кайф!"];
+    const negativeVibes = ["Что-нибудь другое...", "Нет, не то", "Не в настроении", "Ну... как-то..."];
+
+    function getRandomPhrase(array) {
+        const random = Math.floor(Math.random() * array.length);
+        return array[random]
+    }
+
     const getDirection = (direction) => {
         switch (direction) {
             case "right":
-                return "like";
+                return getRandomPhrase(positiveVibes);
             case "left":
-                return "dislike"
-            case "up":
-                return "similar"
+                return getRandomPhrase(negativeVibes)
         }
     }
+
     const renderCard = (index, product) => {
         return (
             <TinderCard
@@ -137,7 +144,6 @@ function CardTinderCard(props) {
                         className='image'
                     ></div>
                     <h3 className="product_name">{product.ProductName}</h3>
-
                 </div>
             </TinderCard>
         )
@@ -180,6 +186,7 @@ function CardTinderCard(props) {
         </div>
     )
 }
+
 const mapStateToProps = (state) => {
     console.log(state)
     return {
