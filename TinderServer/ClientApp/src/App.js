@@ -67,7 +67,9 @@ class App extends React.Component {
         var t = this;
         if (this.props.products.length === 0) {
             //axios.get("Proxy").then(x => {
-            this.props.setProducts(data.default)
+            data.default.reverse();
+            
+            this.props.setProducts(data.default);
             // console.log(t.props.products)
             //});
 

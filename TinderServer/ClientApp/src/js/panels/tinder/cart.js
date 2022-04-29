@@ -13,7 +13,14 @@ function openInNewTab(url) {
    }
 
 function Cart(props) {
-    console.log(props);
+    
+    const getProductUrl = (product) => {
+        try {
+            return 'url(https://www.delivery-club.ru/' + product.Image + ')'
+        } catch (Ex) {
+            return "url(https://tl.rulate.ru/i/book/19/10/18925.jpg)"
+        }
+    }
 
     return (
         <Panel id={props.id}>

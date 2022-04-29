@@ -130,13 +130,6 @@ p {
     gap: 5%;
     margin-bottom: 30px;
   }
-
-  .lovers-images img {
-    width: 100px;
-    height: 100px;
-    border-radius: 200px;
-    border: solid 6px #2e2e33;
-  }
   
   @keyframes popup {
     0%   { transform: scale(1,1) }
