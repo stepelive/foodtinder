@@ -8,11 +8,11 @@ import {openPopout, closePopout, goBack, closeModal, openModal, setPage, setStor
 import {addProduct} from "../../store/cart/actions";
 import {setProducts} from "../../store/products/actions";
 
+function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+   }
 
 function Cart(props) {
-    
-    
-
     return (
         <Div>
              <link
@@ -24,37 +24,39 @@ function Cart(props) {
                 rel='stylesheet'
             />
 
-            <PanelHeader
-                onClick={()=>{props.setPage('tindercard','tindercard')}}
-                left={<PanelHeaderClose />}
-                right={<Avatar size={36} />}
-            >😊
-            </PanelHeader>
+            <div className='cardContainer'>
+                <PanelHeader
+                    onClick={()=>{props.setPage('tindercard','tindercard')}}
+                    left={<PanelHeaderClose />}
+                    right={<Avatar size={36} />}
+                >
+                </PanelHeader>
 
-            <h1 style={{
-                            fontFamily: 'Montserrat',
-                            fontWeight: 700,
-                            fontSize: 54
-                    }}>It's a Match!
-            </h1>
+                <h1 style={{
+                                fontFamily: 'Montserrat',
+                                fontWeight: 700,
+                                fontSize: 54
+                        }}>It's a Match!
+                </h1>
 
-            <p  style={{
-                            fontFamily: 'Roboto',
-                            fontSize: 24
-                    }}>
-                        Вы и {props.products.map((x) => (x.product.ProductName))} подходите друг-другу 
-            </p>
-            <div className='lovers-images'>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"></img>
-                <img src={"https://www.delivery-club.ru/" + props.products.map((x) => (x.product.Image))} ></img>
+                <p  style={{
+                                fontFamily: 'Roboto',
+                                fontSize: 24
+                        }}>
+                            Вы и {props.products.map((x) => (x.product.ProductName))} подходите друг-другу 
+                </p>
+                <div className='lovers-images'>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"></img>
+                    <img src={"https://www.delivery-club.ru/" + props.products.map((x) => (x.product.Image))} ></img>
+                </div>
+                <Button 
+                    size='m'
+                    style={{fontFamily: 'Roboto'}}
+                    label='regular'
+                    onClick={() => openInNewTab('https://www.delivery-club.ru')}>
+                    Перейти к оформлению заказа
+                </Button>
             </div>
-            <Button 
-                size='l'
-                style={{fontFamily: 'Roboto'}}
-                label='regular'
-                onClick={() => openInNewTab('https://www.delivery-club.ru')}>
-                Перейти к оформлению заказа
-            </Button>
         </Div>
         
     )
