@@ -8,11 +8,12 @@ import {openPopout, closePopout, goBack, closeModal, openModal, setPage, setStor
 import {addProduct} from "../../store/cart/actions";
 import {setProducts} from "../../store/products/actions";
 
+function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+   }
 
 function Cart(props) {
     console.log(props);
-    
-    
 
     return (
         <Div>
@@ -38,7 +39,6 @@ function Cart(props) {
                             fontSize: 54
                     }}>It's a Match!
             </h1>
-
             <p  style={{
                             fontFamily: 'Roboto',
                             fontSize: 24
