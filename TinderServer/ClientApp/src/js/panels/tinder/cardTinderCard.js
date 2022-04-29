@@ -117,7 +117,7 @@ function CardTinderCard(props) {
         return array[random]
     }
 
-    const getDirection = (direction) => {
+    const getPhraseByDirection = (direction) => {
         switch (direction) {
             case "right":
                 return getRandomPhrase(positiveVibes);
@@ -177,7 +177,7 @@ function CardTinderCard(props) {
 
             {lastDirection ? (
                 <h2 key={lastDirection} className='infoText'>
-                    {getDirection(lastDirection)}
+                    {getPhraseByDirection(lastDirection)}
                 </h2>
             ) : (
                 <h2 className='infoText'>
